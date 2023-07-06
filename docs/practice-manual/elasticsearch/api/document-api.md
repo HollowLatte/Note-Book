@@ -9,7 +9,6 @@ tag:
 
 ```http request
 POST /{index_name}/_doc/{_id}
-Content-Type: application/json
 
 {
     "id": "ff000",
@@ -22,7 +21,6 @@ Content-Type: application/json
 
 ```http request
 POST /{index_name}/_doc/{_id}
-Content-Type: application/json
 
 {
     "doc": {
