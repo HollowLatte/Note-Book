@@ -42,4 +42,9 @@ export default navbar([
       },
     ],
   },
+  {
+    text: "实践手册",
+    icon: "about",
+    link: "/practice-manual",
+  }
 ]);

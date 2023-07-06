@@ -4,6 +4,7 @@ import { aboutTheAuthor } from "./about-the-author.js";
 import { books } from "./books.js";
 import { highQualityTechnicalArticles } from "./high-quality-technical-articles.js";
 import { openSourceProject } from "./open-source-project.js";
+import { practiceManual } from "./practice-manual.js";
 
 export default sidebar({
   // 应该把更精确的路径放置在前边
@@ -11,6 +12,7 @@ export default sidebar({
   "/books/": books,
   "/about-the-author/": aboutTheAuthor,
   "/high-quality-technical-articles/": highQualityTechnicalArticles,
+  "/practice-manual": practiceManual,
   "/zhuanlan/": [
     "java-mian-shi-zhi-bei",
     "back-end-interview-high-frequency-system-design-and-scenario-questions",

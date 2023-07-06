@@ -14,7 +14,7 @@ export default hopeTheme({
   iconAssets: "//at.alicdn.com/t/c/font_2922463_kweia6fbo9.css",
 
   author: {
-    name: "Guide",
+    name: "Hollow-Latte",
     url: "https://javaguide.cn/article/",
   },
 
@@ -26,7 +26,7 @@ export default hopeTheme({
   navbar,
   sidebar,
   footer:
-    '<a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备2020015769号-1</a>',
+      '<a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备2020015769号-1</a>',
   displayFooter: true,
 
   pageInfo: [
@@ -61,9 +61,9 @@ export default hopeTheme({
         resolvePath: (file, cwd) => {
           if (file.startsWith("@"))
             return path.resolve(
-              __dirname,
-              "../snippets",
-              file.replace("@", "./")
+                __dirname,
+                "../snippets",
+                file.replace("@", "./")
             );
 
           return path.resolve(cwd, file);
