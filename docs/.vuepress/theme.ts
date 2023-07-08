@@ -4,6 +4,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar/index.js";
 
+// @ts-ignore
 const __dirname = getDirname(import.meta.url);
 
 export default hopeTheme({

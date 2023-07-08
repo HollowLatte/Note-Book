@@ -7,6 +7,8 @@ tag:
 
 ## 创建索引
 
+创建索引，并指定索引的字段类型
+
 ```http request
 PUT /{index_name}
 
@@ -30,7 +32,7 @@ PUT /{index_name}
 }
 ```
 
-## 查询索引相关
+## 查询索引相关信息
 
 ```http request
 ### 查询所有索引
@@ -40,5 +42,5 @@ GET /_cat/indices?v
 GET /{index_name}/_mapping
 
 ### 查询索引设置
-GET /{index_name}/_mapping
+GET /{index_name}/_settings
 ```
