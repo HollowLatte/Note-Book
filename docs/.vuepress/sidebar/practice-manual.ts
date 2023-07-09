@@ -26,7 +26,9 @@ export const practiceManual = arraySidebar([
         collapsible: true,
         children: [
           "document-api",
-          "index-api"
+          "index-api",
+          "update-by-query-api",
+          "search-api"
         ],
       },
       {

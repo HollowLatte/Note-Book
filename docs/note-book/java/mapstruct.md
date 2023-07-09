@@ -1,5 +1,5 @@
 ---
-title: MapStruct
+title: MapStruct问题
 category: Java
 tag:
   - Java
