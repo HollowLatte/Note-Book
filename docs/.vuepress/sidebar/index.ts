@@ -5,7 +5,7 @@ import { books } from "./books.js";
 import { highQualityTechnicalArticles } from "./high-quality-technical-articles.js";
 import { openSourceProject } from "./open-source-project.js";
 import { practiceManual } from "./practice-manual.js";
-import { noteBook } from "./node-book";
+import { issue } from "./issue";
 
 export default sidebar({
   // 应该把更精确的路径放置在前边
@@ -13,7 +13,7 @@ export default sidebar({
   "/books/": books,
   "/about-the-author/": aboutTheAuthor,
   "/high-quality-technical-articles/": highQualityTechnicalArticles,
-  "/note-book": noteBook,
+  "/issue": issue,
   "/practice-manual": practiceManual,
   "/zhuanlan/": [
     "java-mian-shi-zhi-bei",

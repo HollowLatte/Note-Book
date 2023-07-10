@@ -5,7 +5,7 @@ tag:
   - ElasticSearch
 ---
 
-## 无条件查询
+## 无匹配条件查询
 
 ```http request
 GET /{index_name}/_search
@@ -17,16 +17,15 @@ GET /{index_name}/_search
         {"startTime": "desc"},
         {"id": "desc"}
     ],
-    "_source": false
-    // "_source": {
-    //     // "excludes": [
-    //     //     "tencentSettings",
-    //     //     "host"
-    //     // ],
-    //     "includes": [
-    //         "id"
-    //     ]
-    // }
+    // "_source": false,
+    "_source": {
+        "excludes": [
+            "name"
+        ],
+        "includes": [
+            "id"
+        ]
+    }
 }
 ```
 
@@ -35,7 +34,8 @@ GET /{index_name}/_search
 - size：返回数据条数，默认10，最大10000
 - sort：按照字段排序
 - _source：是否查询出数据，如果false，则只返回document的_index、_id、_score、sort字段
--
+  - excludes：数组，数组内指定返回的数据中不包含哪些字段
+  - includes：数组，数组内指定返回的数据中要包含哪些字段
 
 ## Term查询
 

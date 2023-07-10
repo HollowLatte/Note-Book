@@ -1,6 +1,6 @@
 import { arraySidebar } from "vuepress-theme-hope";
 
-export const noteBook = arraySidebar([
+export const issue = arraySidebar([
   {
     text: "Java",
     icon: "windows",

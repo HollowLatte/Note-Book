@@ -4,9 +4,9 @@ export default navbar([
   { text: "面试指南", icon: "java", link: "/home.md" },
   { text: "开源项目", icon: "github", link: "/open-source-project/" },
   {
-    text: "笔记",
-    icon: "star",
-    link: "/note-book"
+    text: "问题",
+    icon: "component",
+    link: "/issue"
   },
   // {
   //   text: "网站相关",

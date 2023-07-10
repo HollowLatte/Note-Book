@@ -12,6 +12,8 @@ export default hopeTheme({
   logo: "/logo.png",
   favicon: "/favicon.ico",
 
+  // 阿里图标库
+  // https://at.alicdn.com/t/c/font_2922463_kweia6fbo9.css
   iconAssets: "//at.alicdn.com/t/c/font_2922463_kweia6fbo9.css",
 
   author: {
