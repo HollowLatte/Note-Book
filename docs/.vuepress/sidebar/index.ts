@@ -6,6 +6,7 @@ import { highQualityTechnicalArticles } from "./high-quality-technical-articles.
 import { openSourceProject } from "./open-source-project.js";
 import { issue } from "./issue";
 import { practiceManual } from "../../practice-manual/practice-manual";
+import { nonDevelopment } from "../../non-development/non-development";
 
 export default sidebar({
   // 应该把更精确的路径放置在前边
@@ -15,6 +16,7 @@ export default sidebar({
   "/high-quality-technical-articles/": highQualityTechnicalArticles,
   "/issue": issue,
   "/practice-manual": practiceManual,
+  "/non-development": nonDevelopment,
   "/zhuanlan/": [
     "java-mian-shi-zhi-bei",
     "back-end-interview-high-frequency-system-design-and-scenario-questions",

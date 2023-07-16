@@ -24,5 +24,10 @@ export default navbar([
     text: "实践手册",
     icon: "about",
     link: "/practice-manual",
-  }
+  },
+  {
+    text: "非开发问题",
+    icon: "about",
+    link: "/non-development",
+  },
 ]);
