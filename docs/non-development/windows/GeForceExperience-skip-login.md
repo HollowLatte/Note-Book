@@ -8,7 +8,7 @@ icon: windows
 3.27.0.112版本成功
 :::
 
-1. 使用VS Code(或其它代码编辑器)打开文件C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\www\app.js
+1. 使用VS Code(或其它代码编辑器)打开文件`C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\www\app.js`
 
    > 注意，不要格式化代码！ 本文提供的正则表达式适用于，从未格式化过的代码中搜索关键代码。
 
