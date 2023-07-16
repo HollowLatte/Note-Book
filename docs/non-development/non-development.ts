@@ -7,7 +7,8 @@ export const nonDevelopment = arraySidebar([
     prefix: "windows/",
     collapsible: true,
     children: [
-      "win11-skip-networking"
+      "win11-skip-networking",
+      "GeForceExperience-skip-login"
     ],
   }
 ]);
