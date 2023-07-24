@@ -8,9 +8,6 @@ export const practiceManual = arraySidebar([
     collapsible: true,
     children: [
       "command"
-      // "get-into-work-mode-quickly-when-you-join-a-company",
-      // "32-tips-improving-career",
-      // "employee-performance",
     ],
   },
   {
@@ -18,6 +15,7 @@ export const practiceManual = arraySidebar([
     icon: "work",
     prefix: "elasticsearch/",
     collapsible: true,
+    link: "elasticsearch",
     children: [
       {
         text: "API",
@@ -40,6 +38,17 @@ export const practiceManual = arraySidebar([
           "document"
         ],
       }
+    ],
+  },
+  {
+    text: "WSL2",
+    icon: "work",
+    prefix: "wsl2/",
+    collapsible: true,
+    children: [
+      "install",
+      "wsl2-and-windows",
+      "wsl2-config"
     ],
   },
 ]);
