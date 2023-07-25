@@ -30,4 +30,9 @@ export default navbar([
     icon: "about",
     link: "/non-development",
   },
+  {
+    text: "面试速记",
+    icon: "about",
+    link: "/interview-shorthand",
+  },
 ]);
