@@ -7,7 +7,7 @@ export const interviewShorthand = arraySidebar([
     prefix: "java/",
     collapsible: true,
     children: [
-      "command"
+      "spi-mechanism"
     ],
   },
   {

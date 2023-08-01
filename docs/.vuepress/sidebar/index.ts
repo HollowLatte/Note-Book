@@ -8,6 +8,7 @@ import { issue } from "./issue";
 import { practiceManual } from "../../practice-manual/practice-manual";
 import { nonDevelopment } from "../../non-development/non-development";
 import { interviewShorthand } from "../../interview-shorthand/interview-shorthand";
+import { notebook } from "../../notebook/notebook";
 
 export default sidebar({
   // 应该把更精确的路径放置在前边
@@ -19,6 +20,7 @@ export default sidebar({
   "/practice-manual": practiceManual,
   "/non-development": nonDevelopment,
   "/interview-shorthand": interviewShorthand,
+  "/notebook": notebook,
   "/zhuanlan/": [
     "java-mian-shi-zhi-bei",
     "back-end-interview-high-frequency-system-design-and-scenario-questions",

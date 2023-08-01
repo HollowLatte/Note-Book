@@ -35,4 +35,9 @@ export default navbar([
     icon: "about",
     link: "/interview-shorthand",
   },
+  {
+    text: "笔记本",
+    icon: "book",
+    link: "/notebook",
+  },
 ]);
