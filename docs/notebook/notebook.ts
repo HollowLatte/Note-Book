@@ -7,8 +7,26 @@ export const notebook = arraySidebar([
     prefix: "elasticsearch/",
     collapsible: true,
     children: [
-      "analyzer",
-      "chinese-analyzer"
+      {
+        text: "分词",
+        icon: "elasticsearch",
+        prefix: "analyzer/",
+        collapsible: true,
+        children: [
+          "analyzer",
+          "chinese-analyzer"
+        ],
+      },
+      {
+        text: "索引",
+        icon: "elasticsearch",
+        prefix: "index/",
+        collapsible: true,
+        children: [
+          "index-template",
+        ],
+      },
+      "mysql-sync-es"
     ],
   }
 ]);

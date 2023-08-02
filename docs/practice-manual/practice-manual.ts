@@ -51,4 +51,13 @@ export const practiceManual = arraySidebar([
       "wsl2-config"
     ],
   },
+  {
+    text: "IDEA",
+    icon: "intellijidea",
+    prefix: "idea/",
+    collapsible: true,
+    children: [
+      "idea-multiple-instances",
+    ],
+  },
 ]);
