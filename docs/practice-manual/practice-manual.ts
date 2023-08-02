@@ -58,6 +58,7 @@ export const practiceManual = arraySidebar([
     collapsible: true,
     children: [
       "idea-multiple-instances",
+      "idea-comment-style",
     ],
   },
 ]);
