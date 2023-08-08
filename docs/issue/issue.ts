@@ -18,5 +18,14 @@ export const issue = arraySidebar([
     children: [
       "problem1"
     ],
-  }
+  },
+  {
+    text: "IDEA",
+    icon: "intellijidea",
+    prefix: "idea/",
+    collapsible: true,
+    children: [
+      "cannot-start-springboot",
+    ],
+  },
 ]);

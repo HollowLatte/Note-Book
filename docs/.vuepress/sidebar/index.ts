@@ -4,7 +4,7 @@ import { aboutTheAuthor } from "./about-the-author.js";
 import { books } from "./books.js";
 import { highQualityTechnicalArticles } from "./high-quality-technical-articles.js";
 import { openSourceProject } from "./open-source-project.js";
-import { issue } from "./issue";
+import { issue } from "../../issue/issue";
 import { practiceManual } from "../../practice-manual/practice-manual";
 import { nonDevelopment } from "../../non-development/non-development";
 import { interviewShorthand } from "../../interview-shorthand/interview-shorthand";

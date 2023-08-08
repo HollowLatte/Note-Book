@@ -37,6 +37,15 @@ export const practiceManual = arraySidebar([
         children: [
           "document"
         ],
+      },
+      {
+        text: "Analyzer",
+        icon: "work",
+        prefix: "analyzer/",
+        collapsible: true,
+        children: [
+          "ik-analyzer"
+        ],
       }
     ],
   },
