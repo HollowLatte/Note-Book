@@ -44,7 +44,17 @@ export const practiceManual = arraySidebar([
         prefix: "analyzer/",
         collapsible: true,
         children: [
-          "ik-analyzer"
+          "ik-analyzer",
+          "ik-analyze-strategy"
+        ],
+      },
+      {
+        text: "Index",
+        icon: "work",
+        prefix: "index/",
+        collapsible: true,
+        children: [
+          "create-dynamic-date-index"
         ],
       }
     ],
