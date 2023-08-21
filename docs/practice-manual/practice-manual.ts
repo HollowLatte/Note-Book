@@ -56,6 +56,15 @@ export const practiceManual = arraySidebar([
         children: [
           "create-dynamic-date-index"
         ],
+      },
+      {
+        text: "分页查询",
+        icon: "work",
+        prefix: "paginate-search/",
+        collapsible: true,
+        children: [
+          "deep-pages-search"
+        ],
       }
     ],
   },
