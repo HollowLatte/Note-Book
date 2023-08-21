@@ -26,6 +26,7 @@ export const issue = arraySidebar([
     collapsible: true,
     children: [
       "cannot-start-springboot",
+      "cannot-completion-maven-pom",
     ],
   },
 ]);
