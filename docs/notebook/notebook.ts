@@ -28,5 +28,15 @@ export const notebook = arraySidebar([
       },
       "mysql-sync-es"
     ],
+  },
+  {
+    text: "Netty",
+    icon: "network",
+    prefix: "netty/",
+    collapsible: true,
+    children: [
+      "core-concepts",
+      "common-classes"
+    ]
   }
 ]);
