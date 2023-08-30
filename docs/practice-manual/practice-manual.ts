@@ -2,6 +2,16 @@ import { arraySidebar } from "vuepress-theme-hope";
 
 export const practiceManual = arraySidebar([
   {
+    text: "代码规范",
+    icon: "work",
+    prefix: "code-style/",
+    collapsible: true,
+    children: [
+      "api-design",
+      "print-log"
+    ],
+  },
+  {
     text: "Linux",
     icon: "work",
     prefix: "linux/",
