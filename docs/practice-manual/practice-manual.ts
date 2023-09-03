@@ -12,6 +12,24 @@ export const practiceManual = arraySidebar([
     ],
   },
   {
+    text: "Java",
+    icon: "java",
+    prefix: "java/",
+    collapsible: true,
+    children: [
+      "spring-util",
+      {
+        text: "Stream",
+        icon: "work",
+        prefix: "stream/",
+        collapsible: true,
+        children: [
+          "stream-sort"
+        ],
+      },
+    ],
+  },
+  {
     text: "Linux",
     icon: "work",
     prefix: "linux/",
