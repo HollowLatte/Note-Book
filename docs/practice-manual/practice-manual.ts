@@ -73,6 +73,7 @@ export const practiceManual = arraySidebar([
         prefix: "paginate-search/",
         collapsible: true,
         children: [
+          "es-paginate-search",
           "deep-pages-search"
         ],
       }

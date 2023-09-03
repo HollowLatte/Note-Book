@@ -17,7 +17,7 @@ limit)方式进行分页查询可能会导致性能下降。
 ES的深分页问题可以通过使用游标（scroll）或搜索后深度分页（search after）来解决。其中，ES官方已不推荐使用scroll的方式，目前推荐的是search
 after的方式
 
-[Search After官方文档](https://www.elastic.co/guide/en/elasticsearch/reference/current/paginate-search-results.html#search-afterhttps://www.elastic.co/guide/en/elasticsearch/reference/current/paginate-search-results.html#search-after)
+[Search After官方文档](https://www.elastic.co/guide/en/elasticsearch/reference/current/paginate-search-results.html#search-after)
 
 ## Search After
 
