@@ -18,6 +18,7 @@ export const practiceManual = arraySidebar([
     collapsible: true,
     children: [
       "spring-util",
+      "retryable",
       {
         text: "Stream",
         icon: "work",
