@@ -119,4 +119,13 @@ export const practiceManual = arraySidebar([
       "idea-comment-style",
     ],
   },
+  {
+    text: "Docker",
+    icon: "docker",
+    prefix: "docker/",
+    collapsible: true,
+    children: [
+      "docker-mirror-config",
+    ],
+  },
 ]);
