@@ -31,6 +31,23 @@ export const practiceManual = arraySidebar([
     ],
   },
   {
+    text: "Redis",
+    icon: "redis",
+    prefix: "redis/",
+    collapsible: true,
+    children: [
+      {
+        text: "command",
+        icon: "work",
+        prefix: "command/",
+        collapsible: true,
+        children: [
+          "match-key"
+        ],
+      },
+    ],
+  },
+  {
     text: "Linux",
     icon: "work",
     prefix: "linux/",
