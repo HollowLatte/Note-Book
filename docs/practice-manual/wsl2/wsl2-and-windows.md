@@ -9,12 +9,12 @@ tag: WSL2
 Windows 访问 WSL2 启动的网络服务，可以直接使用 localhost，但是 Linux 访问 Windows 启动的网络服务这种方式就不行了。
 例如：WSL2装了MySQL，Windows可以直接用`localhost:3306`访问，但是Windows装了MySQL，WSL2应该如何访问Windows的MySQL呢？
 
-因此，WSL2访问win需要知道IP，可以使用如下脚本获取 Windows 的 IP：
+WSL2每次重启后会自动生成一些host，这些host存于/etc/hosts
 
-```bash
-ip route | grep default | awk '{print $3}'
-```
+其中，有一个host会始终指向Windows，即`host.docker.internal`，可以使用该host方法Windows上的服务
 
+> WSL2访问win需要知道IP，可以使用如下脚本获取 Windows 的 IP：
+> `ip route | grep default | awk '{print $3}'`
 > 值得注意的是，每次重启Windows后，该IP会变化
 
 ## 文件系统互通
