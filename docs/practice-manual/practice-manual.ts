@@ -132,6 +132,7 @@ export const practiceManual = arraySidebar([
     prefix: "idea/",
     collapsible: true,
     children: [
+      "idea-commend-plugins",
       "idea-multiple-instances",
       "idea-comment-style",
     ],
