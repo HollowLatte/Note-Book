@@ -146,4 +146,30 @@ export const practiceManual = arraySidebar([
       "docker-mirror-config",
     ],
   },
+  {
+    text: "分布式",
+    icon: "distributed-network",
+    prefix: "distributed/",
+    collapsible: true,
+    children: [
+      {
+        text: "SpringCloud",
+        icon: "framework",
+        prefix: "springcloud/",
+        collapsible: true,
+        children: [
+          "eureka-service-status-api",
+        ],
+      }, {
+        text: "SpringCloud Alibaba",
+        icon: "framework",
+        prefix: "springcloud-alibaba/",
+        collapsible: true,
+        children: [
+          "docker-mirror-config",
+        ],
+      }
+    ],
+  }
+  ,
 ]);
