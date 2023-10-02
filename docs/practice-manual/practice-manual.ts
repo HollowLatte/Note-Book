@@ -31,6 +31,25 @@ export const practiceManual = arraySidebar([
     ],
   },
   {
+    text: "JVM",
+    icon: "virtual_machine",
+    prefix: "jvm/",
+    collapsible: true,
+    children: [
+      {
+        text: "JVM工具",
+        icon: "virtual_machine",
+        prefix: "tool/",
+        collapsible: true,
+        children: [
+          "jstack",
+          "jps",
+          "jmap"
+        ],
+      }
+    ],
+  },
+  {
     text: "Redis",
     icon: "redis",
     prefix: "redis/",
