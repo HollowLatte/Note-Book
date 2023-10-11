@@ -25,7 +25,7 @@ GET /eureka/apps/{appID}
 # 下线服务
 PUT /eureka/apps/{appID}/{instanceID}/status?value=OUT_OF_SERVICE
 
-## 上线服务
+# 上线服务
 PUT /eureka/apps/{appID}/{instanceID}/status?value=UP
 ```
 

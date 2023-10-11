@@ -68,11 +68,19 @@ export const practiceManual = arraySidebar([
   },
   {
     text: "Linux",
-    icon: "work",
+    icon: "linux",
     prefix: "linux/",
     collapsible: true,
     children: [
-      "command"
+      {
+        text: "安装",
+        icon: "linux",
+        prefix: "install/",
+        collapsible: true,
+        children: [
+          "jdk-install"
+        ],
+      },
     ],
   },
   {

@@ -1,8 +1,7 @@
 ---
 title: WSL2安装
 category: Windows
-tags:
-  - WSL2
+tag: WSL2
 ---
 
 ## 启用WSL2
