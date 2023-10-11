@@ -185,6 +185,7 @@ export const practiceManual = arraySidebar([
         prefix: "springcloud/",
         collapsible: true,
         children: [
+          "eureka-config",
           "eureka-service-status-api",
         ],
       }, {

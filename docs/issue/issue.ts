@@ -29,4 +29,13 @@ export const issue = arraySidebar([
       "cannot-completion-maven-pom",
     ],
   },
+  {
+    text: "MySQL",
+    icon: "mysql",
+    prefix: "mysql/",
+    collapsible: true,
+    children: [
+      "jdbc-connect-fail"
+    ],
+  },
 ]);
