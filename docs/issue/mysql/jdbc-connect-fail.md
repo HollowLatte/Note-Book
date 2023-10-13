@@ -66,4 +66,5 @@ openssl ciphers -v | awk '{print $2}' | sort | uniq
 ## 解决方法
 
 1. 给连接MySQL的jdbc url后面加上`&useSSL=false`（或者`&enabledTLSProtocols=TLSv1.2`）
-2. 调整各个端支持的TLS版本
+2. 调整MySQL的驱动依赖版本
+3. 调整各个端支持的TLS版本
