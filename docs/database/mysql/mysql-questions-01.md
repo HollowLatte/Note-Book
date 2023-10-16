@@ -282,7 +282,6 @@ SELECT sql_no_cache COUNT(*) FROM usr;
 - undo log 如何保证事务的原子性？
 - ......
 
-上诉问题的答案可以在[《Java 面试指北》(付费)](../../zhuanlan/java-mian-shi-zhi-bei.md) 的 **「技术面试题篇」** 中找到。
 
 ![《Java 面试指北》技术面试题篇](https://oss.javaguide.cn/javamianshizhibei/technical-interview-questions.png)
 
@@ -645,7 +644,6 @@ MySQL 提供了两个方法来处理 ip 地址
 
 ### 有哪些常见的 SQL 优化手段？
 
-[《Java 面试指北》(付费)](../../zhuanlan/java-mian-shi-zhi-bei.md) 的 **「技术面试题篇」** 有一篇文章详细介绍了常见的 SQL 优化手段，非常全面，清晰易懂！
 
 ![常见的 SQL 优化手段](https://oss.javaguide.cn/javamianshizhibei/javamianshizhibei-sql-optimization.png)
 
@@ -695,8 +693,6 @@ mysql> EXPLAIN SELECT `score`,`name` FROM `cus_order` ORDER BY `score` DESC;
 读写分离和分库分表相关的问题比较多，于是，我单独写了一篇文章来介绍：[读写分离和分库分表详解](../../high-performance/read-and-write-separation-and-library-subtable.md)。
 
 ## MySQL 学习资料推荐
-
-[**书籍推荐**](../../books/database.md#mysql) 。
 
 **文章推荐** :
 
