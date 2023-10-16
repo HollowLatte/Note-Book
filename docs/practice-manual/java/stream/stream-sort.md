@@ -43,3 +43,19 @@ list.stream().sorted(Comparator.comparing(Student::getAge).thenComparing(Student
 // 先以年龄升序，再以id降序
 list.stream().sorted(Comparator.comparing(Student::getAge).thenComparing(Student::getId, Comparator.reverseOrder()))
 ```
+
+## Map排序
+
+```java
+Map<String, Integer> map = Map.of("Python", 2435, "Java", 35, "Go", 792);
+
+Map<String, Integer> sortedMap = map.entrySet()
+        .stream()
+        // 按value升序
+        .sorted(Map.Entry.comparingByValue())
+        // 按value降序
+        .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+        .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (oldValue, newValue) -> oldValue, LinkedHashMap::new));
+```
+
+排序后的Map一定要用LinkedHashMap，用HashMap无法保证有序
