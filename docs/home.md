@@ -35,7 +35,6 @@ title: JavaGuide（Java学习&面试指南）
 
 - [为什么 Java 中只有值传递？](./java/basis/why-there-only-value-passing-in-java.md)
 - [Java 序列化详解](./java/basis/serialization.md)
-- [泛型&通配符详解](./java/basis/generics-and-wildcards.md)
 - [Java 反射机制详解](./java/basis/reflection.md)
 - [Java 代理模式详解](./java/basis/proxy.md)
 - [BigDecimal 详解](./java/basis/bigdecimal.md)
@@ -219,7 +218,6 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 - [Redis 持久化机制详解](./database/redis/redis-persistence.md)
 - [Redis 内存碎片详解](./database/redis/redis-memory-fragmentation.md)
 - [Redis 常见阻塞原因总结](./database/redis/redis-common-blocking-problems-summary.md)
-- [Redis 集群详解](./database/redis/redis-cluster.md)
 
 ### MongoDB
 
@@ -228,7 +226,6 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 ## 搜索引擎
 
-[Elasticsearch 常见面试题总结(付费)](./database/elasticsearch/elasticsearch-questions-01.md)
 
 ![JavaGuide 官方公众号](https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png)
 
@@ -254,7 +251,6 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 ## 系统设计
 
-- [系统设计常见面试题总结](./system-design/system-design-questions.md)
 - [设计模式常见面试题总结](./system-design/design-pattern.md)
 
 ### 基础
@@ -272,7 +268,6 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 **知识点/面试题总结** :
 
 - [Spring 常见知识点&面试题总结](./system-design/framework/spring/spring-knowledge-and-questions-summary.md)
-- [SpringBoot 常见知识点&面试题总结](./system-design/framework/spring/springboot-knowledge-and-questions-summary.md)
 - [Spring/Spring Boot 常用注解总结](./system-design/framework/spring/spring-common-annotations.md)
 - [SpringBoot 入门指南](https://github.com/Snailclimb/springboot-guide)
 
@@ -369,7 +364,6 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 ### SQL 优化
 
-[常见 SQL 优化手段总结](./high-performance/sql-optimization.md)
 
 ### CDN
 
@@ -397,7 +391,6 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 ### 降级&熔断
 
-[降级&熔断详解](./high-availability/fallback-and-circuit-breaker.md)
 
 ### 超时&重试
 
