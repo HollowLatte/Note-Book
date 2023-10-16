@@ -21,7 +21,6 @@ export const aboutTheAuthor = arraySidebar([
       "writing-technology-blog-six-years",
       "my-article-was-stolen-and-made-into-video-and-it-became-popular",
       "dog-that-copies-other-people-essay",
-      "zhishixingqiu-two-years",
     ],
   },
 ]);
