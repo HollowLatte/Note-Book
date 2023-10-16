@@ -198,6 +198,32 @@ export const practiceManual = arraySidebar([
         ],
       }
     ],
-  }
-  ,
+  },
+  {
+    text: "Github",
+    icon: "github",
+    prefix: "github/",
+    collapsible: true,
+    children: [
+      "github-deploy-vuepress",
+      // {
+      //   text: "SpringCloud",
+      //   icon: "framework",
+      //   prefix: "springcloud/",
+      //   collapsible: true,
+      //   children: [
+      //     "eureka-config",
+      //     "eureka-service-status-api",
+      //   ],
+      // }, {
+      //   text: "SpringCloud Alibaba",
+      //   icon: "framework",
+      //   prefix: "springcloud-alibaba/",
+      //   collapsible: true,
+      //   children: [
+      //     "docker-mirror-config",
+      //   ],
+      // }
+    ],
+  },
 ]);
