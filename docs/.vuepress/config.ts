@@ -3,6 +3,7 @@ import { searchPlugin } from "@vuepress/plugin-search";
 import theme from "./theme.js";
 
 export default defineUserConfig({
+  base: "/Note-Book",
   dest: "./dist",
   port: 9099,
   title: "Note-Book",
