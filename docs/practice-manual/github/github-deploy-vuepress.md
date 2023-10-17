@@ -25,7 +25,7 @@ tag: Github
 
 在项目根目录创建`.github/workflows`目录，workflow脚本在该目录下都会被GitHub Action识别
 
-编写一个workflow脚本，其实是使用了GitHub的Marketplace中的一个VuePress部署的workflow脚本模板[Vuepress-Deploy](https://github.com/marketplace/actions/vuepress-deploy)
+下面将编写一个workflow脚本，其实是使用了GitHub的Marketplace中的一个VuePress部署的workflow脚本模板[Vuepress-Deploy](https://github.com/marketplace/actions/vuepress-deploy)
 
 ```yaml
 name: Build and Deploy VuePress
@@ -61,3 +61,12 @@ TARGET_BRANCH 配置的分支，在执行完流水线后，会覆盖该分支原
 
 ## 配置GitHub Pages
 
+1. 代码仓库Settings -> Pages -> Source -> Deploy from a branch
+2. Branch 选择workflow脚本中指定的构建Branch，目录选择`/`即可，然后save
+3. 等待一会，GitHub Page就会部署完成，GitHub Page的URL一般为：`https://{用户名}.github.io/{仓库名}`
+
+::: warning
+注意，如果VuePress工程中的base路径未配置的话，部署完成后，页面获取静态资源时，会去`https://{用户名}.github.io`获取，这样是找不到资源的
+
+因此，需要配置VuePress中的base路径为当前仓库名，这样静态资源就会去`https://{用户名}.github.io/{仓库名}`获取
+:::
