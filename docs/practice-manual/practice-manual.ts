@@ -73,6 +73,7 @@ export const practiceManual = arraySidebar([
     collapsible: true,
     children: [
       "time-task",
+      "nohup-deploy-service",
       {
         text: "安装",
         icon: "linux",
