@@ -72,6 +72,7 @@ export const practiceManual = arraySidebar([
     prefix: "linux/",
     collapsible: true,
     children: [
+      "time-task",
       {
         text: "安装",
         icon: "linux",
@@ -171,6 +172,15 @@ export const practiceManual = arraySidebar([
     collapsible: true,
     children: [
       "docker-mirror-config",
+      {
+        text: "部署",
+        icon: "docker",
+        prefix: "deploy/",
+        collapsible: true,
+        children: [
+          "rocketmq-deploy",
+        ],
+      },
     ],
   },
   {
