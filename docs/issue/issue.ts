@@ -7,7 +7,8 @@ export const issue = arraySidebar([
     prefix: "java/",
     collapsible: true,
     children: [
-      "mapstruct"
+      "mapstruct",
+      "maven-reference-subproject-package"
     ],
   },
   {
