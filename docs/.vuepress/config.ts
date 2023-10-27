@@ -3,7 +3,7 @@ import { searchPlugin } from "@vuepress/plugin-search";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/Note-Book",
+  base: "/Note-Book/",
   dest: "./dist",
   port: 9099,
   title: "Note-Book",
@@ -15,6 +15,7 @@ export default defineUserConfig({
     // meta
     ["meta", { name: "robots", content: "all" }],
     ["meta", { name: "author", content: "Guide" }],
+    ["meta", { name: "referrer", content: "no-referrer" }],
     [
       "meta",
       {
@@ -29,7 +30,7 @@ export default defineUserConfig({
       {
         name: "keywords",
         content:
-          "Java基础, 多线程, JVM, 虚拟机, 数据库, MySQL, Spring, Redis, MyBatis, 系统设计, 分布式, RPC, 高可用, 高并发",
+            "Java基础, 多线程, JVM, 虚拟机, 数据库, MySQL, Spring, Redis, MyBatis, 系统设计, 分布式, RPC, 高可用, 高并发",
       },
     ],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
@@ -45,6 +46,10 @@ export default defineUserConfig({
           s.parentNode.insertBefore(hm, s);
         })();`,
     ],
+    // 配置代码展示字体JetBrains Mono
+    ["link", { ref: "preconnect", href: "https://fonts.googleapis.com" }],
+    ["link", { ref: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" }],
+    ["link", { ref: "stylesheet", href: "https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" }]
   ],
 
   theme,
