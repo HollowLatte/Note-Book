@@ -31,6 +31,23 @@ export const practiceManual = arraySidebar([
     ],
   },
   {
+    text: "常用框架",
+    icon: "framework",
+    prefix: "framework/",
+    collapsible: true,
+    children: [
+      {
+        text: "Spring",
+        icon: "bxl-spring-boot",
+        prefix: "spring/",
+        collapsible: true,
+        children: [
+          "read-nest-config"
+        ],
+      },
+    ],
+  },
+  {
     text: "JVM",
     icon: "virtual_machine",
     prefix: "jvm/",
