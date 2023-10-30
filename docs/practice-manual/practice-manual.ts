@@ -42,7 +42,8 @@ export const practiceManual = arraySidebar([
         prefix: "spring/",
         collapsible: true,
         children: [
-          "read-nest-config"
+          "read-nest-config",
+          "aop-custom-annotation"
         ],
       },
     ],
