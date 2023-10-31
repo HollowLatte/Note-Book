@@ -19,6 +19,7 @@ export const practiceManual = arraySidebar([
     children: [
       "spring-util",
       "retryable",
+      "common-constant-class",
       {
         text: "Stream",
         icon: "work",
