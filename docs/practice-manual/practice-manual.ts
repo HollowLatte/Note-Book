@@ -8,7 +8,16 @@ export const practiceManual = arraySidebar([
     collapsible: true,
     children: [
       "api-design",
-      "print-log"
+      "print-log",
+      {
+        text: "Java",
+        icon: "java",
+        prefix: "java/",
+        collapsible: true,
+        children: [
+          "comment",
+        ],
+      },
     ],
   },
   {
