@@ -9,7 +9,8 @@ export const nonDevelopment = arraySidebar([
     children: [
       "win11-skip-networking",
       "GeForceExperience-skip-login",
-      "virtual-numpad"
+      "virtual-numpad",
+      "microsoft-todo-cannot-sync"
     ],
   }
 ]);
