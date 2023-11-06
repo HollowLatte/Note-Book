@@ -55,5 +55,14 @@ export const notebook = arraySidebar([
       "core-concepts",
       "common-classes"
     ]
-  }
+  },
+  {
+    text: "Redis",
+    icon: "redis",
+    prefix: "redis/",
+    collapsible: true,
+    children: [
+      "redis-database-consistent-strategy",
+    ]
+  },
 ]);
