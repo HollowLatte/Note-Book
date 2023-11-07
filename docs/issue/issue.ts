@@ -1,4 +1,4 @@
-import { arraySidebar } from "vuepress-theme-hope";
+import {arraySidebar} from "vuepress-theme-hope";
 
 export const issue = arraySidebar([
   {
@@ -37,6 +37,15 @@ export const issue = arraySidebar([
     collapsible: true,
     children: [
       "jdbc-connect-fail"
+    ],
+  },
+  {
+    text: "Github",
+    icon: "github",
+    prefix: "github/",
+    collapsible: true,
+    children: [
+      "cannot-push-to-push"
     ],
   },
 ]);
