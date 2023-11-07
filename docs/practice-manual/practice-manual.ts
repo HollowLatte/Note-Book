@@ -53,7 +53,8 @@ export const practiceManual = arraySidebar([
         collapsible: true,
         children: [
           "read-nest-config",
-          "aop-custom-annotation"
+          "aop-custom-annotation",
+          "programmatic-transaction"
         ],
       },
     ],

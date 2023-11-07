@@ -65,4 +65,18 @@ export const notebook = arraySidebar([
       "redis-database-consistent-strategy",
     ]
   },
+  {
+    text: "高可用",
+    icon: "highavailable",
+    prefix: "high-availability/",
+    collapsible: true,
+    children: [
+      "rate-limit-algorithm",
+      "high-availability-system-design",
+      "redundancy",
+      "fallback-and-circuit-breaker",
+      "timeout-and-retry",
+      "performance-test",
+    ],
+  },
 ]);
