@@ -1,3 +1,5 @@
+[阅读地址Note-Book](https://hollowlatte.github.io/Note-Book/practice-manual)
+
 推荐你通过在线阅读网站进行阅读，体验更好，速度更快！地址：[javaguide.cn](https://javaguide.cn/)。
 
 [<img src="https://oss.javaguide.cn/xingqiu/xingqiu.png" style="width:850px;margin: 0 auto" />](https://sourl.cn/e7ee87)
