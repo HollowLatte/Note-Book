@@ -170,7 +170,26 @@ export const practiceManual = arraySidebar([
           "es-paginate-search",
           "deep-pages-search"
         ],
-      }
+      },
+      {
+        text: "搜索",
+        icon: "work",
+        prefix: "search/",
+        collapsible: true,
+        children: [
+          "search-param",
+          {
+            text: "Term相关查询",
+            icon: "work",
+            prefix: "term-query/",
+            collapsible: true,
+            children: [
+              "term-query",
+              "range-query",
+            ],
+          },
+        ],
+      },
     ],
   },
   {
