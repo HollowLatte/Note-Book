@@ -186,6 +186,7 @@ export const practiceManual = arraySidebar([
             children: [
               "term-query",
               "range-query",
+              "exists-query"
             ],
           },
         ],
