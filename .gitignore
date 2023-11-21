@@ -4,6 +4,8 @@ node_modules/
 .DS_Store
 # VS Code Config file
 .vscode/
+# JetBrain
+.idea/
 # VuePress Cache
 **/.vuepress/.cache/
 # VuePress Temp
