@@ -1,4 +1,4 @@
-import { arraySidebar } from "vuepress-theme-hope";
+import {arraySidebar} from "vuepress-theme-hope";
 
 export const practiceManual = arraySidebar([
   {
@@ -187,6 +187,18 @@ export const practiceManual = arraySidebar([
               "term-query",
               "range-query",
               "exists-query"
+            ],
+          },
+          {
+            text: "聚合",
+            icon: "elasticsearch",
+            prefix: "aggregation/",
+            collapsible: true,
+            children: [
+              "cardinality-agg",
+              "terms-agg",
+              "histogram-agg",
+              "date_histogram-agg",
             ],
           },
         ],
