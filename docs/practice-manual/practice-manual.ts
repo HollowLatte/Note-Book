@@ -198,7 +198,7 @@ export const practiceManual = arraySidebar([
               "cardinality-agg",
               "terms-agg",
               "histogram-agg",
-              "date_histogram-agg",
+              "date-histogram-agg",
             ],
           },
         ],
