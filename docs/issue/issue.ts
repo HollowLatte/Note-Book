@@ -26,8 +26,9 @@ export const issue = arraySidebar([
     prefix: "idea/",
     collapsible: true,
     children: [
-      "cannot-start-springboot",
-      "cannot-completion-maven-pom",
+      "idea-cannot-start-springboot",
+      "idea-cannot-completion-maven-pom",
+      "idea-fetch-failed",
     ],
   },
   {
