@@ -96,3 +96,16 @@ Terms聚合是一种将字段的值作为分组的聚合，它将每个值作为
 
 sum_other_doc_count 是一个表示未包含在返回桶中的其他文档数量的值，因为上面的请求中的size为2，所以实际上只会返回2个桶，剩下所有未返回的桶的doc_count总数就是sum_other_doc_count
 
+## 根据多个字段分组
+
+常规terms聚合无法通过字段分组这种复杂操作，所以要加入脚本
+
+例如，要统计name、age、city三个字段的组合，可以理解为统计同一个城市里同名、同年龄的人的数量，可以参考使用以下的脚本：
+
+```json
+{
+  "terms": {
+    "script": "doc['name'].value + '-' + doc['age'].value + '-' +doc['city'].value"
+  }
+}
+```
