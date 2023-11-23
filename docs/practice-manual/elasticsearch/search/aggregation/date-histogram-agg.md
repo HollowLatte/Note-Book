@@ -77,6 +77,8 @@ Date histogram 聚合用于将date类型字段转换为时间间隔，然后将�
 
 如果需要分组的字段为long类型的时间戳，可以通过script来实现分组
 
+需要注意的是，使用long类型的时间戳分组时，format、time_zone参数无效
+
 ```json
 {
   "aggs": {
@@ -94,5 +96,7 @@ Date histogram 聚合用于将date类型字段转换为时间间隔，然后将�
 }
 ```
 
-在script参数中，可以通过`doc['startTimestamp'].value`获取需要分组的字段的值，然后通过Java实现自己想要的逻辑，但是最后还是要将结果转为数字类型（int/long都可以）
-如果有时区的问题，可以通过offset参数配置偏移值
+注意：
+
+- 在script参数中，可以通过`doc['startTimestamp'].value`获取需要分组的字段的值，然后通过Java实现自己想要的逻辑，但是最后还是要将结果转为数字类型（int/long都可以）
+- 如果有时区的问题，可以通过offset参数调整聚合桶的开始时间，或者在script中实现时区转换
