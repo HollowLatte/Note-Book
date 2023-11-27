@@ -19,8 +19,6 @@ title: JavaGuide（Java学习&面试指南）
 
 </div>
 
-[![Banner](https://oss.javaguide.cn/xingqiu/xingqiu.png)](https://javaguide.cn/about-the-author/zhishixingqiu-two-years.html)
-
 ## Java
 
 ### 基础
