@@ -18,7 +18,7 @@ export const interviewShorthand = arraySidebar([
       {
         text: "Redis线程",
         icon: "redis",
-        prefix: "redis-thread/",
+        prefix: "thread/",
         collapsible: true,
         children: [
           "why-use-single-thread",
@@ -30,7 +30,7 @@ export const interviewShorthand = arraySidebar([
       {
         text: "Redis数据结构",
         icon: "redis",
-        prefix: "redis-data-structure/",
+        prefix: "data-structure/",
         collapsible: true,
         children: [
           "string-sds"
