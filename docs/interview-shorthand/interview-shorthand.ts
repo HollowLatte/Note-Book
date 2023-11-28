@@ -1,4 +1,4 @@
-import {arraySidebar} from "vuepress-theme-hope";
+import { arraySidebar } from "vuepress-theme-hope";
 
 export const interviewShorthand = arraySidebar([
   {
@@ -14,19 +14,7 @@ export const interviewShorthand = arraySidebar([
     prefix: "redis/",
     collapsible: true,
     children: [
-      "",
-      {
-        text: "Redis线程",
-        icon: "redis",
-        prefix: "thread/",
-        collapsible: true,
-        children: [
-          "why-use-single-thread",
-          "why-adopt-multi-thread",
-          "update-by-query-api",
-          "search-api"
-        ],
-      },
+      "why-use-single-thread",
       {
         text: "Redis数据结构",
         icon: "redis",
@@ -35,7 +23,18 @@ export const interviewShorthand = arraySidebar([
         children: [
           "string-sds"
         ],
-      }
+      },
+      {
+        text: "Redis持久化",
+        icon: "redis",
+        prefix: "thread/",
+        collapsible: true,
+        children: [
+          "why-adopt-multi-thread",
+          "update-by-query-api",
+          "search-api"
+        ],
+      },
     ],
   },
   {
