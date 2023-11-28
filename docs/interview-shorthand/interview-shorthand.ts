@@ -21,7 +21,8 @@ export const interviewShorthand = arraySidebar([
         prefix: "data-structure/",
         collapsible: true,
         children: [
-          "string-sds"
+          "string-sds",
+          "zset-skiplist"
         ],
       },
       {
