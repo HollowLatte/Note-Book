@@ -19,6 +19,24 @@ export const notebook = arraySidebar([
     ]
   },
   {
+    text: "MySQL",
+    icon: "mysql",
+    prefix: "mysql/",
+    collapsible: true,
+    children: [
+      "common-functional-interface",
+      {
+        text: "索引",
+        icon: "mysql",
+        prefix: "index/",
+        collapsible: true,
+        children: [
+          "index-pushdown"
+        ]
+      }
+    ]
+  },
+  {
     text: "Elasticsearch",
     icon: "elasticsearch",
     prefix: "elasticsearch/",
