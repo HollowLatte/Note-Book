@@ -1,4 +1,4 @@
-import { arraySidebar } from "vuepress-theme-hope";
+import {arraySidebar} from "vuepress-theme-hope";
 
 export const interviewShorthand = arraySidebar([
   {
@@ -44,23 +44,23 @@ export const interviewShorthand = arraySidebar([
     prefix: "mysql/",
     collapsible: true,
     children: [
-      "transaction-isolation-level",
+      // "transaction-isolation-level",
       {
-        text: "API",
-        icon: "work",
-        prefix: "api/",
+        text: "事务",
+        icon: "mysql",
+        prefix: "transaction/",
         collapsible: true,
         children: [
-          "document-api",
-          "index-api",
+          "transaction-isolation-level",
+          "innodb-how-to-solve-concurrence",
           "update-by-query-api",
-          "search-api"
+          "search-api",
         ],
       },
       {
-        text: "Java API Client",
-        icon: "work",
-        prefix: "java-api-client/",
+        text: "索引",
+        icon: "mysql",
+        prefix: "index/",
         collapsible: true,
         children: [
           "document"

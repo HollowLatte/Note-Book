@@ -1,4 +1,4 @@
-import { arraySidebar } from "vuepress-theme-hope";
+import {arraySidebar} from "vuepress-theme-hope";
 
 export const notebook = arraySidebar([
   {
@@ -32,6 +32,15 @@ export const notebook = arraySidebar([
         collapsible: true,
         children: [
           "index-pushdown"
+        ]
+      },
+      {
+        text: "事务",
+        icon: "mysql",
+        prefix: "transaction/",
+        collapsible: true,
+        children: [
+          "innodb-how-to-solve-concurrence"
         ]
       }
     ]
