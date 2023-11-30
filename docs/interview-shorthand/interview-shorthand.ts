@@ -53,7 +53,7 @@ export const interviewShorthand = arraySidebar([
         children: [
           "transaction-isolation-level",
           "innodb-how-to-solve-concurrence",
-          "update-by-query-api",
+          "current-snapshot-read",
           "search-api",
         ],
       },

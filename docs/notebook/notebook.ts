@@ -35,14 +35,23 @@ export const notebook = arraySidebar([
         ]
       },
       {
-        text: "事务",
+        text: "事务隔离",
         icon: "mysql",
-        prefix: "transaction/",
+        prefix: "transaction-isolation/",
         collapsible: true,
         children: [
           "innodb-how-to-solve-concurrence"
         ]
-      }
+      },
+      {
+        text: "锁",
+        icon: "mysql",
+        prefix: "lock/",
+        collapsible: true,
+        children: [
+          ""
+        ]
+      },
     ]
   },
   {
