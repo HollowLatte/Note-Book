@@ -8,7 +8,8 @@ export const issue = arraySidebar([
     collapsible: true,
     children: [
       "mapstruct",
-      "maven-reference-subproject-package"
+      "maven-reference-subproject-package",
+      "start-springboot-exception",
     ],
   },
   {
