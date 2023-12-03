@@ -15,6 +15,15 @@ export const notebook = arraySidebar([
         children: [
           "common-functional-interface"
         ]
+      },
+      {
+        text: "并发",
+        icon: "java",
+        prefix: "concurrence/",
+        collapsible: true,
+        children: [
+          "threadlocal"
+        ]
       }
     ]
   },
