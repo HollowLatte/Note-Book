@@ -10,7 +10,8 @@ export const nonDevelopment = arraySidebar([
       "win11-skip-networking",
       "GeForceExperience-skip-login",
       "virtual-numpad",
-      "microsoft-todo-cannot-sync"
+      "microsoft-todo-cannot-sync",
+      "create-markdown-shortcut"
     ],
   }
 ]);
