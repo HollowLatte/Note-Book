@@ -26,7 +26,7 @@ export const notebook = arraySidebar([
         ]
       },
       {
-        text: "并发",
+        text: "JVM",
         icon: "java",
         prefix: "jvm/",
         collapsible: true,
