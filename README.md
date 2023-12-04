@@ -15,10 +15,6 @@
 
 </div>
 
-<div align="center">
-  <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
-</div>
-
 <!-- #region home -->
 
 ## 项目相关
