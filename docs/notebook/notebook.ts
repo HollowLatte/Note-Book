@@ -24,7 +24,16 @@ export const notebook = arraySidebar([
         children: [
           "threadlocal"
         ]
-      }
+      },
+      {
+        text: "并发",
+        icon: "java",
+        prefix: "jvm/",
+        collapsible: true,
+        children: [
+          "class-loading"
+        ]
+      },
     ]
   },
   {
