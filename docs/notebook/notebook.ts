@@ -31,7 +31,7 @@ export const notebook = arraySidebar([
         prefix: "jvm/",
         collapsible: true,
         children: [
-          "class-loading"
+          "classes-loading"
         ]
       },
     ]
