@@ -1,4 +1,4 @@
-import {arraySidebar} from "vuepress-theme-hope";
+import { arraySidebar } from "vuepress-theme-hope";
 
 export const notebook = arraySidebar([
   {
@@ -31,7 +31,8 @@ export const notebook = arraySidebar([
         prefix: "jvm/",
         collapsible: true,
         children: [
-          "classes-loading"
+          "classes-loading",
+          "class-member-loading-order"
         ]
       },
     ]
