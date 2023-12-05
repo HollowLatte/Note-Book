@@ -1,4 +1,4 @@
-import { arraySidebar } from "vuepress-theme-hope";
+import {arraySidebar} from "vuepress-theme-hope";
 
 export const notebook = arraySidebar([
   {
@@ -118,6 +118,15 @@ export const notebook = arraySidebar([
     collapsible: true,
     children: [
       "redis-database-consistent-strategy",
+    ]
+  },
+  {
+    text: "Linux",
+    icon: "linux",
+    prefix: "linux/",
+    collapsible: true,
+    children: [
+      "kill-signal",
     ]
   },
   {
