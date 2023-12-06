@@ -1,5 +1,5 @@
 ---
-title: Arthas离线按照
+title: Arthas离线安装
 author:
 category: Linux
 tag: Linux
