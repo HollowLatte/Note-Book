@@ -109,7 +109,8 @@ export const practiceManual = arraySidebar([
         prefix: "install/",
         collapsible: true,
         children: [
-          "jdk-install"
+          "jdk-install",
+          "arthas-offline-install"
         ],
       },
     ],
