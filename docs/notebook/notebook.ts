@@ -143,4 +143,13 @@ export const notebook = arraySidebar([
       "performance-test",
     ],
   },
+  {
+    text: "技术解决方案",
+    icon: "",
+    prefix: "technical-solution/",
+    collapsible: true,
+    children: [
+      "message-push-solution",
+    ],
+  }
 ]);
