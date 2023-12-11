@@ -22,7 +22,8 @@ export const notebook = arraySidebar([
         prefix: "concurrence/",
         collapsible: true,
         children: [
-          "threadlocal"
+          "threadlocal",
+          "volatile"
         ]
       },
       {
