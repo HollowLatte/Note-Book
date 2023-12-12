@@ -235,6 +235,7 @@ export const practiceManual = arraySidebar([
     collapsible: true,
     children: [
       "docker-mirror-config",
+      "docker-run-template",
       {
         text: "部署",
         icon: "docker",
