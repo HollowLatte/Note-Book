@@ -12,9 +12,10 @@ date: 2023-12-12
 docker run -d \
     --name=start-service \
     --restart=always \
+    -m 1g \
+    -p 8080:8080 \
     -v /opt/hollowlatte/service/start-service:/home \
     -v /opt/hollowlatte/log:/opt/system/log \
-    -p 8080:8080 \
     --net=host \
     hollowlatte-openjdk:21
 ```
