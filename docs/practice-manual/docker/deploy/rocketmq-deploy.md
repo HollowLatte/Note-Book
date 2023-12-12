@@ -40,9 +40,11 @@ services:
 ```
 
 ::: warning
-remotingServer：监听listenPort配置项指定的监听端口，默认10911
-fastRemotingServer：监听端口值listenPort-2，即默认为10909
-HAService：监听端口为值为listenPort+1，即10912，该端口用于Broker的主从同步
+listenPort：broker的监听端口号，是remotingServer服务组件使用，作为对Producer和Consumer提供服务的端口号，默认为10911
+
+fastListenPort：fastRemotingServer服务组件使用，监听端口值为`listenPort - 2`，即默认为10909
+
+haListenPort：HAService服务组件使用，用于Broker的主从同步，监听端口值为`listenPort + 1`，即默认为10912
 :::
 
 ## broker.conf

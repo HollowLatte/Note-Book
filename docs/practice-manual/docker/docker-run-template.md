@@ -14,6 +14,7 @@ docker run -d \
     --restart=always \
     -v /opt/hollowlatte/service/start-service:/home \
     -v /opt/hollowlatte/log:/opt/system/log \
+    -p 8080:8080 \
     --net=host \
     hollowlatte-openjdk:21
 ```
