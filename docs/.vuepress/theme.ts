@@ -14,6 +14,7 @@ export default hopeTheme({
 
   // 阿里图标库
   // https://at.alicdn.com/t/c/font_2922463_kweia6fbo9.css
+  // icon库配置
   iconAssets: "//at.alicdn.com/t/c/font_2922463_kweia6fbo9.css",
 
   author: {

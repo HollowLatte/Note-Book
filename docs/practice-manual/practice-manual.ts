@@ -1,4 +1,4 @@
-import {arraySidebar} from "vuepress-theme-hope";
+import { arraySidebar } from "vuepress-theme-hope";
 
 export const practiceManual = arraySidebar([
   {
@@ -65,6 +65,8 @@ export const practiceManual = arraySidebar([
     prefix: "jvm/",
     collapsible: true,
     children: [
+      "common-param",
+      "check-garbage-collector",
       {
         text: "JVM工具",
         icon: "virtual_machine",

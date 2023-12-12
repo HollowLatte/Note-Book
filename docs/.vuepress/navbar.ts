@@ -8,18 +8,6 @@ export default navbar([
     icon: "component",
     link: "/issue"
   },
-  // {
-  //   text: "网站相关",
-  //   icon: "about",
-  //   children: [
-  //     { text: "关于作者", icon: "zuozhe", link: "/about-the-author/" },
-  //     {
-  //       text: "更新历史",
-  //       icon: "history",
-  //       link: "/timeline/",
-  //     },
-  //   ],
-  // },
   {
     text: "实践手册",
     icon: "about",
@@ -39,5 +27,17 @@ export default navbar([
     text: "笔记本",
     icon: "book",
     link: "/notebook",
+  },
+  {
+    text: "网站相关",
+    icon: "about",
+    children: [
+      { text: "关于作者", icon: "zuozhe", link: "/about-the-author/" },
+      {
+        text: "更新历史",
+        icon: "history",
+        link: "/timeline/",
+      },
+    ],
   },
 ]);
