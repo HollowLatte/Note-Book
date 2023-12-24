@@ -312,4 +312,13 @@ export const practiceManual = arraySidebar([
       "jpa-stackoverflow"
     ],
   },
+  {
+    text: "Windows",
+    icon: "windows",
+    prefix: "windows/",
+    collapsible: true,
+    children: [
+      "look-big-file",
+    ],
+  },
 ]);
