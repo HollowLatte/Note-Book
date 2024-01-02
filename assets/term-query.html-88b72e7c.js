@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o as r,c as t}from"./app-e1663f36.js";const c={};function o(_,m){return r(),t("div")}const a=e(c,[["render",o],["__file","term-query.html.vue"]]);export{a as default};
