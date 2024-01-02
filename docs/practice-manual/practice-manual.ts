@@ -254,7 +254,7 @@ export const practiceManual = arraySidebar([
     icon: "distributed-network",
     prefix: "distributed/",
     collapsible: true,
-    children: [
+    children: [ 
       {
         text: "SpringCloud",
         icon: "framework",

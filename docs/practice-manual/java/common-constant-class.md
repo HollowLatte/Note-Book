@@ -28,3 +28,10 @@ date: 2023-12-11
 ### Hutool
 
 - 日期格式：cn.hutool.core.date.DatePattern
+
+## 加密算法相关
+
+### Hutool
+
+- 对称算法类型：cn.hutool.crypto.symmetric.SymmetricAlgorithm
+- 非对称算法类型：cn.hutool.crypto.asymmetric.AsymmetricAlgorithm
