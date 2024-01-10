@@ -9,11 +9,13 @@ tag: IDEA
 
 点击fetch时，IDEA弹出如下错误：
 
+```bash
 unable to read askpass response from 'C:
 \Users\WUHU\AppData\Local\JetBrains\IntelliJIdea2023.2\tmp\intellij-git-askpass-local.sh' bash: line 1: /dev/tty: No
 such
 device or address failed to execute prompt script (exit code 1) could not read Username for 'http://10.50.20.88': No
 such file or directory
+```
 
 ## 原因分析
 

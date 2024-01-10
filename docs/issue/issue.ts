@@ -1,4 +1,4 @@
-import {arraySidebar} from "vuepress-theme-hope";
+import { arraySidebar } from "vuepress-theme-hope";
 
 export const issue = arraySidebar([
   {
@@ -30,6 +30,7 @@ export const issue = arraySidebar([
       "idea-cannot-start-springboot",
       "idea-cannot-completion-maven-pom",
       "idea-fetch-failed",
+      "terminal-command-not-exist"
     ],
   },
   {
