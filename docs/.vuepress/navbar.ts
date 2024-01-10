@@ -5,7 +5,6 @@ export default navbar([
   {
     text: "研究",
     icon: "github",
-    link: "/research",
     children: [
       {
         text: "开源项目",
@@ -20,19 +19,30 @@ export default navbar([
     ],
   },
   {
-    text: "问题",
+    text: "问题集合",
     icon: "component",
-    link: "/issue"
+    children: [
+      {
+        text: "后端问题",
+        icon: "github",
+        link: "/problem/backend-problem",
+      },
+      {
+        text: "前端问题",
+        icon: "github",
+        link: "/problem/frontend-problem",
+      },
+      {
+        text: "非开发问题",
+        icon: "github",
+        link: "/problem/non-dev",
+      },
+    ],
   },
   {
     text: "实践手册",
     icon: "about",
     link: "/practice-manual",
-  },
-  {
-    text: "非开发问题",
-    icon: "about",
-    link: "/non-development",
   },
   {
     text: "面试速记",

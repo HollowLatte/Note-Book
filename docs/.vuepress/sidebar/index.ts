@@ -4,21 +4,25 @@ import { aboutTheAuthor } from "./about-the-author.js";
 import { books } from "./books.js";
 import { highQualityTechnicalArticles } from "./high-quality-technical-articles.js";
 import { openSourceProject } from "./open-source-project.js";
-import { issue } from "../../issue/issue";
+import { backendProblem } from "../../problem/backend-problem/backendProblem";
 import { practiceManual } from "../../practice-manual/practice-manual";
-import { nonDevelopment } from "../../non-development/non-development";
+import { nonDev } from "../../problem/non-dev/non-dev";
 import { interviewShorthand } from "../../interview-shorthand/interview-shorthand";
 import { notebook } from "../../notebook/notebook";
+import { frontendProblem } from "../../problem/frontend-problem/frontend-problem";
 
 export default sidebar({
   // 应该把更精确的路径放置在前边
-  "/open-source-project/": openSourceProject,
+  "/research/open-source-project/": openSourceProject,
+  // 问题集合
+  "/problem/backend-problem": backendProblem,
+  "/problem/frontend-problem": frontendProblem,
+  "/problem/non-dev": nonDev,
+
   "/books/": books,
   "/about-the-author/": aboutTheAuthor,
   "/high-quality-technical-articles/": highQualityTechnicalArticles,
-  "/issue": issue,
   "/practice-manual": practiceManual,
-  "/non-development": nonDevelopment,
   "/interview-shorthand": interviewShorthand,
   "/notebook": notebook,
   "/zhuanlan/": [

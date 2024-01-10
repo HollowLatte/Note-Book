@@ -1,6 +1,6 @@
 import { arraySidebar } from "vuepress-theme-hope";
 
-export const nonDevelopment = arraySidebar([
+export const nonDev = arraySidebar([
   {
     text: "Windows",
     icon: "work",

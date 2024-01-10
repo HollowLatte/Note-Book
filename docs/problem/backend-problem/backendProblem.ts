@@ -1,6 +1,6 @@
 import { arraySidebar } from "vuepress-theme-hope";
 
-export const issue = arraySidebar([
+export const backendProblem = arraySidebar([
   {
     text: "Java",
     icon: "windows",
