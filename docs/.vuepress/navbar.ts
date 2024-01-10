@@ -2,7 +2,23 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   { text: "面试指南", icon: "java", link: "/home.md" },
-  { text: "开源项目", icon: "github", link: "/open-source-project/" },
+  {
+    text: "研究",
+    icon: "github",
+    link: "/research",
+    children: [
+      {
+        text: "开源项目",
+        icon: "github",
+        link: "/research/open-source-project/",
+      },
+      {
+        text: "好玩的",
+        icon: "github",
+        link: "/research/play",
+      },
+    ],
+  },
   {
     text: "问题",
     icon: "component",
