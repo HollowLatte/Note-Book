@@ -38,7 +38,7 @@ export default hopeTheme({
     "Author",
     "Category",
     "Tag",
-    // "Date",
+    "Date",
     "Original",
     "Word",
     "ReadingTime",
@@ -52,6 +52,7 @@ export default hopeTheme({
       Github: "https://github.com/Snailclimb",
       Gitee: "https://gitee.com/SnailClimb",
     },
+    timeline: "没有更多啦"
   },
 
   plugins: {
@@ -81,5 +82,9 @@ export default hopeTheme({
       json: true,
       rss: true,
     },
+  },
+  encrypt: {
+    global: true,
+    admin: "hollowlatte",
   },
 });
