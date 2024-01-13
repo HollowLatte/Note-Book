@@ -58,10 +58,22 @@ export default hopeTheme({
   plugins: {
     blog: true,
     copyright: true,
+    search: {
+      isSearchable: (page) => page.path !== "/",
+      maxSuggestions: 10,
+      hotKeys: ["s", "/"],
+      // 用于在页面的搜索索引中添加额外字段
+      getExtraFields: () => [],
+      locales: {
+        "/": {
+          placeholder: "搜索",
+        },
+      },
+    },
     mdEnhance: {
       align: true,
       codetabs: true,
-      container: true,
+      hint: true,
       figure: true,
       include: {
         resolvePath: (file, cwd) => {
@@ -82,6 +94,7 @@ export default hopeTheme({
       json: true,
       rss: true,
     },
+    sitemap: true
   },
   encrypt: {
     global: true,
