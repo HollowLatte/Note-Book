@@ -3,8 +3,7 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   { text: "面试指南", icon: "java", link: "/home.md" },
   {
-    text: "研究",
-    icon: "github",
+    text: "🧐研究",
     children: [
       {
         text: "开源项目",
@@ -19,8 +18,7 @@ export default navbar([
     ],
   },
   {
-    text: "问题集合",
-    icon: "component",
+    text: "😰问题集合",
     children: [
       {
         text: "后端问题",
@@ -40,22 +38,22 @@ export default navbar([
     ],
   },
   {
-    text: "实践手册",
+    text: "😎实践手册",
     icon: "about",
     link: "/practice-manual",
   },
   {
-    text: "面试速记",
+    text: "💯面试速记",
     icon: "about",
     link: "/interview-shorthand",
   },
   {
-    text: "笔记本",
+    text: "🫵笔记本",
     icon: "book",
     link: "/notebook",
   },
   {
-    text: "网站相关",
+    text: "🤣网站相关",
     icon: "about",
     children: [
       { text: "关于作者", icon: "zuozhe", link: "/about-the-author/" },
