@@ -105,6 +105,7 @@ export const practiceManual = arraySidebar([
     children: [
       "time-task",
       "nohup-deploy-service",
+      "get-extranet-info",
       {
         text: "安装",
         icon: "linux",
@@ -112,7 +113,7 @@ export const practiceManual = arraySidebar([
         collapsible: true,
         children: [
           "jdk-install",
-          "arthas-offline-install"
+          "arthas-offline-install",
         ],
       },
     ],
@@ -254,7 +255,7 @@ export const practiceManual = arraySidebar([
     icon: "distributed-network",
     prefix: "distributed/",
     collapsible: true,
-    children: [ 
+    children: [
       {
         text: "SpringCloud",
         icon: "framework",

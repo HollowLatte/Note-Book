@@ -1,4 +1,4 @@
-import {arraySidebar} from "vuepress-theme-hope";
+import { arraySidebar } from "vuepress-theme-hope";
 
 export const interviewShorthand = arraySidebar([
   {
@@ -6,7 +6,17 @@ export const interviewShorthand = arraySidebar([
     icon: "work",
     prefix: "java/",
     collapsible: true,
-    children: [],
+    children: [
+      {
+        text: "并发",
+        icon: "java",
+        prefix: "concurrence/",
+        collapsible: true,
+        children: [
+          "aqs-simple"
+        ]
+      },
+    ],
   },
   {
     text: "Redis",
