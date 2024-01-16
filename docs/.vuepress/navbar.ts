@@ -13,7 +13,7 @@ export default navbar([
       {
         text: "好玩的",
         icon: "github",
-        link: "/research/play",
+        link: "/research/interesting",
       },
     ],
   },
