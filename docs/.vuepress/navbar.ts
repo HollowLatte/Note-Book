@@ -18,6 +18,15 @@ export default navbar([
     ],
   },
   {
+    text: "😋业务",
+    link: "/business",
+  },
+  {
+    text: "😎实践手册",
+    icon: "about",
+    link: "/practice-manual",
+  },
+  {
     text: "😰问题集合",
     children: [
       {
@@ -36,11 +45,6 @@ export default navbar([
         link: "/problem/non-dev",
       },
     ],
-  },
-  {
-    text: "😎实践手册",
-    icon: "about",
-    link: "/practice-manual",
   },
   {
     text: "💯面试速记",

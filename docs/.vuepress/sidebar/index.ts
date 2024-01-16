@@ -11,6 +11,7 @@ import { interviewShorthand } from "../../interview-shorthand/interview-shorthan
 import { notebook } from "../../notebook/notebook";
 import { frontendProblem } from "../../problem/frontend-problem/frontend-problem";
 import { interesting } from "../../research/interesting/interesting";
+import { business } from "../../business/business";
 
 export default sidebar({
   // 应该把更精确的路径放置在前边
@@ -21,7 +22,8 @@ export default sidebar({
   "/problem/backend-problem": backendProblem,
   "/problem/frontend-problem": frontendProblem,
   "/problem/non-dev": nonDev,
-
+  // 业务
+  "/business": business,
   "/books/": books,
   "/about-the-author/": aboutTheAuthor,
   "/high-quality-technical-articles/": highQualityTechnicalArticles,

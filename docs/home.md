@@ -75,7 +75,8 @@ title: JavaGuide（Java学习&面试指南）
 **重要知识点详解**：
 
 - [JMM（Java 内存模型）详解](./java/concurrent/jmm.md)
-- **线程池**：[Java 线程池详解](./java/concurrent/java-thread-pool-summary.md)、[Java 线程池最佳实践](./java/concurrent/java-thread-pool-best-practices.md)
+- **线程池
+  **：[Java 线程池详解](./java/concurrent/java-thread-pool-summary.md)、[Java 线程池最佳实践](./java/concurrent/java-thread-pool-best-practices.md)
 - [ThreadLocal 详解](./java/concurrent/threadlocal.md)
 - [Java 并发容器总结](./java/concurrent/java-concurrent-collections.md)
 - [Atomic 原子类总结](./java/concurrent/atomic-classes.md)
@@ -84,7 +85,8 @@ title: JavaGuide（Java学习&面试指南）
 
 ### JVM (必看 :+1:)
 
-JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.com/javase/specs/jvms/se8/html/index.html) 和周志明老师的[《深入理解 Java 虚拟机（第 3 版）》](https://book.douban.com/subject/34907497/) （强烈建议阅读多遍！）。
+JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.com/javase/specs/jvms/se8/html/index.html)
+和周志明老师的[《深入理解 Java 虚拟机（第 3 版）》](https://book.douban.com/subject/34907497/) （强烈建议阅读多遍！）。
 
 - **[Java 内存区域](./java/jvm/memory-area.md)**
 - **[JVM 垃圾回收](./java/jvm/jvm-garbage-collection.md)**
@@ -97,7 +99,8 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 ### 新特性
 
-- **Java 8**：[Java 8 新特性总结（翻译）](./java/new-features/java8-tutorial-translate.md)、[Java8 常用新特性总结](./java/new-features/java8-common-new-features.md)
+- **Java 8
+  **：[Java 8 新特性总结（翻译）](./java/new-features/java8-tutorial-translate.md)、[Java8 常用新特性总结](./java/new-features/java8-common-new-features.md)
 - [Java 9 新特性概览](./java/new-features/java9.md)
 - [Java 10 新特性概览](./java/new-features/java10.md)
 - [Java 11 新特性概览](./java/new-features/java11.md)
@@ -109,67 +112,6 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 - [Java 19 新特性概览](./java/new-features/java19.md)
 - [Java 20 新特性概览](./java/new-features/java20.md)
 
-## 计算机基础
-
-### 操作系统
-
-- [操作系统常见知识点&面试题总结(上)](./cs-basics/operating-system/operating-system-basic-questions-01.md)
-- [操作系统常见知识点&面试题总结(下)](./cs-basics/operating-system/operating-system-basic-questions-02.md)
-- **Linux**：
-  - [后端程序员必备的 Linux 基础知识总结](./cs-basics/operating-system/linux-intro.md)
-  - [Shell 编程基础知识总结](./cs-basics/operating-system/shell-intro.md)
-
-### 网络
-
-**知识点/面试题总结**：
-
-- [计算机网络常见知识点&面试题总结(上)](./cs-basics/network/other-network-questions.md)
-- [计算机网络常见知识点&面试题总结(下)](./cs-basics/network/other-network-questions2.md)
-- [谢希仁老师的《计算机网络》内容总结（补充）](./cs-basics/network/computer-network-xiexiren-summary.md)
-
-**重要知识点详解**：
-
-- [OSI 和 TCP/IP 网络分层模型详解（基础）](./cs-basics/network/osi-and-tcp-ip-model.md)
-- [应用层常见协议总结（应用层）](./cs-basics/network/application-layer-protocol.md)
-- [HTTP vs HTTPS（应用层）](./cs-basics/network/http-vs-https.md)
-- [HTTP 1.0 vs HTTP 1.1（应用层）](./cs-basics/network/http1.0-vs-http1.1.md)
-- [HTTP 常见状态码（应用层）](./cs-basics/network/http-status-codes.md)
-- [DNS 域名系统详解（应用层）](./cs-basics/network/dns.md)
-- [TCP 三次握手和四次挥手（传输层）](./cs-basics/network/tcp-connection-and-disconnection.md)
-- [TCP 传输可靠性保障（传输层）](./cs-basics/network/tcp-reliability-guarantee.md)
-- [ARP 协议详解(网络层)](./cs-basics/network/arp.md)
-- [NAT 协议详解(网络层)](./cs-basics/network/nat.md)
-- [网络攻击常见手段总结（安全）](./cs-basics/network/network-attack-means.md)
-
-### 数据结构
-
-**图解数据结构：**
-
-- [线性数据结构 :数组、链表、栈、队列](./cs-basics/data-structure/linear-data-structure.md)
-- [图](./cs-basics/data-structure/graph.md)
-- [堆](./cs-basics/data-structure/heap.md)
-- [树](./cs-basics/data-structure/tree.md)：重点关注[红黑树](./cs-basics/data-structure/red-black-tree.md)、B-，B+，B\*树、LSM 树
-
-其他常用数据结构：
-
-- [布隆过滤器](./cs-basics/data-structure/bloom-filter.md)
-
-### 算法
-
-算法这部分内容非常重要，如果你不知道如何学习算法的话，可以看下我写的：
-
-- [算法学习书籍+资源推荐](https://www.zhihu.com/question/323359308/answer/1545320858) 。
-- [如何刷 Leetcode?](https://www.zhihu.com/question/31092580/answer/1534887374)
-
-**常见算法问题总结**：
-
-- [几道常见的字符串算法题总结](./cs-basics/algorithms/string-algorithm-problems.md)
-- [几道常见的链表算法题总结](./cs-basics/algorithms/linkedlist-algorithm-problems.md)
-- [剑指 offer 部分编程题](./cs-basics/algorithms/the-sword-refers-to-offer.md)
-- [十大经典排序算法](./cs-basics/algorithms/10-classical-sorting-algorithms.md)
-
-另外，[GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/) 这个网站总结了常见的算法 ，比较全面系统。
-
 ## 数据库
 
 ### 基础
@@ -178,8 +120,8 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 - [NoSQL 基础知识总结](./database/nosql.md)
 - [字符集详解](./database/character-set.md)
 - SQL :
-  - [SQL 语法基础知识总结](./database/sql/sql-syntax-summary.md)
-  - [SQL 常见面试题总结](./database/sql/sql-questions-01.md)
+    - [SQL 语法基础知识总结](./database/sql/sql-syntax-summary.md)
+    - [SQL 常见面试题总结](./database/sql/sql-questions-01.md)
 
 ### MySQL
 
@@ -223,7 +165,6 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 - [MongoDB 常见知识点&面试题总结(下)](./database/mongodb/mongodb-questions-02.md)
 
 ## 搜索引擎
-
 
 ![JavaGuide 官方公众号](https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png)
 
@@ -362,7 +303,6 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 ### SQL 优化
 
-
 ### CDN
 
 [CDN（内容分发网络）常见知识点&面试题总结](./high-performance/cdn.md)
@@ -388,7 +328,6 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 [服务限流详解](./high-availability/limit-request.md)
 
 ### 降级&熔断
-
 
 ### 超时&重试
 
