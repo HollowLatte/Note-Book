@@ -1,4 +1,4 @@
-import { arraySidebar } from "vuepress-theme-hope";
+import {arraySidebar} from "vuepress-theme-hope";
 
 export const practiceManual = arraySidebar([
   {
@@ -92,7 +92,7 @@ export const practiceManual = arraySidebar([
         prefix: "command/",
         collapsible: true,
         children: [
-          "match-key"
+          "find-key"
         ],
       },
     ],
@@ -210,17 +210,6 @@ export const practiceManual = arraySidebar([
     ],
   },
   {
-    text: "WSL2",
-    icon: "work",
-    prefix: "wsl2/",
-    collapsible: true,
-    children: [
-      "install",
-      "wsl2-and-windows",
-      "wsl2-config"
-    ],
-  },
-  {
     text: "IDEA",
     icon: "intellijidea",
     prefix: "idea/",
@@ -283,24 +272,6 @@ export const practiceManual = arraySidebar([
     collapsible: true,
     children: [
       "github-deploy-vuepress",
-      // {
-      //   text: "SpringCloud",
-      //   icon: "framework",
-      //   prefix: "springcloud/",
-      //   collapsible: true,
-      //   children: [
-      //     "eureka-config",
-      //     "eureka-service-status-api",
-      //   ],
-      // }, {
-      //   text: "SpringCloud Alibaba",
-      //   icon: "framework",
-      //   prefix: "springcloud-alibaba/",
-      //   collapsible: true,
-      //   children: [
-      //     "docker-mirror-config",
-      //   ],
-      // }
     ],
   },
   {
@@ -320,6 +291,17 @@ export const practiceManual = arraySidebar([
     collapsible: true,
     children: [
       "look-big-file",
+      {
+        text: "WSL2",
+        icon: "work",
+        prefix: "wsl2/",
+        collapsible: true,
+        children: [
+          "install",
+          "wsl2-and-windows",
+          "wsl2-config"
+        ],
+      },
     ],
   },
 ]);
