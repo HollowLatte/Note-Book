@@ -221,6 +221,25 @@ export const practiceManual = arraySidebar([
     ],
   },
   {
+    text: "网络",
+    icon: "docker",
+    prefix: "network/",
+    collapsible: true,
+    children: [
+      "nat-traversal",
+      "docker-run-template",
+      {
+        text: "部署",
+        icon: "docker",
+        prefix: "deploy/",
+        collapsible: true,
+        children: [
+          "rocketmq-deploy",
+        ],
+      },
+    ],
+  },
+  {
     text: "Docker",
     icon: "docker",
     prefix: "docker/",
