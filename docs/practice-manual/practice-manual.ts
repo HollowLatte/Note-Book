@@ -86,6 +86,7 @@ export const practiceManual = arraySidebar([
     prefix: "redis/",
     collapsible: true,
     children: [
+      "batch-delete",
       {
         text: "命令",
         icon: "work",
@@ -94,7 +95,6 @@ export const practiceManual = arraySidebar([
         children: [
           "find-key",
           "find-big-key",
-          "batch-delete",
         ],
       },
     ],
