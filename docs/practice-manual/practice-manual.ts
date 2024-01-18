@@ -94,6 +94,7 @@ export const practiceManual = arraySidebar([
         children: [
           "find-key",
           "find-big-key",
+          "batch-delete",
         ],
       },
     ],
