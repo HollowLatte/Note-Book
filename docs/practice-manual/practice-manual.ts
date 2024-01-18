@@ -87,12 +87,13 @@ export const practiceManual = arraySidebar([
     collapsible: true,
     children: [
       {
-        text: "command",
+        text: "命令",
         icon: "work",
         prefix: "command/",
         collapsible: true,
         children: [
-          "find-key"
+          "find-key",
+          "find-big-key",
         ],
       },
     ],
@@ -106,6 +107,7 @@ export const practiceManual = arraySidebar([
       "time-task",
       "nohup-deploy-service",
       "get-extranet-info",
+      "simple-calculation",
       {
         text: "安装",
         icon: "linux",
@@ -114,6 +116,15 @@ export const practiceManual = arraySidebar([
         children: [
           "jdk-install",
           "arthas-offline-install",
+        ],
+      },
+      {
+        text: "Shell",
+        icon: "linux",
+        prefix: "shell/",
+        collapsible: true,
+        children: [
+          "jdk-install"
         ],
       },
     ],
