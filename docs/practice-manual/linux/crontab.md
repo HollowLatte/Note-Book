@@ -23,7 +23,7 @@ crontab -e
 crontab -r
 ```
 
-crontab所支持的cron表达式最小单位是分钟，与正常的cron不同，也就是说最快的定时任务也只能1分钟执行一次
+与正常的cron不同，crontab所支持的cron表达式最小单位是分钟，也就是说最快的crontab定时任务也只能1分钟执行一次
 
 ## 示例
 

@@ -104,7 +104,7 @@ export const practiceManual = arraySidebar([
     prefix: "linux/",
     collapsible: true,
     children: [
-      "time-task",
+      "crontab",
       "nohup-deploy-service",
       "get-extranet-info",
       "simple-calculation",
