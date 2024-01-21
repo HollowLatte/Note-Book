@@ -10,6 +10,7 @@ export const backendProblem = arraySidebar([
       "mapstruct",
       "maven-reference-subproject-package",
       "start-springboot-exception",
+      "mybatis-plus-page-total-zero"
     ],
   },
   {
