@@ -1,5 +1,5 @@
-import { getDirname, path } from "@vuepress/utils";
-import { hopeTheme } from "vuepress-theme-hope";
+import {getDirname, path} from "@vuepress/utils";
+import {hopeTheme} from "vuepress-theme-hope";
 
 import navbar from "./navbar.js";
 import sidebar from "./sidebar/index.js";
@@ -8,7 +8,7 @@ import sidebar from "./sidebar/index.js";
 const __dirname = getDirname(import.meta.url);
 
 export default hopeTheme({
-  hostname: "https://javaguide.cn/",
+  hostname: "https://hollowlatte.github.io/Note-Book",
   logo: "/logo.png",
   favicon: "/favicon.ico",
 
@@ -20,10 +20,10 @@ export default hopeTheme({
 
   author: {
     name: "Hollow-Latte",
-    url: "https://javaguide.cn/article/",
+    url: "https://hollowlatte.github.io/Note-Book",
   },
 
-  repo: "https://github.com/Snailclimb/JavaGuide",
+  repo: "https://github.com/HollowLatte/Note-Book",
   docsDir: "docs",
   // 纯净模式：https://theme-hope.vuejs.press/zh/guide/interface/pure.html
   pure: true,
@@ -49,7 +49,7 @@ export default hopeTheme({
     sidebarDisplay: "mobile",
     medias: {
       Zhihu: "https://www.zhihu.com/people/javaguide",
-      Github: "https://github.com/Snailclimb",
+      Github: "https://github.com/HollowLatte",
       Gitee: "https://gitee.com/SnailClimb",
     },
     timeline: "没有更多啦"
