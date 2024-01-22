@@ -52,7 +52,7 @@ export default hopeTheme({
       Github: "https://github.com/HollowLatte",
       Gitee: "https://gitee.com/SnailClimb",
     },
-    timeline: "没有更多啦"
+    timeline: "没有更多啦😋"
   },
 
   plugins: {

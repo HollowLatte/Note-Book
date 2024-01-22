@@ -49,7 +49,8 @@ export const backendProblem = arraySidebar([
     prefix: "github/",
     collapsible: true,
     children: [
-      "cannot-push-to-push"
+      "cannot-push-to-github",
+      "cannot-fetch-from-github",
     ],
   },
 ]);
