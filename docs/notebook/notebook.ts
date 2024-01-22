@@ -24,6 +24,7 @@ export const notebook = arraySidebar([
         children: [
           "threadlocal",
           "volatile",
+          "cas",
         ]
       },
       {
