@@ -1,4 +1,4 @@
-import { arraySidebar } from "vuepress-theme-hope";
+import {arraySidebar} from "vuepress-theme-hope";
 
 export const notebook = arraySidebar([
   {
@@ -120,6 +120,16 @@ export const notebook = arraySidebar([
     collapsible: true,
     children: [
       "redis-database-consistent-strategy",
+      {
+        text: "Streams",
+        icon: "linux",
+        prefix: "streams/",
+        collapsible: true,
+        children: [
+          "stream-mq",
+          "stream-command",
+        ]
+      },
     ]
   },
   {
