@@ -128,6 +128,7 @@ export const notebook = arraySidebar([
         children: [
           "stream-mq",
           "stream-command",
+          "stream-config",
         ]
       },
     ]
