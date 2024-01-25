@@ -44,6 +44,15 @@ list的方式是stream出现之前可靠度比较高的实现
 
 可以通过Redission的getQueue 获取一个队列
 
+## Stream 数据格式
+
+Stream 在Redis的存储结构类似与Redis中的Hash
+
+Stream的一条消息中包含消息id和消息体
+
+消息ID称为`StreamMessageId`：格式为`毫秒时间戳+序号`，如1706162668568-0，高位是毫秒级时间戳，低位是递增变量，用来标记唯一一条消息。
+消息体为key-value的格式
+
 ## Stream 相关文档
 
 Redis Stream 官方文档：[Redis Streams](https://redis.io/docs/data-types/streams/)

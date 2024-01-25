@@ -37,6 +37,8 @@ xadd stream_key * key1 value1 key2 value2
 - `*`：表示Redis自动生成消息ID
 - `key1 value1 key2 value2`：表示一条消息的消息体内的key-value对
 
+> 生成的消息ID的格式为毫秒时间戳+序号
+
 ### 查看Stream信息
 
 ```bash
