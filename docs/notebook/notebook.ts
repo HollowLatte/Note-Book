@@ -120,6 +120,7 @@ export const notebook = arraySidebar([
     collapsible: true,
     children: [
       "redis-database-consistent-strategy",
+      "common-param-adjustment",
       {
         text: "Streams",
         icon: "linux",
