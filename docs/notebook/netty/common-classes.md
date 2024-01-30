@@ -90,4 +90,8 @@ LengthFieldBasedFrameDecoder 更加方便
    channel 连接激活或失活时调用,可以控制连接。
 
 
+Netty
+
+https://blog.csdn.net/qq_38263083/article/details/131825724
+
 

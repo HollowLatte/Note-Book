@@ -135,6 +135,32 @@ export const notebook = arraySidebar([
     ]
   },
   {
+    text: "消息队列",
+    icon: "linux",
+    prefix: "mq/",
+    collapsible: true,
+    children: [
+      {
+        text: "RocketMQ",
+        icon: "linux",
+        prefix: "rocketmq/",
+        collapsible: true,
+        children: [
+          "intro",
+        ]
+      },
+      {
+        text: "Redis Stream",
+        icon: "linux",
+        prefix: "redis-stream/",
+        collapsible: true,
+        children: [
+          "intro",
+        ]
+      },
+    ]
+  },
+  {
     text: "Linux",
     icon: "linux",
     prefix: "linux/",
