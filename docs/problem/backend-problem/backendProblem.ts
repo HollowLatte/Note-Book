@@ -9,8 +9,17 @@ export const backendProblem = arraySidebar([
     children: [
       "mapstruct",
       "maven-reference-subproject-package",
-      "start-springboot-exception",
-      "mybatis-plus-page-total-zero"
+      "mybatis-plus-page-total-zero",
+      {
+        text: "Spring",
+        icon: "spring",
+        prefix: "spring/",
+        collapsible: true,
+        children: [
+          "springboot-start-fail-snakeyaml",
+          "springboot3-rocketmq-no-bean",
+        ],
+      },
     ],
   },
   {
