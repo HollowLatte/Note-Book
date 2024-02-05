@@ -176,7 +176,9 @@ public void run() {
 
     while (!this.isStopped()) {
         try {
+            // 从LinkedBlockingQueue中阻塞获取消息
             MessageRequest messageRequest = this.messageRequestQueue.take();
+            // 处理消息
             if (messageRequest.getMessageRequestMode() == MessageRequestMode.POP) {
                 this.popMessage((PopRequest)messageRequest);
             } else {
