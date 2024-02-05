@@ -1,4 +1,4 @@
-import {arraySidebar} from "vuepress-theme-hope";
+import { arraySidebar } from "vuepress-theme-hope";
 
 export const practiceManual = arraySidebar([
   {
@@ -239,16 +239,6 @@ export const practiceManual = arraySidebar([
     collapsible: true,
     children: [
       "nat-traversal",
-      "docker-run-template",
-      {
-        text: "部署",
-        icon: "docker",
-        prefix: "deploy/",
-        collapsible: true,
-        children: [
-          "rocketmq-deploy",
-        ],
-      },
     ],
   },
   {
@@ -259,6 +249,15 @@ export const practiceManual = arraySidebar([
     children: [
       "docker-mirror-config",
       "docker-run-template",
+      {
+        text: "Compose",
+        icon: "docker",
+        prefix: "compose/",
+        collapsible: true,
+        children: [
+          "limit-memory",
+        ],
+      },
       {
         text: "部署",
         icon: "docker",
