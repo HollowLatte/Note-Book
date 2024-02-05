@@ -1,4 +1,4 @@
-import {arraySidebar} from "vuepress-theme-hope";
+import { arraySidebar } from "vuepress-theme-hope";
 
 export const notebook = arraySidebar([
   {
@@ -147,6 +147,7 @@ export const notebook = arraySidebar([
         collapsible: true,
         children: [
           "intro",
+          "rocketmq-message-listener-annotation-source",
         ]
       },
       {
