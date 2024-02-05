@@ -14,7 +14,7 @@ RocketMQMessageListener使用的是push模式来接收消息
 
 ## 源码
 
-此处的依赖是rocketmq-spring-boot-starter的2.2.3，对应的rocketmq的client是5.0版本，与之前的4.x版本的源码有区别，需要注意
+此处的依赖是rocketmq-spring-boot-starter的2.2.3，对应的rocketmq的client是5.0版本，与4.x版本的源码有区别，需要注意
 
 > 研究该注解源码的原因是在使用Redis Stream时对监听消息的操作进行设计，因此想参考RocketMQ源码
 
