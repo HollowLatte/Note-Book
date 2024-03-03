@@ -234,7 +234,7 @@ export const practiceManual = arraySidebar([
   },
   {
     text: "网络",
-    icon: "docker",
+    icon: "network",
     prefix: "network/",
     collapsible: true,
     children: [

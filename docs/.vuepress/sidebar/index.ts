@@ -12,6 +12,7 @@ import { notebook } from "../../notebook/notebook";
 import { frontendProblem } from "../../problem/frontend-problem/frontend-problem";
 import { interesting } from "../../research/interesting/interesting";
 import { business } from "../../business/business";
+import { algorithm } from "../../algorithm/algorithm";
 
 export default sidebar({
   // 应该把更精确的路径放置在前边
@@ -30,6 +31,8 @@ export default sidebar({
   "/practice-manual": practiceManual,
   "/interview-shorthand": interviewShorthand,
   "/notebook": notebook,
+  // 算法
+  "/algorithm": algorithm,
   "/zhuanlan/": [
     "java-mian-shi-zhi-bei",
     "back-end-interview-high-frequency-system-design-and-scenario-questions",

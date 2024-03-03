@@ -57,6 +57,11 @@ export default navbar([
     link: "/notebook",
   },
   {
+    text: "🧮算法",
+    icon: "book",
+    link: "/algorithm",
+  },
+  {
     text: "🤣网站相关",
     icon: "about",
     children: [
