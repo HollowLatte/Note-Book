@@ -34,7 +34,8 @@ export const notebook = arraySidebar([
         collapsible: true,
         children: [
           "classes-loading",
-          "class-member-loading-order"
+          "class-member-loading-order",
+          "stop-the-world",
         ]
       },
     ]
