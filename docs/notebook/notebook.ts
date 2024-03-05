@@ -25,6 +25,8 @@ export const notebook = arraySidebar([
           "threadlocal",
           "volatile",
           "cas",
+          "instruction-reordering",
+          "double-check-lock-problem",
         ]
       },
       {
