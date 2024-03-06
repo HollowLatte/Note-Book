@@ -48,8 +48,8 @@ public class DoubleCheckLockSingleton {
 28 monitorexit
 ```
 
-21行invokespecial指令可以看做对象的初始化操作，执行该指令后，对象才算new完成
-24行putstatic指令可以看做是把对象的内存空间指向了instance字段
+- 21行invokespecial指令可以看做对象的初始化操作，执行该指令后，对象才算new完成
+- 24行putstatic指令可以看做是把对象的内存空间指向了instance字段
 
 **因为指令重排的存在，可能21的`invokespecial`指令和24的`putstatic`指令的执行顺序发生了改变，变成先执行`putstatic`
 ，再执行`invokespecial`**
