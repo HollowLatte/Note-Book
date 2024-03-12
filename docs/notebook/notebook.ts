@@ -135,6 +135,15 @@ export const notebook = arraySidebar([
           "stream-config",
         ]
       },
+      {
+        text: "Redisson",
+        icon: "linux",
+        prefix: "redisson/",
+        collapsible: true,
+        children: [
+          "distributed-lock-source-code",
+        ]
+      },
     ]
   },
   {

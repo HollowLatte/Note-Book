@@ -6,6 +6,8 @@ tag: Java
 date: 2024-03-06
 ---
 
+有一篇关于该问题的论文：[The "Double-Checked Locking is Broken" Declaration](http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html)
+
 ## 双重检查锁
 
 未使用volatile的DCL实现：
