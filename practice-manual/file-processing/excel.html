@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.0" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.11" />
+    <style>
+      html {
+        background: var(--bg-color, #fff);
+      }
+
+      html[data-theme="dark"] {
+        background: var(--bg-color, #1d1e1f);
+      }
+
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta property="og:url" content="https://hollowlatte.github.io/Note-Book/Note-Book/practice-manual/file-processing/excel.html"><meta property="og:site_name" content="Note-Book"><meta property="og:title" content="Excel"><meta property="og:description" content="Excel写入 注意，Excel不支持并发写入，在并发写入时会产生很多奇怪的问题 Zip bomb detected问题 Zip炸弹"是一个用于攻击向量的术语，其中一个小的zip文件会扩展为一个非常大的未压缩文件，因此会引起诸如耗尽内存或磁盘空间等问题。 通常，创建此类zip的目的是在从外部来源接收zip文件的系统上引起拒绝服务攻击。 由于.xlsx文件实际上是包含XML文件的压缩文件，因此有可能在POI中引起这种zip bomb漏洞。 为了防止这种情况的发生，Apache POI内置了一些防护措施，并且默认情况下启用了这些防护措施。因此，如果您创建的文件包含异常内容，例如如果许多行/列具有相同的内容，则可以使用这些保护措施并出现zip boom异常。"><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="article:author" content="Hollow-Latte"><meta property="article:tag" content="File"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Excel","image":[""],"dateModified":null,"author":[{"@type":"Person","name":"Hollow-Latte","url":"https://hollowlatte.github.io/Note-Book"}]}</script><meta name="robots" content="all"><meta name="author" content="Guide"><meta name="referrer" content="no-referrer"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta name="keywords" content="Java基础, 多线程, JVM, 虚拟机, 数据库, MySQL, Spring, Redis, MyBatis, 系统设计, 分布式, RPC, 高可用, 高并发"><meta name="apple-mobile-web-app-capable" content="yes"><script>var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?5dd2e8c97962d57b7b8fea1737c01743";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();</script><link ref="preconnect" href="https://fonts.googleapis.com"><link ref="preconnect" href="https://fonts.gstatic.com" crossorigin=""><link ref="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"><link rel="icon" href="/Note-Book/favicon.ico"><title>Excel | Note-Book</title><meta name="description" content="Excel写入 注意，Excel不支持并发写入，在并发写入时会产生很多奇怪的问题 Zip bomb detected问题 Zip炸弹"是一个用于攻击向量的术语，其中一个小的zip文件会扩展为一个非常大的未压缩文件，因此会引起诸如耗尽内存或磁盘空间等问题。 通常，创建此类zip的目的是在从外部来源接收zip文件的系统上引起拒绝服务攻击。 由于.xlsx文件实际上是包含XML文件的压缩文件，因此有可能在POI中引起这种zip bomb漏洞。 为了防止这种情况的发生，Apache POI内置了一些防护措施，并且默认情况下启用了这些防护措施。因此，如果您创建的文件包含异常内容，例如如果许多行/列具有相同的内容，则可以使用这些保护措施并出现zip boom异常。">
+    <link rel="preload" href="/Note-Book/assets/style-Mmj45v37.css" as="style"><link rel="stylesheet" href="/Note-Book/assets/style-Mmj45v37.css">
+    <link rel="modulepreload" href="/Note-Book/assets/app-R-jbemKs.js"><link rel="modulepreload" href="/Note-Book/assets/excel.html-SCaRwCXY.js"><link rel="modulepreload" href="/Note-Book/assets/excel.html-6PHJQ3uz.js"><link rel="modulepreload" href="/Note-Book/assets/plugin-vue_export-helper-x3n3nnut.js">
+    
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><!----><!--]--><!----><!--]--></div>
+    <script type="module" src="/Note-Book/assets/app-R-jbemKs.js" defer></script>
+  </body>
+</html>

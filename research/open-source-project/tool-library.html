@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.0" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.11" />
+    <style>
+      html {
+        background: var(--bg-color, #fff);
+      }
+
+      html[data-theme="dark"] {
+        background: var(--bg-color, #1d1e1f);
+      }
+
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta property="og:url" content="https://hollowlatte.github.io/Note-Book/Note-Book/research/open-source-project/tool-library.html"><meta property="og:site_name" content="Note-Book"><meta property="og:title" content="Java 优质开源工具类"><meta property="og:description" content="代码质量 lombok :使用 Lombok 我们可以简化我们的 Java 代码，比如使用它之后我们通过注释就可以实现 getter/setter、equals 等方法。 guava：Guava 是一组核心库，其中包括新的集合类型（例如 multimap 和 multiset），不可变集合，图形库以及用于并发、I / O、哈希、原始类型、字符串等的实用程序！ hutool : Hutool 是一个 Java 工具包，也只是一个工具包，它帮助我们简化每一行代码，减少每一个方法，让 Java 语言也可以“甜甜的”。 p3c：Alibaba Java Coding Guidelines pmd implements and IDE plugin。Eclipse 和 IDEA 上都有该插件，推荐使用！ arthas：Arthas 是 Alibaba 开源的 Java 诊断工具。 sonarqube：SonarQube 支持所有开发人员编写更干净，更安全的代码。 checkstyle :Checkstyle 是一种开发工具，可帮助程序员编写符合编码标准的 Java 代码。它使检查 Java 代码的过程自动化，从而使人们不必执行这项无聊（但很重要）的任务。这使其成为想要实施编码标准的项目的理想选择。 pmd : 可扩展的多语言静态代码分析器。 spotbugs :SpotBugs 是 FindBugs 的继任者。静态分析工具，用于查找 Java 代码中的错误。"><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="article:author" content="Hollow-Latte"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Java 优质开源工具类","image":[""],"dateModified":null,"author":[{"@type":"Person","name":"Hollow-Latte","url":"https://hollowlatte.github.io/Note-Book"}]}</script><meta name="robots" content="all"><meta name="author" content="Guide"><meta name="referrer" content="no-referrer"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta name="keywords" content="Java基础, 多线程, JVM, 虚拟机, 数据库, MySQL, Spring, Redis, MyBatis, 系统设计, 分布式, RPC, 高可用, 高并发"><meta name="apple-mobile-web-app-capable" content="yes"><script>var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?5dd2e8c97962d57b7b8fea1737c01743";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();</script><link ref="preconnect" href="https://fonts.googleapis.com"><link ref="preconnect" href="https://fonts.gstatic.com" crossorigin=""><link ref="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"><link rel="icon" href="/Note-Book/favicon.ico"><title>Java 优质开源工具类 | Note-Book</title><meta name="description" content="代码质量 lombok :使用 Lombok 我们可以简化我们的 Java 代码，比如使用它之后我们通过注释就可以实现 getter/setter、equals 等方法。 guava：Guava 是一组核心库，其中包括新的集合类型（例如 multimap 和 multiset），不可变集合，图形库以及用于并发、I / O、哈希、原始类型、字符串等的实用程序！ hutool : Hutool 是一个 Java 工具包，也只是一个工具包，它帮助我们简化每一行代码，减少每一个方法，让 Java 语言也可以“甜甜的”。 p3c：Alibaba Java Coding Guidelines pmd implements and IDE plugin。Eclipse 和 IDEA 上都有该插件，推荐使用！ arthas：Arthas 是 Alibaba 开源的 Java 诊断工具。 sonarqube：SonarQube 支持所有开发人员编写更干净，更安全的代码。 checkstyle :Checkstyle 是一种开发工具，可帮助程序员编写符合编码标准的 Java 代码。它使检查 Java 代码的过程自动化，从而使人们不必执行这项无聊（但很重要）的任务。这使其成为想要实施编码标准的项目的理想选择。 pmd : 可扩展的多语言静态代码分析器。 spotbugs :SpotBugs 是 FindBugs 的继任者。静态分析工具，用于查找 Java 代码中的错误。">
+    <link rel="preload" href="/Note-Book/assets/style-Mmj45v37.css" as="style"><link rel="stylesheet" href="/Note-Book/assets/style-Mmj45v37.css">
+    <link rel="modulepreload" href="/Note-Book/assets/app-R-jbemKs.js"><link rel="modulepreload" href="/Note-Book/assets/tool-library.html-h9Q3cjdQ.js"><link rel="modulepreload" href="/Note-Book/assets/tool-library.html-bOsa5yyp.js"><link rel="modulepreload" href="/Note-Book/assets/plugin-vue_export-helper-x3n3nnut.js">
+    
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><!----><!--]--><!----><!--]--></div>
+    <script type="module" src="/Note-Book/assets/app-R-jbemKs.js" defer></script>
+  </body>
+</html>

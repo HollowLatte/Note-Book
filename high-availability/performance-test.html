@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.0" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.11" />
+    <style>
+      html {
+        background: var(--bg-color, #fff);
+      }
+
+      html[data-theme="dark"] {
+        background: var(--bg-color, #1d1e1f);
+      }
+
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta property="og:url" content="https://hollowlatte.github.io/Note-Book/Note-Book/high-availability/performance-test.html"><meta property="og:site_name" content="Note-Book"><meta property="og:title" content="性能测试入门"><meta property="og:description" content="性能测试一般情况下都是由测试这个职位去做的，那还需要我们开发学这个干嘛呢？了解性能测试的指标、分类以及工具等知识有助于我们更好地去写出性能更好的程序，另外作为开发这个角色，如果你会性能测试的话，相信也会为你的履历加分不少。 这篇文章是我会结合自己的实际经历以及在测试这里取的经所得，除此之外，我还借鉴了一些优秀书籍，希望对你有帮助。 一 不同角色看网站性能 1.1 用户 当用户打开一个网站的时候，最关注的是什么？当然是网站响应速度的快慢。比如我们点击了淘宝的主页，淘宝需要多久将首页的内容呈现在我的面前，我点击了提交订单按钮需要多久返回结果等等。"><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="article:author" content="Hollow-Latte"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"性能测试入门","image":[""],"dateModified":null,"author":[{"@type":"Person","name":"Hollow-Latte","url":"https://hollowlatte.github.io/Note-Book"}]}</script><meta name="robots" content="all"><meta name="author" content="Guide"><meta name="referrer" content="no-referrer"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta name="keywords" content="Java基础, 多线程, JVM, 虚拟机, 数据库, MySQL, Spring, Redis, MyBatis, 系统设计, 分布式, RPC, 高可用, 高并发"><meta name="apple-mobile-web-app-capable" content="yes"><script>var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?5dd2e8c97962d57b7b8fea1737c01743";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();</script><link ref="preconnect" href="https://fonts.googleapis.com"><link ref="preconnect" href="https://fonts.gstatic.com" crossorigin=""><link ref="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"><link rel="icon" href="/Note-Book/favicon.ico"><title>性能测试入门 | Note-Book</title><meta name="description" content="性能测试一般情况下都是由测试这个职位去做的，那还需要我们开发学这个干嘛呢？了解性能测试的指标、分类以及工具等知识有助于我们更好地去写出性能更好的程序，另外作为开发这个角色，如果你会性能测试的话，相信也会为你的履历加分不少。 这篇文章是我会结合自己的实际经历以及在测试这里取的经所得，除此之外，我还借鉴了一些优秀书籍，希望对你有帮助。 一 不同角色看网站性能 1.1 用户 当用户打开一个网站的时候，最关注的是什么？当然是网站响应速度的快慢。比如我们点击了淘宝的主页，淘宝需要多久将首页的内容呈现在我的面前，我点击了提交订单按钮需要多久返回结果等等。">
+    <link rel="preload" href="/Note-Book/assets/style-Mmj45v37.css" as="style"><link rel="stylesheet" href="/Note-Book/assets/style-Mmj45v37.css">
+    <link rel="modulepreload" href="/Note-Book/assets/app-R-jbemKs.js"><link rel="modulepreload" href="/Note-Book/assets/performance-test.html--BbxOZL9.js"><link rel="modulepreload" href="/Note-Book/assets/plugin-vue_export-helper-x3n3nnut.js"><link rel="modulepreload" href="/Note-Book/assets/performance-test.html-V_n6JMaN.js">
+    
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><!----><!--]--><!----><!--]--></div>
+    <script type="module" src="/Note-Book/assets/app-R-jbemKs.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.0" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.11" />
+    <style>
+      html {
+        background: var(--bg-color, #fff);
+      }
+
+      html[data-theme="dark"] {
+        background: var(--bg-color, #1d1e1f);
+      }
+
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta name="keywords" content="HashMap,ConcurrentHashMap,Hashtable,List,Set"><meta name="description" content="Java集合常见知识点和面试题总结，希望对你有帮助！"><meta property="og:url" content="https://hollowlatte.github.io/Note-Book/Note-Book/java/collection/java-collection-questions-02.html"><meta property="og:site_name" content="Note-Book"><meta property="og:title" content="Java集合常见面试题总结(下)"><meta property="og:description" content="Map（重要） HashMap 和 Hashtable 的区别 线程是否安全： HashMap 是非线程安全的，Hashtable 是线程安全的,因为 Hashtable 内部的方法基本都经过synchronized 修饰。（如果你要保证线程安全的话就使用 ConcurrentHashMap 吧！）； 效率： 因为线程安全的问题，HashMap 要比 Hashtable 效率高一点。另外，Hashtable 基本被淘汰，不要在代码中使用它； 对 Null key 和 Null value 的支持： HashMap 可以存储 null 的 key 和 value，但 null 作为键只能有一个，null 作为值可以有多个；Hashtable 不允许有 null 键和 null 值，否则会抛出 NullPointerException。 初始容量大小和每次扩充容量大小的不同： ① 创建时如果不指定容量初始值，Hashtable 默认的初始大小为 11，之后每次扩充，容量变为原来的 2n+1。HashMap 默认的初始化大小为 16。之后每次扩充，容量变为原来的 2 倍。② 创建时如果给定了容量初始值，那么 Hashtable 会直接使用你给定的大小，而 HashMap 会将其扩充为 2 的幂次方大小（HashMap 中的tableSizeFor()方法保证，下面给出了源代码）。也就是说 HashMap 总是使用 2 的幂作为哈希表的大小,后面会介绍到为什么是 2 的幂次方。 底层数据结构： JDK1.8 以后的 HashMap 在解决哈希冲突时有了较大的变化，当链表长度大于阈值（默认为 8）时，将链表转化为红黑树（将链表转换成红黑树前会判断，如果当前数组的长度小于 64，那么会选择先进行数组扩容，而不是转换为红黑树），以减少搜索时间（后文中我会结合源码对这一过程进行分析）。Hashtable 没有这样的机制。"><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="article:author" content="Hollow-Latte"><meta property="article:tag" content="Java集合"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Java集合常见面试题总结(下)","image":[""],"dateModified":null,"author":[{"@type":"Person","name":"Hollow-Latte","url":"https://hollowlatte.github.io/Note-Book"}]}</script><meta name="robots" content="all"><meta name="author" content="Guide"><meta name="referrer" content="no-referrer"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta name="apple-mobile-web-app-capable" content="yes"><script>var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?5dd2e8c97962d57b7b8fea1737c01743";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();</script><link ref="preconnect" href="https://fonts.googleapis.com"><link ref="preconnect" href="https://fonts.gstatic.com" crossorigin=""><link ref="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"><link rel="icon" href="/Note-Book/favicon.ico"><title>Java集合常见面试题总结(下) | Note-Book</title>
+    <link rel="preload" href="/Note-Book/assets/style-Mmj45v37.css" as="style"><link rel="stylesheet" href="/Note-Book/assets/style-Mmj45v37.css">
+    <link rel="modulepreload" href="/Note-Book/assets/app-R-jbemKs.js"><link rel="modulepreload" href="/Note-Book/assets/java-collection-questions-02.html-AOOvwR56.js"><link rel="modulepreload" href="/Note-Book/assets/java-collection-questions-02.html-hF5g40MT.js"><link rel="modulepreload" href="/Note-Book/assets/plugin-vue_export-helper-x3n3nnut.js">
+    
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><!----><!--]--><!----><!--]--></div>
+    <script type="module" src="/Note-Book/assets/app-R-jbemKs.js" defer></script>
+  </body>
+</html>

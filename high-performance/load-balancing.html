@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.0" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.11" />
+    <style>
+      html {
+        background: var(--bg-color, #fff);
+      }
+
+      html[data-theme="dark"] {
+        background: var(--bg-color, #1d1e1f);
+      }
+
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta name="keywords" content="客户端负载均衡,服务负载均衡,Nginx,负载均衡算法,七层负载均衡,DNS解析"><meta name="description" content="负载均衡指的是将用户请求分摊到不同的服务器上处理，以提高系统整体的并发处理能力。负载均衡可以简单分为服务端负载均衡和客户端负载均衡 这两种。服务端负载均衡涉及到的知识点更多，工作中遇到的也比较多，因为，我会花更多时间来介绍。"><meta property="og:url" content="https://hollowlatte.github.io/Note-Book/Note-Book/high-performance/load-balancing.html"><meta property="og:site_name" content="Note-Book"><meta property="og:title" content="负载均衡常见问题总结"><meta property="og:description" content="什么是负载均衡？ 负载均衡 指的是将用户请求分摊到不同的服务器上处理，以提高系统整体的并发处理能力以及可靠性。负载均衡服务可以有由专门的软件或者硬件来完成，一般情况下，硬件的性能更好，软件的价格更便宜（后文会详细介绍到）。 下图是《Java 面试指北》 「高并发篇」中的一篇文章的配图，从图中可以看出，系统的商品服务部署了多份在不同的服务器上，为了实现访问商品服务请求的分流，我们用到了负载均衡。"><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="article:author" content="Hollow-Latte"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"负载均衡常见问题总结","image":[""],"dateModified":null,"author":[{"@type":"Person","name":"Hollow-Latte","url":"https://hollowlatte.github.io/Note-Book"}]}</script><meta name="robots" content="all"><meta name="author" content="Guide"><meta name="referrer" content="no-referrer"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta name="apple-mobile-web-app-capable" content="yes"><script>var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?5dd2e8c97962d57b7b8fea1737c01743";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();</script><link ref="preconnect" href="https://fonts.googleapis.com"><link ref="preconnect" href="https://fonts.gstatic.com" crossorigin=""><link ref="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"><link rel="icon" href="/Note-Book/favicon.ico"><title>负载均衡常见问题总结 | Note-Book</title>
+    <link rel="preload" href="/Note-Book/assets/style-Mmj45v37.css" as="style"><link rel="stylesheet" href="/Note-Book/assets/style-Mmj45v37.css">
+    <link rel="modulepreload" href="/Note-Book/assets/app-R-jbemKs.js"><link rel="modulepreload" href="/Note-Book/assets/load-balancing.html-4loCiQUT.js"><link rel="modulepreload" href="/Note-Book/assets/plugin-vue_export-helper-x3n3nnut.js"><link rel="modulepreload" href="/Note-Book/assets/load-balancing.html-Ammy3xYW.js">
+    
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><!----><!--]--><!----><!--]--></div>
+    <script type="module" src="/Note-Book/assets/app-R-jbemKs.js" defer></script>
+  </body>
+</html>

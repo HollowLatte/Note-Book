@@ -1,0 +1,8 @@
+import{_ as a}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as e,c as n,e as i}from"./app-R-jbemKs.js";const d={},t=i(`<h2 id="常用工具" tabindex="-1"><a class="header-anchor" href="#常用工具" aria-hidden="true">#</a> 常用工具</h2><p>国内（需实名认证）：natapp、花生壳</p><p>国外（注册即用）：ngrok</p><h2 id="natapp-使用示例" tabindex="-1"><a class="header-anchor" href="#natapp-使用示例" aria-hidden="true">#</a> natapp 使用示例</h2><p>先在官网注册账号，实名认证开通隧道，获取到authtoken</p><h3 id="windows" tabindex="-1"><a class="header-anchor" href="#windows" aria-hidden="true">#</a> Windows</h3><p>从官网下载官方包natapp.exe后，在该文件目录下创建配置文件config.ini：</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code># 将本文件放置于natapp同级目录 程序将读取 [default] 段
+# 在命令行参数模式如 natapp -authtoken=xxx 等相同参数将会覆盖掉此配置
+# 命令行参数 -config= 可以指定任意config.ini文件
+[default]
+authtoken=41b3ccd5b28e2cc1
+log=stdout
+loglevel=INFO
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>写好配置文件后，直接运行natapp.exe即可</p><h3 id="linux" tabindex="-1"><a class="header-anchor" href="#linux" aria-hidden="true">#</a> Linux</h3><p>与Windows类似，需要在官网下载natapp包，然后创建 config.ini 文件，将配置信息写入即可。</p><p>通过nohup命令启动natapp，将进程挂起，防止进程退出。</p><p>在nohup的日志文件中便可以找到分配的外网域名</p><h2 id="ngrok-使用示例" tabindex="-1"><a class="header-anchor" href="#ngrok-使用示例" aria-hidden="true">#</a> ngrok 使用示例</h2><p>注册账号后，获取到token。根据平台不同，下载不同的包，然后运行即可。</p>`,15),r=[t];function s(c,o){return e(),n("div",null,r)}const h=a(d,[["render",s],["__file","nat-traversal.html.vue"]]);export{h as default};

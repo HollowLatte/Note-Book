@@ -1,0 +1,13 @@
+import{_ as a}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as e,c as s,e as n}from"./app-R-jbemKs.js";const r={},i=n(`<h2 id="参数分类" tabindex="-1"><a class="header-anchor" href="#参数分类" aria-hidden="true">#</a> 参数分类</h2><ul><li>-D参数是用于设置Java应用程序系统属性(System Properties),会通过System.getProperty()来获取。它不影响JVM本身的行为,主要用于在运行期配置应用程序。</li><li>-X参数主要用于配置JVM自身的行为,比如GC算法、JIT编译器设置等。它直接影响JVM内核层面的设置</li></ul><p>-D参数可以在Java程序中通过Properties获取读写,而-X参数实际上改变了JVM的内部实现,不太适合在代码中直接访问。 -D参数会将值传给Properties,生效规则较宽松;而-X参数必须按JVM规定的格式和值范围。</p><h2 id="d参数" tabindex="-1"><a class="header-anchor" href="#d参数" aria-hidden="true">#</a> -D参数</h2><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token parameter variable">-Djava.awt.headless</span><span class="token operator">=</span>true
+<span class="token parameter variable">-Dfile.encoding</span><span class="token operator">=</span>UTF-8
+<span class="token parameter variable">-Duser.language</span><span class="token operator">=</span>zh
+<span class="token parameter variable">-Duser.region</span><span class="token operator">=</span>CN
+<span class="token parameter variable">-Duser.timezone</span><span class="token operator">=</span>Asia/Shanghai
+<span class="token comment"># 开启Proxy，浏览器、POSTMAN可以请求，但是Java去请求的话会报connect timeout，可以尝试使用该参数解决 </span>
+<span class="token parameter variable">-Djava.net.preferIPv4Stack</span><span class="token operator">=</span>true
+<span class="token comment"># 指定随机数生成器，避免因为随机数源阻塞的情况导致程序卡死</span>
+<span class="token parameter variable">-Djava.security.egd</span><span class="token operator">=</span>file:/dev/./urandom
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="x参数" tabindex="-1"><a class="header-anchor" href="#x参数" aria-hidden="true">#</a> -X参数</h2><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token parameter variable">-Xms1g</span>
+<span class="token parameter variable">-Xmx1g</span>
+<span class="token parameter variable">-XX:+HeapDumpOnOutOfMemoryError</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,7),l=[i];function t(o,p){return e(),s("div",null,l)}const m=a(r,[["render",t],["__file","common-param.html.vue"]]);export{m as default};

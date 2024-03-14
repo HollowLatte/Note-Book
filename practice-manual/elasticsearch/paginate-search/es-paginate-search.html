@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.0" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.11" />
+    <style>
+      html {
+        background: var(--bg-color, #fff);
+      }
+
+      html[data-theme="dark"] {
+        background: var(--bg-color, #1d1e1f);
+      }
+
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta property="og:url" content="https://hollowlatte.github.io/Note-Book/Note-Book/practice-manual/elasticsearch/paginate-search/es-paginate-search.html"><meta property="og:site_name" content="Note-Book"><meta property="og:title" content="ES分页查询"><meta property="og:description" content="官方文档 Paginate search results 分页方式对比 分页方式 简述 缺点 From&amp;Size 浅分页情况下，可以考虑使用； ● 默认大小限制 ● 深度分页情况下，性能较差 Scroll(官方不推荐) 基于历史快照和上一页的scroll_id，查询下一页； ● 快照比较占内存● 不适合实时搜索和跳页需求 Search After(官方推荐) 1. 需要排序，官方（5.6版本）推荐使用 _uid 作为排序字段和全局唯一值（注：不同版本的ES，官方文档有变动，请参考对应版本的文档。比如，7.x版本建议拷贝_id字段值到另外一个支持doc value的字段，用于作为排序字段）； 2. 通过实时cursor来规避耗时和占存储的性能问题，基于上一页的结果帮助检索下一页； 3. 使用search_after参数时，from的值必须为0或者-1 ● 需要排序 ● 不适合跳页需求"><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="article:author" content="Hollow-Latte"><meta property="article:tag" content="Elasticsearch"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"ES分页查询","image":[""],"dateModified":null,"author":[{"@type":"Person","name":"Hollow-Latte","url":"https://hollowlatte.github.io/Note-Book"}]}</script><meta name="robots" content="all"><meta name="author" content="Guide"><meta name="referrer" content="no-referrer"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta name="keywords" content="Java基础, 多线程, JVM, 虚拟机, 数据库, MySQL, Spring, Redis, MyBatis, 系统设计, 分布式, RPC, 高可用, 高并发"><meta name="apple-mobile-web-app-capable" content="yes"><script>var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?5dd2e8c97962d57b7b8fea1737c01743";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();</script><link ref="preconnect" href="https://fonts.googleapis.com"><link ref="preconnect" href="https://fonts.gstatic.com" crossorigin=""><link ref="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"><link rel="icon" href="/Note-Book/favicon.ico"><title>ES分页查询 | Note-Book</title><meta name="description" content="官方文档 Paginate search results 分页方式对比 分页方式 简述 缺点 From&amp;Size 浅分页情况下，可以考虑使用； ● 默认大小限制 ● 深度分页情况下，性能较差 Scroll(官方不推荐) 基于历史快照和上一页的scroll_id，查询下一页； ● 快照比较占内存● 不适合实时搜索和跳页需求 Search After(官方推荐) 1. 需要排序，官方（5.6版本）推荐使用 _uid 作为排序字段和全局唯一值（注：不同版本的ES，官方文档有变动，请参考对应版本的文档。比如，7.x版本建议拷贝_id字段值到另外一个支持doc value的字段，用于作为排序字段）； 2. 通过实时cursor来规避耗时和占存储的性能问题，基于上一页的结果帮助检索下一页； 3. 使用search_after参数时，from的值必须为0或者-1 ● 需要排序 ● 不适合跳页需求">
+    <link rel="preload" href="/Note-Book/assets/style-Mmj45v37.css" as="style"><link rel="stylesheet" href="/Note-Book/assets/style-Mmj45v37.css">
+    <link rel="modulepreload" href="/Note-Book/assets/app-R-jbemKs.js"><link rel="modulepreload" href="/Note-Book/assets/es-paginate-search.html-fz9UvFeq.js"><link rel="modulepreload" href="/Note-Book/assets/plugin-vue_export-helper-x3n3nnut.js"><link rel="modulepreload" href="/Note-Book/assets/es-paginate-search.html-2-WxqKid.js">
+    
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><!----><!--]--><!----><!--]--></div>
+    <script type="module" src="/Note-Book/assets/app-R-jbemKs.js" defer></script>
+  </body>
+</html>

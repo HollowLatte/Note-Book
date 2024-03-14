@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.0" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.11" />
+    <style>
+      html {
+        background: var(--bg-color, #fff);
+      }
+
+      html[data-theme="dark"] {
+        background: var(--bg-color, #1d1e1f);
+      }
+
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta property="og:url" content="https://hollowlatte.github.io/Note-Book/Note-Book/practice-manual/jvm/tool/jmap.html"><meta property="og:site_name" content="Note-Book"><meta property="og:title" content="jmap命令"><meta property="og:description" content="作用 主要用于打印指定Java进程的内存细节。也就是说可以使用jmap生成Heap Dump。如果程序内存不足或者频繁GC，很有可能存在内存泄露情况，这时候就要借助Java堆Dump查看对象的情况。 堆Dump是反应Java堆使用情况的内存镜像，其中主要包括系统信息、虚拟机属性、完整的线程Dump、所有类和对象的状态等。 一般，在内存不足、GC异常等情况下，我们就会怀疑有内存泄露。这个时候我们就可以制作堆Dump来查看具体情况。分析原因。 使用 jmap的帮助信息如下： Usage: jmap [option] &lt;pid&gt; (to connect to running process) jmap [option] &lt;executable &lt;core&gt; (to connect to a core file) jmap [option] [server_id@]&lt;remote server IP or hostname&gt; (to connect to remote debug server) where &lt;option&gt; is one of: &lt;none&gt; to print same info as Solaris pmap -heap to print java heap summary -histo[:live] to print histogram of java object heap; if the "live" suboption is specified, only count live objects -clstats to print class loader statistics -finalizerinfo to print information on objects awaiting finalization -dump:&lt;dump-options&gt; to dump java heap in hprof binary format dump-options: live dump only live objects; if not specified, all objects in the heap are dumped. format=b binary format file=&lt;file&gt; dump heap to &lt;file&gt; Example: jmap -dump:live,format=b,file=heap.bin &lt;pid&gt; -F force. Use with -dump:&lt;dump-options&gt; &lt;pid&gt; or -histo to force a heap dump or histogram when &lt;pid&gt; does not respond. The "live" suboption is not supported in this mode. -h | -help to print this help message -J&lt;flag&gt; to pass &lt;flag&gt; directly to the runtime system"><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="article:author" content="Hollow-Latte"><meta property="article:tag" content="JVM"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"jmap命令","image":[""],"dateModified":null,"author":[{"@type":"Person","name":"Hollow-Latte","url":"https://hollowlatte.github.io/Note-Book"}]}</script><meta name="robots" content="all"><meta name="author" content="Guide"><meta name="referrer" content="no-referrer"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta name="keywords" content="Java基础, 多线程, JVM, 虚拟机, 数据库, MySQL, Spring, Redis, MyBatis, 系统设计, 分布式, RPC, 高可用, 高并发"><meta name="apple-mobile-web-app-capable" content="yes"><script>var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?5dd2e8c97962d57b7b8fea1737c01743";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();</script><link ref="preconnect" href="https://fonts.googleapis.com"><link ref="preconnect" href="https://fonts.gstatic.com" crossorigin=""><link ref="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"><link rel="icon" href="/Note-Book/favicon.ico"><title>jmap命令 | Note-Book</title><meta name="description" content="作用 主要用于打印指定Java进程的内存细节。也就是说可以使用jmap生成Heap Dump。如果程序内存不足或者频繁GC，很有可能存在内存泄露情况，这时候就要借助Java堆Dump查看对象的情况。 堆Dump是反应Java堆使用情况的内存镜像，其中主要包括系统信息、虚拟机属性、完整的线程Dump、所有类和对象的状态等。 一般，在内存不足、GC异常等情况下，我们就会怀疑有内存泄露。这个时候我们就可以制作堆Dump来查看具体情况。分析原因。 使用 jmap的帮助信息如下： Usage: jmap [option] &lt;pid&gt; (to connect to running process) jmap [option] &lt;executable &lt;core&gt; (to connect to a core file) jmap [option] [server_id@]&lt;remote server IP or hostname&gt; (to connect to remote debug server) where &lt;option&gt; is one of: &lt;none&gt; to print same info as Solaris pmap -heap to print java heap summary -histo[:live] to print histogram of java object heap; if the "live" suboption is specified, only count live objects -clstats to print class loader statistics -finalizerinfo to print information on objects awaiting finalization -dump:&lt;dump-options&gt; to dump java heap in hprof binary format dump-options: live dump only live objects; if not specified, all objects in the heap are dumped. format=b binary format file=&lt;file&gt; dump heap to &lt;file&gt; Example: jmap -dump:live,format=b,file=heap.bin &lt;pid&gt; -F force. Use with -dump:&lt;dump-options&gt; &lt;pid&gt; or -histo to force a heap dump or histogram when &lt;pid&gt; does not respond. The "live" suboption is not supported in this mode. -h | -help to print this help message -J&lt;flag&gt; to pass &lt;flag&gt; directly to the runtime system">
+    <link rel="preload" href="/Note-Book/assets/style-Mmj45v37.css" as="style"><link rel="stylesheet" href="/Note-Book/assets/style-Mmj45v37.css">
+    <link rel="modulepreload" href="/Note-Book/assets/app-R-jbemKs.js"><link rel="modulepreload" href="/Note-Book/assets/jmap.html-kOdaR3vj.js"><link rel="modulepreload" href="/Note-Book/assets/jmap.html-4-TJkP28.js"><link rel="modulepreload" href="/Note-Book/assets/plugin-vue_export-helper-x3n3nnut.js">
+    
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><!----><!--]--><!----><!--]--></div>
+    <script type="module" src="/Note-Book/assets/app-R-jbemKs.js" defer></script>
+  </body>
+</html>

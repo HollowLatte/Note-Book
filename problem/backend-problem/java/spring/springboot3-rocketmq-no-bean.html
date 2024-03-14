@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.0" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.11" />
+    <style>
+      html {
+        background: var(--bg-color, #fff);
+      }
+
+      html[data-theme="dark"] {
+        background: var(--bg-color, #1d1e1f);
+      }
+
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta property="og:url" content="https://hollowlatte.github.io/Note-Book/Note-Book/problem/backend-problem/java/spring/springboot3-rocketmq-no-bean.html"><meta property="og:site_name" content="Note-Book"><meta property="og:title" content="SpringBoot3整合RocketMQ缺失Bean"><meta property="og:description" content="问题现象 引入rocketmq-spring-boot-starter依赖后，配置了RocketMQ相关连接参数后，启动SpringBoot失败，异常信息是：缺失RocketMQTemplate 的Bean 可能原因 以为需要自己手动配置RocketMQTemplate的Bean 原因分析 排查步骤： 当使用SpringBoot3以下版本时是正常的，比如SpringBoot2.7版本，引入依赖配置参数后即可正常启动。因此，应该是SpringBoot3版本某些特性导致的 查看SpringBoot3官方文档，在Migration-Guide中找到一个关键的说明： Spring-Boot-3.0-Migration-GuideSpring Boot 2.7 introduced a new META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports file for registering auto-configurations, while maintaining backwards compatibility with registration in spring.factories. With this release, support for registering auto-configurations in spring.factories using the org.springframework.boot.autoconfigure.EnableAutoConfiguration key has been removed in favor of the imports file. Other entries in spring.factories under other keys are unaffected. 上面文档提到的，SpringBoot2.7引入了一个新的imports文件来注册自动配置，并且保持了原本spring.factories的注册自动配置，即两种方式都可以。 但是SpringBoot3中删除了对spring.factories的注册自动配置的支持。所以翻看 rocketmq-spring-boot-starter 具体的包，发现确实只有spring.factories 文件，而没有META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports 文件"><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="article:author" content="Hollow-Latte"><meta property="article:tag" content="RocketMQ"><meta property="article:published_time" content="2024-02-05T00:00:00.000Z"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"SpringBoot3整合RocketMQ缺失Bean","image":[""],"datePublished":"2024-02-05T00:00:00.000Z","dateModified":null,"author":[{"@type":"Person","name":"Hollow-Latte","url":"https://hollowlatte.github.io/Note-Book"}]}</script><meta name="robots" content="all"><meta name="author" content="Guide"><meta name="referrer" content="no-referrer"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta name="keywords" content="Java基础, 多线程, JVM, 虚拟机, 数据库, MySQL, Spring, Redis, MyBatis, 系统设计, 分布式, RPC, 高可用, 高并发"><meta name="apple-mobile-web-app-capable" content="yes"><script>var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?5dd2e8c97962d57b7b8fea1737c01743";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();</script><link ref="preconnect" href="https://fonts.googleapis.com"><link ref="preconnect" href="https://fonts.gstatic.com" crossorigin=""><link ref="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"><link rel="icon" href="/Note-Book/favicon.ico"><title>SpringBoot3整合RocketMQ缺失Bean | Note-Book</title><meta name="description" content="问题现象 引入rocketmq-spring-boot-starter依赖后，配置了RocketMQ相关连接参数后，启动SpringBoot失败，异常信息是：缺失RocketMQTemplate 的Bean 可能原因 以为需要自己手动配置RocketMQTemplate的Bean 原因分析 排查步骤： 当使用SpringBoot3以下版本时是正常的，比如SpringBoot2.7版本，引入依赖配置参数后即可正常启动。因此，应该是SpringBoot3版本某些特性导致的 查看SpringBoot3官方文档，在Migration-Guide中找到一个关键的说明： Spring-Boot-3.0-Migration-GuideSpring Boot 2.7 introduced a new META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports file for registering auto-configurations, while maintaining backwards compatibility with registration in spring.factories. With this release, support for registering auto-configurations in spring.factories using the org.springframework.boot.autoconfigure.EnableAutoConfiguration key has been removed in favor of the imports file. Other entries in spring.factories under other keys are unaffected. 上面文档提到的，SpringBoot2.7引入了一个新的imports文件来注册自动配置，并且保持了原本spring.factories的注册自动配置，即两种方式都可以。 但是SpringBoot3中删除了对spring.factories的注册自动配置的支持。所以翻看 rocketmq-spring-boot-starter 具体的包，发现确实只有spring.factories 文件，而没有META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports 文件">
+    <link rel="preload" href="/Note-Book/assets/style-Mmj45v37.css" as="style"><link rel="stylesheet" href="/Note-Book/assets/style-Mmj45v37.css">
+    <link rel="modulepreload" href="/Note-Book/assets/app-R-jbemKs.js"><link rel="modulepreload" href="/Note-Book/assets/springboot3-rocketmq-no-bean.html-Jh_vq-Es.js"><link rel="modulepreload" href="/Note-Book/assets/plugin-vue_export-helper-x3n3nnut.js"><link rel="modulepreload" href="/Note-Book/assets/springboot3-rocketmq-no-bean.html-fyhrU1mZ.js">
+    
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><!----><!--]--><!----><!--]--></div>
+    <script type="module" src="/Note-Book/assets/app-R-jbemKs.js" defer></script>
+  </body>
+</html>

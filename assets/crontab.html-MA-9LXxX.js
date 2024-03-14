@@ -1,0 +1,14 @@
+import{_ as a}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as n,c as s,e}from"./app-R-jbemKs.js";const r={},c=e(`<h2 id="crontab命令" tabindex="-1"><a class="header-anchor" href="#crontab命令" aria-hidden="true">#</a> crontab命令</h2><p>crontab是Linux系统用来定期执行程序的命令，常用于定时校准时间、备份数据等</p><p>常用方式：</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token comment"># 查看当前所有定时任务</span>
+<span class="token function">crontab</span> <span class="token parameter variable">-l</span>
+
+<span class="token comment"># 编辑定时任务表</span>
+<span class="token function">crontab</span> <span class="token parameter variable">-e</span>
+
+<span class="token comment"># 清除所有定时任务，慎用！</span>
+<span class="token function">crontab</span> <span class="token parameter variable">-r</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>与正常的cron不同，crontab所支持的cron表达式最小单位是分钟，也就是说最快的crontab定时任务也只能1分钟执行一次</p><h2 id="示例" tabindex="-1"><a class="header-anchor" href="#示例" aria-hidden="true">#</a> 示例</h2><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token comment"># 每15分钟同步一次系统时间</span>
+*/15 * * * * ntpdate ntp1.aliyun.com <span class="token operator">&amp;&gt;</span>/dev/null
+
+<span class="token comment"># 每天9:00发起一次请求，并将请求结果保存到指定文件</span>
+<span class="token number">0</span> <span class="token number">9</span> * * * <span class="token variable"><span class="token variable">\`</span><span class="token function">curl</span> <span class="token string">&quot;www.baidu.com?q=hello&quot;</span> <span class="token operator">&gt;&gt;</span> /root/info.log<span class="token variable">\`</span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="crontab不生效" tabindex="-1"><a class="header-anchor" href="#crontab不生效" aria-hidden="true">#</a> crontab不生效</h2><h3 id="crontab守护线程未开启" tabindex="-1"><a class="header-anchor" href="#crontab守护线程未开启" aria-hidden="true">#</a> crontab守护线程未开启</h3><p>使用service、systemctl命令开启服务即可</p><p>不同OS的crontab服务名不同，Ubuntu中为cron，CentOS中为crond</p><h3 id="crontab编辑任务表语法错误" tabindex="-1"><a class="header-anchor" href="#crontab编辑任务表语法错误" aria-hidden="true">#</a> crontab编辑任务表语法错误</h3><p>一般有语法错误时，在退出编辑表时就会有响应，根据提示修改即可</p>`,13),t=[c];function i(o,l){return n(),s("div",null,t)}const b=a(r,[["render",i],["__file","crontab.html.vue"]]);export{b as default};

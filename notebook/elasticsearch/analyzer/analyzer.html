@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.0" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.11" />
+    <style>
+      html {
+        background: var(--bg-color, #fff);
+      }
+
+      html[data-theme="dark"] {
+        background: var(--bg-color, #1d1e1f);
+      }
+
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta property="og:url" content="https://hollowlatte.github.io/Note-Book/Note-Book/notebook/elasticsearch/analyzer/analyzer.html"><meta property="og:site_name" content="Note-Book"><meta property="og:title" content="分词"><meta property="og:description" content="通常我们说的ES分词，在ES中称为analyzer，ES有默认的分词器standard，但是对检索中文不友好 索引分词 索引分词是指在建立索引时对文本进行分词处理，并将分词结果保存到索引中。在索引文本时，Elasticsearch 会根据设置的分析器对文本进行分词、过滤、标准化等操作，以便后续的搜索和聚合操作。索引分词通常会对文本进行更加精细的分词处理，以提高搜索结果的准确性。 添加/修改索引分词器 已经创建的索引是不可以添加或修改分词器的，需要创建一个新的索引，在新的索引上添加分词器。 添加分词器就是在索引的字段中配置analyzer属性。"><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="article:author" content="Hollow-Latte"><meta property="article:tag" content="Elasticsearch"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"分词","image":[""],"dateModified":null,"author":[{"@type":"Person","name":"Hollow-Latte","url":"https://hollowlatte.github.io/Note-Book"}]}</script><meta name="robots" content="all"><meta name="author" content="Guide"><meta name="referrer" content="no-referrer"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta name="keywords" content="Java基础, 多线程, JVM, 虚拟机, 数据库, MySQL, Spring, Redis, MyBatis, 系统设计, 分布式, RPC, 高可用, 高并发"><meta name="apple-mobile-web-app-capable" content="yes"><script>var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?5dd2e8c97962d57b7b8fea1737c01743";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();</script><link ref="preconnect" href="https://fonts.googleapis.com"><link ref="preconnect" href="https://fonts.gstatic.com" crossorigin=""><link ref="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"><link rel="icon" href="/Note-Book/favicon.ico"><title>分词 | Note-Book</title><meta name="description" content="通常我们说的ES分词，在ES中称为analyzer，ES有默认的分词器standard，但是对检索中文不友好 索引分词 索引分词是指在建立索引时对文本进行分词处理，并将分词结果保存到索引中。在索引文本时，Elasticsearch 会根据设置的分析器对文本进行分词、过滤、标准化等操作，以便后续的搜索和聚合操作。索引分词通常会对文本进行更加精细的分词处理，以提高搜索结果的准确性。 添加/修改索引分词器 已经创建的索引是不可以添加或修改分词器的，需要创建一个新的索引，在新的索引上添加分词器。 添加分词器就是在索引的字段中配置analyzer属性。">
+    <link rel="preload" href="/Note-Book/assets/style-Mmj45v37.css" as="style"><link rel="stylesheet" href="/Note-Book/assets/style-Mmj45v37.css">
+    <link rel="modulepreload" href="/Note-Book/assets/app-R-jbemKs.js"><link rel="modulepreload" href="/Note-Book/assets/analyzer.html-j13vnTQi.js"><link rel="modulepreload" href="/Note-Book/assets/plugin-vue_export-helper-x3n3nnut.js"><link rel="modulepreload" href="/Note-Book/assets/analyzer.html-4iSlOG0T.js">
+    
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><!----><!--]--><!----><!--]--></div>
+    <script type="module" src="/Note-Book/assets/app-R-jbemKs.js" defer></script>
+  </body>
+</html>
