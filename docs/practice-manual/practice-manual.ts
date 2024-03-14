@@ -47,14 +47,23 @@ export const practiceManual = arraySidebar([
     collapsible: true,
     children: [
       {
-        text: "Spring",
-        icon: "bxl-spring-boot",
+        text: "🍃Spring&SpringBoot",
+        icon: "",
         prefix: "spring/",
         collapsible: true,
         children: [
           "read-nest-config",
           "aop-custom-annotation",
           "programmatic-transaction"
+        ],
+      },
+      {
+        text: "Netty",
+        icon: "",
+        prefix: "netty/",
+        collapsible: true,
+        children: [
+          "netty-string-handle",
         ],
       },
     ],

@@ -113,7 +113,8 @@ export const notebook = arraySidebar([
     collapsible: true,
     children: [
       "core-concepts",
-      "common-classes"
+      "common-classes",
+      "netty-quickstart"
     ]
   },
   {
