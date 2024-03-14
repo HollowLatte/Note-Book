@@ -11,7 +11,8 @@ export const nonDev = arraySidebar([
       "GeForceExperience-skip-login",
       "virtual-numpad",
       "microsoft-todo-cannot-sync",
-      "create-markdown-shortcut"
+      "create-markdown-shortcut",
+      "start-menu-cannot-open",
     ],
   }
 ]);
