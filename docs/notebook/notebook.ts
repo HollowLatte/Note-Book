@@ -107,14 +107,23 @@ export const notebook = arraySidebar([
     ],
   },
   {
+    text: "网络",
+    icon: "network",
+    prefix: "network/",
+    collapsible: true,
+    children: [
+      "core-concepts",
+    ]
+  },
+  {
     text: "Netty",
     icon: "network",
     prefix: "netty/",
     collapsible: true,
     children: [
-      "core-concepts",
       "common-classes",
-      "netty-quickstart"
+      "netty-quickstart",
+      "netty-channel-pipeline",
     ]
   },
   {
