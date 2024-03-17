@@ -13,18 +13,18 @@ export default navbar([
       {
         text: "好玩的",
         icon: "github",
-        link: "/research/interesting",
+        link: "/research/interesting/",
       },
     ],
   },
   {
     text: "😋业务",
-    link: "/business",
+    link: "/business/",
   },
   {
     text: "😎实践手册",
     icon: "about",
-    link: "/practice-manual",
+    link: "/practice-manual/",
   },
   {
     text: "😰问题集合",
@@ -32,34 +32,34 @@ export default navbar([
       {
         text: "后端问题",
         icon: "github",
-        link: "/problem/backend-problem",
+        link: "/problem/backend-problem/",
       },
       {
         text: "前端问题",
         icon: "github",
-        link: "/problem/frontend-problem",
+        link: "/problem/frontend-problem/",
       },
       {
         text: "非开发问题",
         icon: "github",
-        link: "/problem/non-dev",
+        link: "/problem/non-dev/",
       },
     ],
   },
   {
     text: "💯面试速记",
     icon: "about",
-    link: "/interview-shorthand",
+    link: "/interview-shorthand/",
   },
   {
     text: "🫵笔记本",
     icon: "book",
-    link: "/notebook",
+    link: "/notebook/",
   },
   {
     text: "🧮算法",
     icon: "book",
-    link: "/algorithm",
+    link: "/algorithm/",
   },
   {
     text: "🤣网站相关",
