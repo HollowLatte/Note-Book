@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
+import viteBundler from "@vuepress/bundler-vite";
 
 export default defineUserConfig({
   base: "/Note-Book/",
@@ -50,6 +51,8 @@ export default defineUserConfig({
     ["link", { ref: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" }],
     ["link", { ref: "stylesheet", href: "https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" }]
   ],
+
+  bundler: viteBundler(),
 
   theme,
 

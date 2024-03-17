@@ -1,5 +1,6 @@
-import {getDirname, path} from "@vuepress/utils";
-import {hopeTheme} from "vuepress-theme-hope";
+// @ts-ignore
+import { getDirname, path } from "vuepress/utils";
+import { hopeTheme } from "vuepress-theme-hope";
 
 import navbar from "./navbar.js";
 import sidebar from "./sidebar/index.js";
@@ -88,13 +89,14 @@ export default hopeTheme({
         },
       },
       tasklist: true,
+      mermaid: true,
     },
     feed: {
       atom: true,
       json: true,
       rss: true,
     },
-    sitemap: true
+    sitemap: true,
   },
   encrypt: {
     global: true,
