@@ -29,7 +29,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          BRANCH: github-pages
-          FOLDER: dist
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          branch: github-pages
+          folder: dist
+          token: ${{ secrets.ACCESS_TOKEN }}
 
