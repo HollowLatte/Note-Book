@@ -1,4 +1,4 @@
-name: Deploy VuePress To GithubPage
+name: Deploy VuePress To Github Pages
 
 on: [ push ]
 
