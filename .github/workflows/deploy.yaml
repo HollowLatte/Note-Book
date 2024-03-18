@@ -32,4 +32,3 @@ jobs:
           branch: github-pages
           folder: dist
           token: ${{ secrets.ACCESS_TOKEN }}
-

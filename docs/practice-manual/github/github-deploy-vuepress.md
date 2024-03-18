@@ -1,9 +1,15 @@
 ---
-title: GitHub部署VuePress
+title: GitHub Actions部署VuePress
 author:
 category: Github
 tag: Github
 ---
+
+::: tip
+查看具体：[GitHub Actions文档](https://docs.github.com/en/actions/quickstart)
+
+查看更多三方Actions：[GitHub Marketplace](https://github.com/marketplace?category=&type=actions&verification=&copilot_app=&query=)
+:::
 
 ## 说明
 
@@ -25,34 +31,48 @@ tag: Github
 
 在项目根目录创建`.github/workflows`目录，workflow脚本在该目录下都会被GitHub Action识别
 
-下面将编写一个workflow脚本，其实是使用了GitHub的Marketplace中的一个VuePress部署的workflow脚本模板[Vuepress-Deploy](https://github.com/marketplace/actions/vuepress-deploy)
+下面将编写一个workflow脚本：
 
 ```yaml
-name: Build and Deploy VuePress
-  // 触发事件
+name: Deploy VuePress To Github Pages
+
+# 触发事件
 on: [ push ]
+
 jobs:
-  build-and-deploy:
+  build-and-deploy-to-page:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        // 使用第三方的包
-        uses: actions/checkout@master
+        uses: actions/checkout@v4
 
-      - name: vuepress-deploy
-        // 使用第三方的包
-        uses: jenkey2011/vuepress-deploy@master
-        env:
-          // 引用Token
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          // 操作的仓库
-          TARGET_REPO: HollowLatte/Note-Book
-          // 构建完成的文件存放的分支
-          TARGET_BRANCH: github-pages
-          // 执行的构建命令
-          BUILD_SCRIPT: npm install -g pnpm && pnpm install && pnpm run docs:build
-          // 构建完成的文件所在目录，与VuePress工程中配置的一致即可
-          BUILD_DIR: ./dist
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          run_install: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install Dependencies
+        run: pnpm install
+
+      - name: Build VuePress Site
+        run: pnpm run docs:build
+
+      - name: Deploy to GitHub Pages
+        # 使用第三方的包
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          # 构建完成的文件存放的分支
+          branch: github-pages
+          # 构建完成的文件所在目录，与VuePress工程中配置的一致即可
+          folder: dist
+          # 引用Token
+          token: ${{ secrets.ACCESS_TOKEN }}
 ```
 
 ::: warning
