@@ -101,3 +101,75 @@ graph LR
 **所以在`OutboundHandler`内使用`Channel.write`时要格外注意**
 
 ## 源码分析
+
+基于Netty 4.1.100源码
+
+### Channel.write
+
+一个简单的自定义InboundHandler：
+
+```java
+protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
+    ctx.channel().write("Channel write");
+}
+```
+
+#### AbstractChannel.write
+
+```java
+public ChannelFuture write(Object msg) {
+    return pipeline.write(msg);
+}
+```
+
+#### DefaultChannelPipeline.write
+
+```java
+public final ChannelFuture write(Object msg) {
+    return tail.write(msg);
+}
+```
+
+此时就可以看到，直接就调用了ChannelPipeline中Tail节点的write
+
+#### AbstractChannelHandlerContext
+
+经过几次跳转，可以找到下面一些关键代码
+
+```java
+private void write(Object msg, boolean flush, ChannelPromise promise) {
+    // ......省略
+    final AbstractChannelHandlerContext next = findContextOutbound(flush ?
+            (MASK_WRITE | MASK_FLUSH) : MASK_WRITE);
+    final Object m = pipeline.touch(msg, next);
+    EventExecutor executor = next.executor();
+    if (executor.inEventLoop()) {
+        if (flush) {
+            next.invokeWriteAndFlush(m, promise);
+        } else {
+            next.invokeWrite(m, promise);
+        }
+    } else {
+        // ......省略
+    }
+}
+```
+
+```java
+private AbstractChannelHandlerContext findContextOutbound(int mask) {
+    AbstractChannelHandlerContext ctx = this;
+    EventExecutor currentExecutor = executor();
+    do {
+        ctx = ctx.prev;
+    } while (skipContext(ctx, currentExecutor, mask, MASK_ONLY_OUTBOUND));
+    return ctx;
+}
+```
+
+可以看到，`findContextOutbound`的作用是一直向前寻找OutboundHandler，再通过`write`方法调用找到的OutboundHandler的write
+
+### ChannelHandlerContext.write
+
+实际调的就是AbstractChannelHandlerContext.write，与上面展示的AbstractChannelHandlerContext.write代码是一样的
+
+所以过程是：调用ChannelHandlerContext.write后，就会从当前Handler节点向前找OutboundHandler，而不是从Tail节点开始找，是有明显区别的
