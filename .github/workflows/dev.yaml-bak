@@ -1,4 +1,4 @@
-name: Build and Deploy VuePress
+name: Deploy VuePress To GithubPage
 on: [push]
 jobs:
   build-and-deploy:
