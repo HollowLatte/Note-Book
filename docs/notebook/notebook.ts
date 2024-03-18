@@ -125,6 +125,7 @@ export const notebook = arraySidebar([
       "netty-quickstart",
       "netty-channel-pipeline",
       "netty-inbound-outbound-handler-order",
+      "netty-inbound-outbound-handler",
     ]
   },
   {

@@ -64,7 +64,7 @@ public class StringHandler extends SimpleChannelInboundHandler<String> { // (1)
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception { // (2)
         log.info("Success to receive message:{}", msg);
-        ctx.channel().writeAndFlush("Copy that!"); // (3)
+        ctx.channel().writeAndFlush("Copy that!");
     }
 
     @Override
@@ -76,12 +76,7 @@ public class StringHandler extends SimpleChannelInboundHandler<String> { // (1)
 
 解析：
 
-1. `SimpleChannelInboundHandler`
-   此处使用的入站处理器可以自动将接收到的ByteBuf解码成特定类型的消息对象，并且支持泛型，可以简化开发。需要注意，只有该泛型是ByteBuf的子类时，才能自动解码正常触发channelRead0，所以直接使用String泛型是无法触发channelRead0的，需要在child
-   handler加上`StringDecoder`
-   才能正常转换。既然如此，那么SimpleChannelInboundHandler自动解码有什么用呢？其实在搭建WebSocket
-   Server时就可以体现出来，`TextWebSocketFrame`在ByteBuf上进行了封装，使用TextWebSocketFrame作为泛型，可以自动解码Client发送过来的WebSocket数据
+1. `SimpleChannelInboundHandler`此处使用的入站处理器支持泛型，可以简化开发。需要注意，要在childhandler加上`StringDecoder`
+   才能正常转换。
 2. `channelRead0`重写该方法可以自定义处理接收到的Client数据
-3. `ctx.channel().writeAndFlush()`将数据回写到发送数据的Client，注意别与`ctx.writeAndFlush()`弄混,`ctx.writeAndFlush()`
-   无法回写数据
 
