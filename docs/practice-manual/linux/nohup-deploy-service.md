@@ -1,5 +1,5 @@
 ---
-title: nohup部署服务
+title: Nohup部署服务
 author:
 category: Linux
 tag: Linux

@@ -118,6 +118,7 @@ export const practiceManual = arraySidebar([
       "nohup-deploy-service",
       "get-extranet-info",
       "simple-calculation",
+      "kernel-param-optimize",
       {
         text: "安装",
         icon: "linux",
