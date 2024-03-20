@@ -62,4 +62,15 @@ export const backendProblem = arraySidebar([
       "cannot-fetch-from-github",
     ],
   },
+  {
+    text: "生产环境问题",
+    icon: "",
+    prefix: "product-env-problem/",
+    collapsible: true,
+    children: [
+      "jpa-delete-slowsql-so",
+      "jpa-delete-oom",
+      "jpa-select-cache-oom",
+    ],
+  },
 ]);
