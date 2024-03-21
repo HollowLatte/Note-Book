@@ -84,8 +84,10 @@ export const practiceManual = arraySidebar([
         children: [
           "jstack",
           "jps",
-          "jmap"
+          "jmap",
+          "heap-memory-analyzer",
         ],
+
       }
     ],
   },
