@@ -71,6 +71,7 @@ export const backendProblem = arraySidebar([
       "jpa-delete-slowsql-so",
       "jpa-delete-oom",
       "jpa-select-cache-oom",
+      "hutool-json-so",
     ],
   },
 ]);
