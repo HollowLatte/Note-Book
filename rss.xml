@@ -6,8 +6,8 @@
     <link>https://hollowlatte.github.io/Note-Book/Note-Book/</link>
     <description>「Java学习指北 + Java面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，复习 Java 知识点，首选 JavaGuide！  </description>
     <language>zh-CN</language>
-    <pubDate>Thu, 21 Mar 2024 19:32:48 GMT</pubDate>
-    <lastBuildDate>Thu, 21 Mar 2024 19:32:48 GMT</lastBuildDate>
+    <pubDate>Sun, 24 Mar 2024 07:13:29 GMT</pubDate>
+    <lastBuildDate>Sun, 24 Mar 2024 07:13:29 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Business</category>
@@ -27,7 +27,7 @@
       <guid>https://hollowlatte.github.io/Note-Book/Note-Book/home.html</guid>
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">JavaGuide（Java学习&amp;面试指南）</source>
       <description>友情提示 logologo 阅读 Stars forks issues GitHub | Gitee Java 基础 知识点/面试题总结 : (必看👍 )： 重要知识点详解： 集合 知识点/面试题总结： (必看 👍) (必看 👍) 源码分析： IO 并发 知识点/面试题总结 : (必看 👍) 重要知识点详解： **线程池 **：、 JVM (必...</description>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<div class="hint-container tip">
 <p class="hint-container-title">友情提示</p>
 </div>
@@ -365,7 +365,7 @@ Press？其实，最初，微信公众号就是为优质内容发布打造的。
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">数据库基础知识总结</source>
       <description>数据库知识基础，这部分内容一定要理解记忆。虽然这部分内容只是理论知识，但是非常重要，这是后面学习 MySQL 数据库的基础。PS: 这部分内容由于涉及太多概念性内容，所以参考了维基百科和百度百科相应的介绍。 什么是数据库, 数据库管理系统, 数据库系统, 数据库管理员? 数据库 : 数据库(DataBase 简称 DB)就是信息的集合或者说数据库是由数...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>数据库知识基础，这部分内容一定要理解记忆。虽然这部分内容只是理论知识，但是非常重要，这是后面学习 MySQL 数据库的基础。PS: 这部分内容由于涉及太多概念性内容，所以参考了维基百科和百度百科相应的介绍。</p>
 <h2>什么是数据库, 数据库管理系统, 数据库系统, 数据库管理员?</h2>
 <ul>
@@ -495,7 +495,7 @@ Press？其实，最初，微信公众号就是为优质内容发布打造的。
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">字符集详解</source>
       <description>MySQL 字符编码集中有两套 UTF-8 编码实现：utf8 和 utf8mb4。 如果使用 utf8 的话，存储 emoji 符号和一些比较复杂的汉字、繁体字就会出错。 为什么会这样呢？这篇文章可以从源头给你解答。 何为字符集？ 字符是各种文字和符号的统称，包括各个国家文字、标点符号、表情、数字等等。 字符集 就是一系列字符的集合。字符集的种类较多...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>MySQL 字符编码集中有两套 UTF-8 编码实现：<strong><code>utf8</code></strong> 和 <strong><code>utf8mb4</code></strong>。</p>
 <p>如果使用 <strong><code>utf8</code></strong> 的话，存储 emoji 符号和一些比较复杂的汉字、繁体字就会出错。</p>
 <p>为什么会这样呢？这篇文章可以从源头给你解答。</p>
@@ -593,7 +593,7 @@ Press？其实，最初，微信公众号就是为优质内容发布打造的。
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">NoSQL基础知识总结</source>
       <description>NoSQL 是什么？ NoSQL（Not Only SQL 的缩写）泛指非关系型的数据库，主要针对的是键值、文档以及图形类型数据存储。并且，NoSQL 数据库天生支持分布式，数据冗余和数据分片等特性，旨在提供可扩展的高可用高性能数据存储解决方案。 一个常见的误解是 NoSQL 数据库或非关系型数据库不能很好地存储关系型数据。NoSQL 数据库可以存储关...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>NoSQL 是什么？</h2>
 <p>NoSQL（Not Only SQL 的缩写）泛指非关系型的数据库，主要针对的是键值、文档以及图形类型数据存储。并且，NoSQL 数据库天生支持分布式，数据冗余和数据分片等特性，旨在提供可扩展的高可用高性能数据存储解决方案。</p>
 <p>一个常见的误解是 NoSQL 数据库或非关系型数据库不能很好地存储关系型数据。NoSQL 数据库可以存储关系型数据—它们与关系型数据库的存储方式不同。</p>
@@ -612,7 +612,7 @@ Press？其实，最初，微信公众号就是为优质内容发布打造的。
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">API网关基础知识总结</source>
       <description>什么是网关？ 微服务背景下，一个系统被拆分为多个服务，但是像安全认证，流量控制，日志，监控等功能是每个服务都需要的，没有网关的话，我们就需要在每个服务中单独实现，这使得我们做了很多重复的事情并且没有一个全局的视图来统一管理这些功能。 网关示意图网关示意图 一般情况下，网关可以为我们提供请求转发、安全认证（身份/权限认证）、流量控制、负载均衡、降级熔断、...</description>
       <category>分布式</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>什么是网关？</h2>
 <p>微服务背景下，一个系统被拆分为多个服务，但是像安全认证，流量控制，日志，监控等功能是每个服务都需要的，没有网关的话，我们就需要在每个服务中单独实现，这使得我们做了很多重复的事情并且没有一个全局的视图来统一管理这些功能。</p>
 <figure><img src="https://oss.javaguide.cn/github/javaguide/system-design/distributed-system/api-gateway-overview.png" alt="网关示意图" tabindex="0"><figcaption>网关示意图</figcaption></figure>
@@ -751,7 +751,7 @@ Press？其实，最初，微信公众号就是为优质内容发布打造的。
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">分布式配置中心常见问题总结(付费)</source>
       <description>分布式配置中心 相关的面试题为我的知识星球（点击链接即可查看详细介绍以及加入方法）专属内容，已经整理到了《Java 面试指北》中。</description>
       <category>分布式</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p><strong>分布式配置中心</strong> 相关的面试题为我的<a href="https://javaguide.cn/about-the-author/zhishixingqiu-two-years.html" target="_blank" rel="noopener noreferrer">知识星球</a>（点击链接即可查看详细介绍以及加入方法）专属内容，已经整理到了《Java 面试指北》中。</p>
 <figure><img src="https://oss.javaguide.cn/javamianshizhibei/distributed-system.png" alt="" tabindex="0"><figcaption></figcaption></figure>
 ]]></content:encoded>
@@ -764,7 +764,7 @@ Press？其实，最初，微信公众号就是为优质内容发布打造的。
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">分布式ID设计指南</source>
       <description>提示 看到百度 Geek 说的一篇结合具体场景聊分布式 ID 设计的文章，感觉挺不错的。于是，我将这篇文章的部分内容整理到了这里。原文传送门：分布式 ID 生成服务的技术原理和项目实战 。 网上绝大多数的分布式 ID 生成服务，一般着重于技术原理剖析，很少见到根据具体的业务场景去选型 ID 生成服务的文章。 本文结合一些使用场景，进一步探讨业务场景中对...</description>
       <category>分布式</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>看到百度 Geek 说的一篇结合具体场景聊分布式 ID 设计的文章，感觉挺不错的。于是，我将这篇文章的部分内容整理到了这里。原文传送门：<a href="https://mp.weixin.qq.com/s/bFDLb6U6EgI-DvCdLTq_QA" target="_blank" rel="noopener noreferrer">分布式 ID 生成服务的技术原理和项目实战</a> 。</p>
@@ -878,7 +878,7 @@ Press？其实，最初，微信公众号就是为优质内容发布打造的。
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">分布式ID介绍&amp;实现方案总结</source>
       <description>分布式 ID 介绍 什么是 ID？ 日常开发中，我们需要对系统中的各种数据使用 ID 唯一表示，比如用户 ID 对应且仅对应一个人，商品 ID 对应且仅对应一件商品，订单 ID 对应且仅对应一个订单。 我们现实生活中也有各种 ID，比如身份证 ID 对应且仅对应一个人、地址 ID 对应且仅对应 简单来说，ID 就是数据的唯一标识。 什么是分布式 ID？...</description>
       <category>分布式</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>分布式 ID 介绍</h2>
 <h3>什么是 ID？</h3>
 <p>日常开发中，我们需要对系统中的各种数据使用 ID 唯一表示，比如用户 ID 对应且仅对应一个人，商品 ID 对应且仅对应一件商品，订单 ID 对应且仅对应一个订单。</p>
@@ -1114,7 +1114,7 @@ OK
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">分布式锁常见实现方案总结</source>
       <description>通常情况下，我们一般会选择基于 Redis 或者 ZooKeeper 实现分布式锁，Redis 用的要更多一点，我这里也先以 Redis 为例介绍分布式锁的实现。 基于 Redis 实现分布式锁 如何基于 Redis 实现一个最简易的分布式锁？ 不论是本地锁还是分布式锁，核心都在于“互斥”。 在 Redis 中， SETNX 命令是可以帮助我们实现互斥...</description>
       <category>分布式</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>通常情况下，我们一般会选择基于 Redis 或者 ZooKeeper 实现分布式锁，Redis 用的要更多一点，我这里也先以 Redis 为例介绍分布式锁的实现。</p>
 <h2>基于 Redis 实现分布式锁</h2>
 <h3>如何基于 Redis 实现一个最简易的分布式锁？</h3>
@@ -1379,7 +1379,7 @@ client<span class="token punctuation">.</span><span class="token function">close
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">分布式锁介绍</source>
       <description>网上有很多分布式锁相关的文章，写了一个相对简洁易懂的版本，针对面试和工作应该够用了。 这篇文章我们先介绍一下分布式锁的基本概念。 为什么需要分布式锁？ 在多线程环境中，如果多个线程同时访问共享资源（例如商品库存、外卖订单），会发生数据竞争，可能会导致出现脏数据或者系统问题，威胁到程序的正常运行。 举个例子，假设现在有 100 个用户参与某个限时秒杀活动...</description>
       <category>分布式</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>网上有很多分布式锁相关的文章，写了一个相对简洁易懂的版本，针对面试和工作应该够用了。</p>
 <p>这篇文章我们先介绍一下分布式锁的基本概念。</p>
 <h2>为什么需要分布式锁？</h2>
@@ -1444,7 +1444,7 @@ client<span class="token punctuation">.</span><span class="token function">close
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">分布式事务常见问题总结(付费)</source>
       <description>分布式事务 相关的面试题为我的知识星球（点击链接即可查看详细介绍以及加入方法）专属内容，已经整理到了《Java 面试指北》中。</description>
       <category>分布式</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p><strong>分布式事务</strong> 相关的面试题为我的<a href="https://javaguide.cn/about-the-author/zhishixingqiu-two-years.html" target="_blank" rel="noopener noreferrer">知识星球</a>（点击链接即可查看详细介绍以及加入方法）专属内容，已经整理到了《Java 面试指北》中。</p>
 <figure><img src="https://oss.javaguide.cn/javamianshizhibei/distributed-system.png" alt="" tabindex="0"><figcaption></figcaption></figure>
 ]]></content:encoded>
@@ -1457,7 +1457,7 @@ client<span class="token punctuation">.</span><span class="token function">close
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">Spring Cloud Gateway常见问题总结</source>
       <description>本文重构完善自6000 字 | 16 图 | 深入理解 Spring Cloud Gateway 的原理 - 悟空聊架构这篇文章。 什么是 Spring Cloud Gateway？ Spring Cloud Gateway 属于 Spring Cloud 生态系统中的网关，其诞生的目标是为了替代老牌网关 Zuul。准确点来说，应该是 Zuul 1.x...</description>
       <category>分布式</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>本文重构完善自<a href="https://mp.weixin.qq.com/s/XjFYsP1IUqNzWqXZdJn-Aw" target="_blank" rel="noopener noreferrer">6000 字 | 16 图 | 深入理解 Spring Cloud Gateway 的原理 - 悟空聊架构</a>这篇文章。</p>
 </blockquote>
@@ -1570,7 +1570,7 @@ client<span class="token punctuation">.</span><span class="token function">close
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">高可用系统设计指南</source>
       <description>什么是高可用？可用性的判断标准是啥？ 高可用描述的是一个系统在大部分时间都是可用的，可以为我们提供服务的。高可用代表系统即使在发生硬件故障或者系统升级的时候，服务仍然是可用的。 一般情况下，我们使用多少个 9 来评判一个系统的可用性，比如 99.9999% 就是代表该系统在所有的运行时间中只有 0.0001% 的时间是不可用的，这样的系统就是非常非常高...</description>
       <category>高可用</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>什么是高可用？可用性的判断标准是啥？</h2>
 <p>高可用描述的是一个系统在大部分时间都是可用的，可以为我们提供服务的。高可用代表系统即使在发生硬件故障或者系统升级的时候，服务仍然是可用的。</p>
 <p>一般情况下，我们使用多少个 9 来评判一个系统的可用性，比如 99.9999% 就是代表该系统在所有的运行时间中只有 0.0001% 的时间是不可用的，这样的系统就是非常非常高可用的了！当然，也会有系统如果可用性不太好的话，可能连 9 都上不了。</p>
@@ -1625,7 +1625,7 @@ client<span class="token punctuation">.</span><span class="token function">close
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">服务限流详解</source>
       <description>针对软件系统来说，限流就是对请求的速率进行限制，避免瞬时的大量请求击垮软件系统。毕竟，软件系统的处理能力是有限的。如果说超过了其处理能力的范围，软件系统可能直接就挂掉了。 限流可能会导致用户的请求无法被正确处理，不过，这往往也是权衡了软件系统的稳定性之后得到的最优解。 现实生活中，处处都有限流的实际应用，就比如排队买票是为了避免大量用户涌入购票而导致售...</description>
       <category>高可用</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>针对软件系统来说，限流就是对请求的速率进行限制，避免瞬时的大量请求击垮软件系统。毕竟，软件系统的处理能力是有限的。如果说超过了其处理能力的范围，软件系统可能直接就挂掉了。</p>
 <p>限流可能会导致用户的请求无法被正确处理，不过，这往往也是权衡了软件系统的稳定性之后得到的最优解。</p>
 <p>现实生活中，处处都有限流的实际应用，就比如排队买票是为了避免大量用户涌入购票而导致售票员无法处理。</p>
@@ -1786,7 +1786,7 @@ get <span class="token number">1</span> tokens: <span class="token number">0</sp
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">性能测试入门</source>
       <description>性能测试一般情况下都是由测试这个职位去做的，那还需要我们开发学这个干嘛呢？了解性能测试的指标、分类以及工具等知识有助于我们更好地去写出性能更好的程序，另外作为开发这个角色，如果你会性能测试的话，相信也会为你的履历加分不少。 这篇文章是我会结合自己的实际经历以及在测试这里取的经所得，除此之外，我还借鉴了一些优秀书籍，希望对你有帮助。 一 不同角色看网站性...</description>
       <category>高可用</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>性能测试一般情况下都是由测试这个职位去做的，那还需要我们开发学这个干嘛呢？了解性能测试的指标、分类以及工具等知识有助于我们更好地去写出性能更好的程序，另外作为开发这个角色，如果你会性能测试的话，相信也会为你的履历加分不少。</p>
 <p>这篇文章是我会结合自己的实际经历以及在测试这里取的经所得，除此之外，我还借鉴了一些优秀书籍，希望对你有帮助。</p>
 <h2>一 不同角色看网站性能</h2>
@@ -1896,7 +1896,7 @@ get <span class="token number">1</span> tokens: <span class="token number">0</sp
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">冗余设计详解</source>
       <description>冗余设计是保证系统和数据高可用的最常的手段。 对于服务来说，冗余的思想就是相同的服务部署多份，如果正在使用的服务突然挂掉的话，系统可以很快切换到备份服务上，大大减少系统的不可用时间，提高系统的可用性。 对于数据来说，冗余的思想就是相同的数据备份多份，这样就可以很简单地提高数据的安全性。 实际上，日常生活中就有非常多的冗余思想的应用。 拿我自己来说，我对...</description>
       <category>高可用</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>冗余设计是保证系统和数据高可用的最常的手段。</p>
 <p>对于服务来说，冗余的思想就是相同的服务部署多份，如果正在使用的服务突然挂掉的话，系统可以很快切换到备份服务上，大大减少系统的不可用时间，提高系统的可用性。</p>
 <p>对于数据来说，冗余的思想就是相同的数据备份多份，这样就可以很简单地提高数据的安全性。</p>
@@ -1933,7 +1933,7 @@ get <span class="token number">1</span> tokens: <span class="token number">0</sp
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">超时&amp;重试详解</source>
       <description>由于网络问题、系统或者服务内部的 Bug、服务器宕机、操作系统崩溃等问题的不确定性，我们的系统或者服务永远不可能保证时刻都是可用的状态。 为了最大限度的减小系统或者服务出现故障之后带来的影响，我们需要用到的 超时（Timeout） 和 重试（Retry） 机制。 想要把超时和重试机制讲清楚其实很简单，因为它俩本身就不是什么高深的概念。 虽然超时和重试机...</description>
       <category>高可用</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>由于网络问题、系统或者服务内部的 Bug、服务器宕机、操作系统崩溃等问题的不确定性，我们的系统或者服务永远不可能保证时刻都是可用的状态。</p>
 <p>为了最大限度的减小系统或者服务出现故障之后带来的影响，我们需要用到的 <strong>超时（Timeout）</strong> 和 <strong>重试（Retry）</strong> 机制。</p>
 <p>想要把超时和重试机制讲清楚其实很简单，因为它俩本身就不是什么高深的概念。</p>
@@ -1981,7 +1981,7 @@ get <span class="token number">1</span> tokens: <span class="token number">0</sp
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">CDN常见问题总结</source>
       <description>什么是 CDN ？ CDN 全称是 Content Delivery Network/Content Distribution Network，翻译过的意思是 内容分发网络 。 我们可以将内容分发网络拆开来看： 内容：指的是静态资源比如图片、视频、文档、JS、CSS、HTML。 分发网络：指的是将这些静态资源分发到位于多个不同的地理位置机房中的服务器上...</description>
       <category>高性能</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>什么是 CDN ？</h2>
 <p><strong>CDN</strong> 全称是 Content Delivery Network/Content Distribution Network，翻译过的意思是 <strong>内容分发网络</strong> 。</p>
 <p>我们可以将内容分发网络拆开来看：</p>
@@ -2077,7 +2077,7 @@ get <span class="token number">1</span> tokens: <span class="token number">0</sp
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">负载均衡常见问题总结</source>
       <description>什么是负载均衡？ 负载均衡 指的是将用户请求分摊到不同的服务器上处理，以提高系统整体的并发处理能力以及可靠性。负载均衡服务可以有由专门的软件或者硬件来完成，一般情况下，硬件的性能更好，软件的价格更便宜（后文会详细介绍到）。 下图是《Java 面试指北》 「高并发篇」中的一篇文章的配图，从图中可以看出，系统的商品服务部署了多份在不同的服务器上，为了实现访...</description>
       <category>高性能</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>什么是负载均衡？</h2>
 <p><strong>负载均衡</strong> 指的是将用户请求分摊到不同的服务器上处理，以提高系统整体的并发处理能力以及可靠性。负载均衡服务可以有由专门的软件或者硬件来完成，一般情况下，硬件的性能更好，软件的价格更便宜（后文会详细介绍到）。</p>
 <p>下图是<a href="https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&amp;mid=2247519384&amp;idx=1&amp;sn=bc7e71af75350b755f04ca4178395b1a&amp;chksm=cea1c353f9d64a458f797696d4144b4d6e58639371a4612b8e4d106d83a66d2289e7b2cd7431&amp;token=660789642&amp;lang=zh_CN&amp;scene=21#wechat_redirect" target="_blank" rel="noopener noreferrer">《Java 面试指北》</a> 「高并发篇」中的一篇文章的配图，从图中可以看出，系统的商品服务部署了多份在不同的服务器上，为了实现访问商品服务请求的分流，我们用到了负载均衡。</p>
@@ -2233,7 +2233,7 @@ get <span class="token number">1</span> tokens: <span class="token number">0</sp
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">读写分离和分库分表常见问题总结</source>
       <description>读写分离 什么是读写分离？ 见名思意，根据读写分离的名字，我们就可以知道：读写分离主要是为了将对数据库的读写操作分散到不同的数据库节点上。 这样的话，就能够小幅提升写性能，大幅提升读性能。 我简单画了一张图来帮助不太清楚读写分离的小伙伴理解。 读写分离示意图读写分离示意图 一般情况下，我们都会选择一主多从，也就是一台主数据库负责写，其他的从数据库负责读...</description>
       <category>高性能</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>读写分离</h2>
 <h3>什么是读写分离？</h3>
 <p>见名思意，根据读写分离的名字，我们就可以知道：<strong>读写分离主要是为了将对数据库的读写操作分散到不同的数据库节点上。</strong> 这样的话，就能够小幅提升写性能，大幅提升读性能。</p>
@@ -2368,7 +2368,7 @@ hintManager<span class="token punctuation">.</span><span class="token function">
       <guid>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/</guid>
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">程序人生</source>
       <description>程序人生 这里主要会收录一些我看到的和程序员密切相关的非技术类的优质文章，每一篇都值得你阅读 3 遍以上！常看常新！ 练级攻略 个人经历 程序员 面试 工作</description>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>这里主要会收录一些我看到的和程序员密切相关的非技术类的优质文章，每一篇都值得你阅读 3 遍以上！常看常新！</p>
 <h2>练级攻略</h2>
@@ -2409,7 +2409,7 @@ hintManager<span class="token punctuation">.</span><span class="token function">
       <guid>https://hollowlatte.github.io/Note-Book/Note-Book/interview-shorthand/</guid>
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">面试速记</source>
       <description>面试速记 只求面试速记，不求深入原理</description>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>只求面试速记，不求深入原理</p>
 ]]></content:encoded>
@@ -2421,7 +2421,7 @@ hintManager<span class="token punctuation">.</span><span class="token function">
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">贡献指南</source>
       <description>欢迎参与 JavaGuide 的维护工作，这是一件非常有意义的事情。详细信息请看：JavaGuide 贡献指南 。 你可以从下面几个方向来做贡献： 笔记内容大多是手敲，所以难免会有笔误，你可以帮我找错别字。 很多知识点我可能没有涉及到，所以你可以对其他知识点进行补充。 现有的知识点难免存在不完善或者错误，所以你可以对已有知识点进行修改/补充。 一定一定...</description>
       <category>走近项目</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>欢迎参与 JavaGuide 的维护工作，这是一件非常有意义的事情。详细信息请看：<a href="https://zhuanlan.zhihu.com/p/464832264" target="_blank" rel="noopener noreferrer">JavaGuide 贡献指南</a> 。</p>
 <p>你可以从下面几个方向来做贡献：</p>
 <ul>
@@ -2452,7 +2452,7 @@ hintManager<span class="token punctuation">.</span><span class="token function">
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">常见问题</source>
       <description>JavaGuide 是否支持 RSS？ 必须支持！推荐 RSS 订阅本网站获取最新更新。 JavaGuide 有没有 PDF 版本？ 由于 JavaGuide 内容在持续完善，所以并没有一个完全与之同步的 PDF 版本提供。如果你想要 PDF 版本的话，可以考虑 《JavaGuide 面试突击版》 ，这是对 JavaGuide 内容的浓缩总结。 《Ja...</description>
       <category>走近项目</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>JavaGuide 是否支持 RSS？</h2>
 <p>必须支持！推荐 RSS 订阅本网站获取最新更新。</p>
 <h2>JavaGuide 有没有 PDF 版本？</h2>
@@ -2492,7 +2492,7 @@ hintManager<span class="token punctuation">.</span><span class="token function">
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">网站历史</source>
       <description>由于项目内容一直持续在更新迭代，所以，这里就不记录项目内容的具体更新情况了。 你可以通过 RSS 订阅获取网站的最新更新，你还可以通过 https://javaguide.cn/article/获取到网站最新更新的文章。 这里只记录一些比较重要的一些节点： 2022-06-13：完善网站排版以及样式。 2022-04-09：添加技术书籍精选。 2021...</description>
       <category>走近项目</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>由于项目内容一直持续在更新迭代，所以，这里就不记录项目内容的具体更新情况了。</p>
 <p>你可以通过 <a href="https://javaguide.cn/feed.json" target="_blank" rel="noopener noreferrer">RSS 订阅</a>获取网站的最新更新，你还可以通过 <a href="https://javaguide.cn/article/" target="_blank" rel="noopener noreferrer">https://javaguide.cn/article/</a>获取到网站最新更新的文章。</p>
 <figure><img src="https://oss.javaguide.cn/github/javaguideimage-20220614172338606.png" alt="" tabindex="0"><figcaption></figcaption></figure>
@@ -2515,7 +2515,7 @@ hintManager<span class="token punctuation">.</span><span class="token function">
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">项目介绍</source>
       <description>我是 19 年大学毕业的，在大三准备面试的时候，我开源了 JavaGuide 。我把自己准备面试过程中的一些总结都毫不保留地通过 JavaGuide 分享了出来。 开源 JavaGuide 初始想法源于自己的个人那一段比较迷茫的学习经历，主要目的是为了通过这个开源平台来帮助一些在学习 Java 或者面试过程中遇到问题的小伙伴。 对于 Java 初学者来...</description>
       <category>走近项目</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>我是 19 年大学毕业的，在大三准备面试的时候，我开源了 JavaGuide 。我把自己准备面试过程中的一些总结都毫不保留地通过 JavaGuide 分享了出来。</p>
 <p>开源 JavaGuide 初始想法源于自己的个人那一段比较迷茫的学习经历，主要目的是为了通过这个开源平台来帮助一些在学习 Java 或者面试过程中遇到问题的小伙伴。</p>
 <ul>
@@ -2544,7 +2544,7 @@ hintManager<span class="token punctuation">.</span><span class="token function">
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">使用建议</source>
       <description>对于不准备面试的同学来说 ，本文档倾向于给你提供一个比较详细的学习路径，目录清晰，让你对于 Java 整体的知识体系有一个清晰认识。你可以跟着视频、书籍或者官方文档学习完某个知识点之后，然后来这里找对应的总结，帮助你更好地掌握对应的知识点。甚至说，你在有编程基础的情况下，想要学习某个知识点的话，可以直接看我的总结，这样学习效率会非常高。 对于准备面试的...</description>
       <category>走近项目</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p><strong>对于不准备面试的同学来说</strong> ，本文档倾向于给你提供一个比较详细的学习路径，目录清晰，让你对于 Java 整体的知识体系有一个清晰认识。你可以跟着视频、书籍或者官方文档学习完某个知识点之后，然后来这里找对应的总结，帮助你更好地掌握对应的知识点。甚至说，你在有编程基础的情况下，想要学习某个知识点的话，可以直接看我的总结，这样学习效率会非常高。</p>
 <p><strong>对于准备面试的同学来说</strong> ，本文档涵盖 Java 程序员所需要掌握的核心知识的常见面试问题总结。</p>
 <p>大部分人看 JavaGuide 应该都是为了准备技术八股文。<strong>那如何才能更高效地准备技术八股文？</strong></p>
@@ -2564,7 +2564,7 @@ hintManager<span class="token punctuation">.</span><span class="token function">
       <guid>https://hollowlatte.github.io/Note-Book/Note-Book/notebook/</guid>
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">笔记本</source>
       <description>笔记本</description>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
     </item>
@@ -2574,7 +2574,7 @@ hintManager<span class="token punctuation">.</span><span class="token function">
       <guid>https://hollowlatte.github.io/Note-Book/Note-Book/practice-manual/</guid>
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">实战手册</source>
       <description>实战手册 实战手册 实战手册 Elasticsearch 官方API文档：Elasticsearch Doc Java在线运行 Java Playground Redis命令在线学习 Redis命令学习</description>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[
 <div class="hint-container tip">
 <p class="hint-container-title">实战手册</p>
@@ -2594,7 +2594,7 @@ hintManager<span class="token punctuation">.</span><span class="token function">
       <guid>https://hollowlatte.github.io/Note-Book/Note-Book/system-design/J2EE%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</guid>
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml"></source>
       <description>Servlet 总结 在 Java Web 程序中，Servlet主要负责接收用户请求 HttpServletRequest,在doGet(),doPost()中做相应的处理，并将回应HttpServletResponse反馈给用户。Servlet 可以设置初始化参数，供 Servlet 内部使用。一个 Servlet 类只会有一个实例，在它初始化时调...</description>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>Servlet 总结</h2>
 <p>在 Java Web 程序中，<strong>Servlet</strong>主要负责接收用户请求 <code>HttpServletRequest</code>,在<code>doGet()</code>,<code>doPost()</code>中做相应的处理，并将回应<code>HttpServletResponse</code>反馈给用户。<strong>Servlet</strong> 可以设置初始化参数，供 Servlet 内部使用。一个 Servlet 类只会有一个实例，在它初始化时调用<code>init()</code>方法，销毁时调用<code>destroy()</code>方法**。**Servlet 需要在 web.xml 中配置（MyEclipse 中创建 Servlet 会自动配置），<strong>一个 Servlet 可以设置多个 URL 访问</strong>。<strong>Servlet 不是线程安全</strong>，因此要谨慎使用类变量。</p>
 <h2>阐述 Servlet 和 CGI 的区别?</h2>
@@ -2806,7 +2806,7 @@ response<span class="token punctuation">.</span><span class="token function">add
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">设计模式常见面试题总结</source>
       <description>设计模式 相关的面试题已经整理到了 PDF 手册中，你可以在我的公众号“JavaGuide”后台回复“PDF” 获取。 JavaGuide 官方公众号JavaGuide 官方公众号 《设计模式》PDF 电子书内容概览： 《设计模式》PDF文档概览《设计模式》PDF文档概览</description>
       <category>系统设计</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p><strong>设计模式</strong> 相关的面试题已经整理到了 PDF 手册中，你可以在我的公众号“<strong>JavaGuide</strong>”后台回复“<strong>PDF</strong>” 获取。</p>
 <figure><img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" alt="JavaGuide 官方公众号" tabindex="0"><figcaption>JavaGuide 官方公众号</figcaption></figure>
 <p><strong>《设计模式》PDF 电子书内容概览</strong>：</p>
@@ -2821,7 +2821,7 @@ response<span class="token punctuation">.</span><span class="token function">add
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">Java 定时任务详解</source>
       <description>为什么需要定时任务？ 我们来看一下几个非常常见的业务场景： 某系统凌晨要进行数据备份。 某电商平台，用户下单半个小时未支付的情况下需要自动取消订单。 某媒体聚合平台，每 10 分钟动态抓取某某网站的数据为自己所用。 某博客平台，支持定时发送文章。 某基金平台，每晚定时计算用户当日收益情况并推送给用户最新的数据。 ...... 这些场景往往都要求我们在某...</description>
       <category>系统设计</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>为什么需要定时任务？</h2>
 <p>我们来看一下几个非常常见的业务场景：</p>
 <ol>
@@ -3044,7 +3044,7 @@ executor<span class="token punctuation">.</span><span class="token function">shu
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">Web 实时消息推送详解</source>
       <description>原文地址：https://juejin.cn/post/7122014462181113887，JavaGuide 对本文进行了完善总结。 我有一个朋友做了一个小破站，现在要实现一个站内信 Web 消息推送的功能，对，就是下图这个小红点，一个很常用的功能。 站内信 Web 消息推送站内信 Web 消息推送 不过他还没想好用什么方式做，这里我帮他整理了一...</description>
       <category>系统设计</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>原文地址：<a href="https://juejin.cn/post/7122014462181113887%EF%BC%8CJavaGuide" target="_blank" rel="noopener noreferrer">https://juejin.cn/post/7122014462181113887，JavaGuide</a> 对本文进行了完善总结。</p>
 </blockquote>
@@ -3442,7 +3442,7 @@ executor<span class="token punctuation">.</span><span class="token function">shu
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">MongoDB常见面试题总结（上）</source>
       <description>少部分内容参考了 MongoDB 官方文档的描述，在此说明一下。 MongoDB 基础 MongoDB 是什么？ MongoDB 是一个基于 分布式文件存储 的开源 NoSQL 数据库系统，由 C++ 编写的。MongoDB 提供了 面向文档 的存储方式，操作起来比较简单和容易，支持“无模式”的数据建模，可以存储比较复杂的数据类型，是一款非常流行的 文...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>少部分内容参考了 MongoDB 官方文档的描述，在此说明一下。</p>
 </blockquote>
@@ -3471,7 +3471,7 @@ executor<span class="token punctuation">.</span><span class="token function">shu
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">MongoDB常见面试题总结（下）</source>
       <description>MongoDB 索引 MongoDB 索引有什么用? 和关系型数据库类似，MongoDB 中也有索引。索引的目的主要是用来提高查询效率，如果没有索引的话，MongoDB 必须执行 集合扫描 ，即扫描集合中的每个文档，以选择与查询语句匹配的文档。如果查询存在合适的索引，MongoDB 可以使用该索引来限制它必须检查的文档数量。并且，MongoDB 可以使...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>MongoDB 索引</h2>
 <h3>MongoDB 索引有什么用?</h3>
 <p>和关系型数据库类似，MongoDB 中也有索引。索引的目的主要是用来提高查询效率，如果没有索引的话，MongoDB 必须执行 <strong>集合扫描</strong> ，即扫描集合中的每个文档，以选择与查询语句匹配的文档。如果查询存在合适的索引，MongoDB 可以使用该索引来限制它必须检查的文档数量。并且，MongoDB 可以使用索引中的排序返回排序后的结果。</p>
@@ -3667,7 +3667,7 @@ db<span class="token punctuation">.</span>s2<span class="token punctuation">.</s
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">一千行 MySQL 学习笔记</source>
       <description>原文地址：https://shockerli.net/post/1000-line-mysql-note/ ，JavaGuide 对本文进行了简答排版，新增了目录。 非常不错的总结，强烈建议保存下来，需要的时候看一看。 基本操作 数据库操作 表的操作 数据操作 字符集编码 数据类型(列类型) 列属性(列约束) 建表规范 SELECT UNION 子查询...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>原文地址：https://shockerli.net/post/1000-line-mysql-note/ ，JavaGuide 对本文进行了简答排版，新增了目录。</p>
 </blockquote>
@@ -3793,7 +3793,7 @@ db<span class="token punctuation">.</span>s2<span class="token punctuation">.</s
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">SQL语句在MySQL中的执行过程</source>
       <description>本文来自木木匠投稿。 本篇文章会分析下一个 SQL 语句在 MySQL 中的执行流程，包括 SQL 的查询在 MySQL 内部会怎么流转，SQL 语句的更新是怎么完成的。 在分析之前我会先带着你看看 MySQL 的基础架构，知道了 MySQL 由那些组件组成以及这些组件的作用是什么，可以帮助我们理解和解决这些问题。 一 MySQL 基础架构分析 1.1...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>本文来自<a href="https://github.com/kinglaw1204" target="_blank" rel="noopener noreferrer">木木匠</a>投稿。</p>
 </blockquote>
@@ -3899,7 +3899,7 @@ db<span class="token punctuation">.</span>s2<span class="token punctuation">.</s
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">MySQL隐式转换造成索引失效</source>
       <description>本次测试使用的 MySQL 版本是 5.7.26，随着 MySQL 版本的更新某些特性可能会发生改变，本文不代表所述观点和结论于 MySQL 所有版本均准确无误，版本差异请自行甄别。 原文：https://www.guitu18.com/post/2019/11/24/61.html 前言 数据库优化是一个任重而道远的任务，想要做优化必须深入理解数据库...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>本次测试使用的 MySQL 版本是 <code>5.7.26</code>，随着 MySQL 版本的更新某些特性可能会发生改变，本文不代表所述观点和结论于 MySQL 所有版本均准确无误，版本差异请自行甄别。</p>
 <p>原文：https://www.guitu18.com/post/2019/11/24/61.html</p>
@@ -4025,7 +4025,7 @@ db<span class="token punctuation">.</span>s2<span class="token punctuation">.</s
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">InnoDB存储引擎对MVCC的实现</source>
       <description>一致性非锁定读和锁定读 一致性非锁定读 对于 一致性非锁定读（Consistent Nonlocking Reads）的实现，通常做法是加一个版本号或者时间戳字段，在更新数据的同时版本号 + 1 或者更新时间戳。查询时，将当前可见的版本号与对应记录的版本号进行比对，如果记录的版本小于可见版本，则表示该记录可见 在 InnoDB 存储引擎中，多版本控制 ...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>一致性非锁定读和锁定读</h2>
 <h3>一致性非锁定读</h3>
 <p>对于 <a href="https://dev.mysql.com/doc/refman/5.7/en/innodb-consistent-read.html" target="_blank" rel="noopener noreferrer"><strong>一致性非锁定读（Consistent Nonlocking Reads）</strong></a>的实现，通常做法是加一个版本号或者时间戳字段，在更新数据的同时版本号 + 1 或者更新时间戳。查询时，将当前可见的版本号与对应记录的版本号进行比对，如果记录的版本小于可见版本，则表示该记录可见</p>
@@ -4221,7 +4221,7 @@ private<span class="token operator">:</span>
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">MySQL自增主键一定是连续的吗</source>
       <description>作者：飞天小牛肉 原文：https://mp.weixin.qq.com/s/qci10h9rJx_COZbHV3aygQ 众所周知，自增主键可以让聚集索引尽量地保持递增顺序插入，避免了随机查询，从而提高了查询效率。 但实际上，MySQL 的自增主键并不能保证一定是连续递增的。 下面举个例子来看下，如下所示创建一张表： 自增值保存在哪里？ 使用 ins...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>作者：飞天小牛肉</p>
 <p>原文：https://mp.weixin.qq.com/s/qci10h9rJx_COZbHV3aygQ</p>
@@ -4367,7 +4367,7 @@ private<span class="token operator">:</span>
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">MySQL高性能优化规范建议总结</source>
       <description>作者: 听风 原文地址: https://www.cnblogs.com/huchong/p/10219318.html。 JavaGuide 已获得作者授权，并对原文内容进行了完善。 数据库命名规范 所有数据库对象名称必须使用小写字母并用下划线分割 所有数据库对象名称禁止使用 MySQL 保留关键字（如果表名中包含关键字查询时，需要将其用单引号括起来...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>作者: 听风 原文地址: <a href="https://www.cnblogs.com/huchong/p/10219318.html" target="_blank" rel="noopener noreferrer">https://www.cnblogs.com/huchong/p/10219318.html</a>。</p>
 <p>JavaGuide 已获得作者授权，并对原文内容进行了完善。</p>
@@ -4524,7 +4524,7 @@ private<span class="token operator">:</span>
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">MySQL索引详解</source>
       <description>感谢WT-AHA对本文的完善，相关 PR：https://github.com/Snailclimb/JavaGuide/pull/1648 。 但凡经历过几场面试的小伙伴，应该都清楚，数据库索引这个知识点在面试中出现的频率高到离谱。 除了对于准备面试来说非常重要之外，善用索引对 SQL 的性能提升非常明显，是一个性价比较高的 SQL 优化手段。 索引...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>感谢<a href="https://github.com/WT-AHA" target="_blank" rel="noopener noreferrer">WT-AHA</a>对本文的完善，相关 PR：https://github.com/Snailclimb/JavaGuide/pull/1648 。</p>
 </blockquote>
@@ -4795,7 +4795,7 @@ index <span class="token operator">=</span> hash <span class="token operator">%<
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">MySQL三大日志(binlog、redo log和undo log)详解</source>
       <description>本文来自公号程序猿阿星投稿，JavaGuide 对其做了补充完善。 前言 MySQL 日志 主要包括错误日志、查询日志、慢查询日志、事务日志、二进制日志几大类。其中，比较重要的还要属二进制日志 binlog（归档日志）和事务日志 redo log（重做日志）和 undo log（回滚日志）。 今天就来聊聊 redo log（重做日志）、binlog（归...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>本文来自公号程序猿阿星投稿，JavaGuide 对其做了补充完善。</p>
 </blockquote>
@@ -4978,7 +4978,7 @@ index <span class="token operator">=</span> hash <span class="token operator">%<
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">MySQL查询缓存详解</source>
       <description>缓存是一个有效且实用的系统性能优化的手段，不论是操作系统还是各种软件和网站或多或少都用到了缓存。 然而，有经验的 DBA 都建议生产环境中把 MySQL 自带的 Query Cache（查询缓存）给关掉。而且，从 MySQL 5.7.20 开始，就已经默认弃用查询缓存了。在 MySQL 8.0 及之后，更是直接删除了查询缓存的功能。 这又是为什么呢？查...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>缓存是一个有效且实用的系统性能优化的手段，不论是操作系统还是各种软件和网站或多或少都用到了缓存。</p>
 <p>然而，有经验的 DBA 都建议生产环境中把 MySQL 自带的 Query Cache（查询缓存）给关掉。而且，从 MySQL 5.7.20 开始，就已经默认弃用查询缓存了。在 MySQL 8.0 及之后，更是直接删除了查询缓存的功能。</p>
 <p>这又是为什么呢？查询缓存真就这么鸡肋么?</p>
@@ -5013,7 +5013,7 @@ index <span class="token operator">=</span> hash <span class="token operator">%<
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">MySQL执行计划分析</source>
       <description>本文来自公号 MySQL 技术，JavaGuide 对其做了补充完善。原文地址：https://mp.weixin.qq.com/s/d5OowNLtXBGEAbT31sSH4g 优化 SQL 的第一步应该是读懂 SQL 的执行计划。本篇文章，我们一起来学习下 MySQL EXPLAIN 执行计划相关知识。 什么是执行计划？ 执行计划 是指一条 SQL...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>本文来自公号 MySQL 技术，JavaGuide 对其做了补充完善。原文地址：https://mp.weixin.qq.com/s/d5OowNLtXBGEAbT31sSH4g</p>
 </blockquote>
@@ -5037,7 +5037,7 @@ index <span class="token operator">=</span> hash <span class="token operator">%<
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">MySQL常见面试题总结</source>
       <description>MySQL 基础 什么是关系型数据库？ 顾名思义，关系型数据库（RDBMS，Relational Database Management System）就是一种建立在关系模型的基础上的数据库。关系模型表明了数据库中所存储的数据之间的联系（一对一、一对多、多对多）。 关系型数据库中，我们的数据都被存放在了各种表中（比如用户表），表中的每一行就存放着一条数...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>MySQL 基础</h2>
 <h3>什么是关系型数据库？</h3>
 <p>顾名思义，关系型数据库（RDBMS，Relational Database Management System）就是一种建立在关系模型的基础上的数据库。关系模型表明了数据库中所存储的数据之间的联系（一对一、一对多、多对多）。</p>
@@ -5111,7 +5111,7 @@ index <span class="token operator">=</span> hash <span class="token operator">%<
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">MySQL时间类型数据存储建议</source>
       <description>我们平时开发中不可避免的就是要存储时间，比如我们要记录操作表中这条记录的时间、记录转账的交易时间、记录出发时间等等。你会发现时间这个东西与我们开发的联系还是非常紧密的，用的好与不好会给我们的业务甚至功能带来很大的影响。所以，我们有必要重新出发，好好认识一下这个东西。 这是一篇短小精悍的文章，仔细阅读一定能学到不少东西！ 不要用字符串存储日期 我记得我在...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>我们平时开发中不可避免的就是要存储时间，比如我们要记录操作表中这条记录的时间、记录转账的交易时间、记录出发时间等等。你会发现时间这个东西与我们开发的联系还是非常紧密的，用的好与不好会给我们的业务甚至功能带来很大的影响。所以，我们有必要重新出发，好好认识一下这个东西。</p>
 <p>这是一篇短小精悍的文章，仔细阅读一定能学到不少东西！</p>
 <h2>不要用字符串存储日期</h2>
@@ -5150,7 +5150,7 @@ index <span class="token operator">=</span> hash <span class="token operator">%<
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">MySQL事务隔离级别详解</source>
       <description>本文由 SnailClimb 和 guang19 共同完成。 关于事务基本概览的介绍，请看这篇文章的介绍： 事务隔离级别总结 SQL 标准定义了四个隔离级别： READ-UNCOMMITTED(读取未提交)：最低的隔离级别，允许读取尚未提交的数据变更，可能会导致脏读、幻读或不可重复读。 READ-COMMITTED(读取已提交)：允许读取并发事务已经提...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>本文由 <a href="https://github.com/Snailclimb" target="_blank" rel="noopener noreferrer">SnailClimb</a> 和 <a href="https://github.com/guang19" target="_blank" rel="noopener noreferrer">guang19</a> 共同完成。</p>
 </blockquote>
@@ -5172,7 +5172,7 @@ index <span class="token operator">=</span> hash <span class="token operator">%<
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">3种常用的缓存读写策略详解</source>
       <description>看到很多小伙伴简历上写了“熟练使用缓存”，但是被我问到“缓存常用的 3 种读写策略”的时候却一脸懵逼。 在我看来，造成这个问题的原因是我们在学习 Redis 的时候，可能只是简单了写一些 Demo，并没有去关注缓存的读写策略，或者说压根不知道这回事。 但是，搞懂 3 种常见的缓存读写策略对于实际工作中使用缓存以及面试中被问到缓存都是非常有帮助的！ 下面...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>看到很多小伙伴简历上写了“<strong>熟练使用缓存</strong>”，但是被我问到“<strong>缓存常用的 3 种读写策略</strong>”的时候却一脸懵逼。</p>
 <p>在我看来，造成这个问题的原因是我们在学习 Redis 的时候，可能只是简单了写一些 Demo，并没有去关注缓存的读写策略，或者说压根不知道这回事。</p>
 <p>但是，搞懂 3 种常见的缓存读写策略对于实际工作中使用缓存以及面试中被问到缓存都是非常有帮助的！</p>
@@ -5255,7 +5255,7 @@ index <span class="token operator">=</span> hash <span class="token operator">%<
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">Redis常见阻塞原因总结</source>
       <description>本文整理完善自：https://mp.weixin.qq.com/s/0Nqfq_eQrUb12QH6eBbHXA ，作者：阿 Q 说代码 这篇文章会详细总结一下可能导致 Redis 阻塞的情况，这些情况也是影响 Redis 性能的关键因素，使用 Redis 的时候应该格外注意！ O(n) 命令 Redis 中的大部分命令都是 O(1)时间复杂度，但也...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>本文整理完善自：https://mp.weixin.qq.com/s/0Nqfq_eQrUb12QH6eBbHXA ，作者：阿 Q 说代码</p>
 </blockquote>
@@ -5393,7 +5393,7 @@ Swap: 0kB
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">Redis 5 种基本数据结构详解</source>
       <description>Redis 共有 5 种基本数据结构：String（字符串）、List（列表）、Set（集合）、Hash（散列）、Zset（有序集合）。 这 5 种数据结构是直接提供给用户使用的，是数据的保存形式，其底层实现主要依赖这 8 种数据结构：简单动态字符串（SDS）、LinkedList（双向链表）、Hash Table（哈希表）、SkipList（跳跃表）...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>Redis 共有 5 种基本数据结构：String（字符串）、List（列表）、Set（集合）、Hash（散列）、Zset（有序集合）。</p>
 <p>这 5 种数据结构是直接提供给用户使用的，是数据的保存形式，其底层实现主要依赖这 8 种数据结构：简单动态字符串（SDS）、LinkedList（双向链表）、Hash Table（哈希表）、SkipList（跳跃表）、Intset（整数集合）、ZipList（压缩列表）、QuickList（快速列表）。</p>
 <p>Redis 基本数据结构的底层数据结构实现如下：</p>
@@ -5409,7 +5409,7 @@ Swap: 0kB
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">Redis 3 种特殊数据结构详解</source>
       <description>除了 5 种基本的数据结构之外，Redis 还支持 3 种特殊的数据结构：Bitmap、HyperLogLog、GEO。 Bitmap 介绍 Bitmap 存储的是连续的二进制数字（0 和 1），通过 Bitmap, 只需要一个 bit 位来表示某个元素对应的值或者状态，key 就是对应元素本身 。我们知道 8 个 bit 可以组成一个 byte，所以...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>除了 5 种基本的数据结构之外，Redis 还支持 3 种特殊的数据结构：Bitmap、HyperLogLog、GEO。</p>
 <h2>Bitmap</h2>
 <h3>介绍</h3>
@@ -5429,7 +5429,7 @@ Swap: 0kB
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">Redis内存碎片详解</source>
       <description>什么是内存碎片? 你可以将内存碎片简单地理解为那些不可用的空闲内存。 举个例子：操作系统为你分配了 32 字节的连续内存空间，而你存储数据实际只需要使用 24 字节内存空间，那这多余出来的 8 字节内存空间如果后续没办法再被分配存储其他数据的话，就可以被称为内存碎片。 内存碎片内存碎片 Redis 内存碎片虽然不会影响 Redis 性能，但是会增加内存...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>什么是内存碎片?</h2>
 <p>你可以将内存碎片简单地理解为那些不可用的空闲内存。</p>
 <p>举个例子：操作系统为你分配了 32 字节的连续内存空间，而你存储数据实际只需要使用 24 字节内存空间，那这多余出来的 8 字节内存空间如果后续没办法再被分配存储其他数据的话，就可以被称为内存碎片。</p>
@@ -5507,7 +5507,7 @@ config <span class="token builtin class-name">set</span> active-defrag-cycle-max
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">Redis持久化机制详解</source>
       <description>使用缓存的时候，我们经常需要对内存中的数据进行持久化也就是将内存中的数据写入到硬盘中。大部分原因是为了之后重用数据（比如重启机器、机器故障之后恢复数据），或者是为了做数据同步（比如 Redis 集群的主从节点通过 RDB 文件同步数据）。 Redis 不同于 Memcached 的很重要一点就是，Redis 支持持久化，而且支持 3 种持久化方式: 快...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>使用缓存的时候，我们经常需要对内存中的数据进行持久化也就是将内存中的数据写入到硬盘中。大部分原因是为了之后重用数据（比如重启机器、机器故障之后恢复数据），或者是为了做数据同步（比如 Redis 集群的主从节点通过 RDB 文件同步数据）。</p>
 <p>Redis 不同于 Memcached 的很重要一点就是，Redis 支持持久化，而且支持 3 种持久化方式:</p>
 <ul>
@@ -5656,7 +5656,7 @@ save <span class="token number">60</span> <span class="token number">10000</span
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">Redis常见面试题总结(上)</source>
       <description>Redis 基础 什么是 Redis？ Redis 是一个基于 C 语言开发的开源数据库（BSD 许可），与传统数据库不同的是 Redis 的数据是存在内存中的（内存数据库），读写速度非常快，被广泛应用于缓存方向。并且，Redis 存储的是 KV 键值对数据。 为了满足不同的业务场景，Redis 内置了多种数据类型实现（比如 String、Hash、S...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>Redis 基础</h2>
 <h3>什么是 Redis？</h3>
 <p><a href="https://redis.io/" target="_blank" rel="noopener noreferrer">Redis</a> 是一个基于 C 语言开发的开源数据库（BSD 许可），与传统数据库不同的是 Redis 的数据是存在内存中的（内存数据库），读写速度非常快，被广泛应用于缓存方向。并且，Redis 存储的是 KV 键值对数据。</p>
@@ -5844,7 +5844,7 @@ null
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">Redis常见面试题总结(下)</source>
       <description>Redis 事务 什么是 Redis 事务？ 你可以将 Redis 中的事务理解为：Redis 事务提供了一种将多个命令请求打包的功能。然后，再按顺序执行打包的所有命令，并且不会被中途打断。 Redis 事务实际开发中使用的非常少，功能比较鸡肋，不要将其和我们平时理解的关系型数据库的事务混淆了。 除了不满足原子性和持久性之外，事务中的每条命令都会与 R...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>Redis 事务</h2>
 <h3>什么是 Redis 事务？</h3>
 <p>你可以将 Redis 中的事务理解为：<strong>Redis 事务提供了一种将多个命令请求打包的功能。然后，再按顺序执行打包的所有命令，并且不会被中途打断。</strong></p>
@@ -6068,7 +6068,7 @@ appendfsync no        <span class="token comment">#让操作系统决定何时�
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">SQL常见面试题总结</source>
       <description>题目来源于：牛客题霸 - SQL 必知必会 检索数据 SELECT 用于从数据库中查询数据。 从 Customers 表中检索所有的 ID 现有表 Customers 如下： 编写 SQL 语句，从 Customers 表中检索所有的 cust_id。 答案： 检索并列出已订购产品的清单 表 OrderItems 含有非空的列 prod_id 代表商品...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>题目来源于：<a href="https://www.nowcoder.com/exam/oj?page=1&amp;tab=SQL%E7%AF%87&amp;topicId=298" target="_blank" rel="noopener noreferrer">牛客题霸 - SQL 必知必会</a></p>
 </blockquote>
@@ -6088,7 +6088,7 @@ appendfsync no        <span class="token comment">#让操作系统决定何时�
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">SQL语法基础知识总结</source>
       <description>本文整理完善自下面这两份资料： SQL 语法速成手册 MySQL 超全教程 基本概念 数据库术语 数据库（database） - 保存有组织的数据的容器（通常是一个文件或一组文件）。 数据表（table） - 某种特定类型数据的结构化清单。 模式（schema） - 关于数据库和表的布局及特性的信息。模式定义了数据在表中如何存储，包含存储什么样的数据，...</description>
       <category>数据库</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>本文整理完善自下面这两份资料：</p>
 <ul>
@@ -6310,7 +6310,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">CAP &amp; BASE理论详解</source>
       <description>经历过技术面试的小伙伴想必对 CAP &amp; BASE 这个两个理论已经再熟悉不过了！ 我当年参加面试的时候，不夸张地说，只要问到分布式相关的内容，面试官几乎是必定会问这两个分布式相关的理论。一是因为这两个分布式基础理论是学习分布式知识的必备前置基础，二是因为很多面试官自己比较熟悉这两个理论（方便提问）。 我们非常有必要将这两个理论搞懂，并且能够用自己的理...</description>
       <category>分布式</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>经历过技术面试的小伙伴想必对 CAP &amp; BASE 这个两个理论已经再熟悉不过了！</p>
 <p>我当年参加面试的时候，不夸张地说，只要问到分布式相关的内容，面试官几乎是必定会问这两个分布式相关的理论。一是因为这两个分布式基础理论是学习分布式知识的必备前置基础，二是因为很多面试官自己比较熟悉这两个理论（方便提问）。</p>
 <p>我们非常有必要将这两个理论搞懂，并且能够用自己的理解给别人讲出来。</p>
@@ -6431,7 +6431,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">Gossip 协议详解</source>
       <description>背景 在分布式系统中，不同的节点进行数据/信息共享是一个基本的需求。 一种比较简单粗暴的方法就是 集中式发散消息，简单来说就是一个主节点同时共享最新信息给其他所有节点，比较适合中心化系统。这种方法的缺陷也很明显，节点多的时候不光同步消息的效率低，还太依赖与中心节点，存在单点风险问题。 于是，分散式发散消息 的 Gossip 协议 就诞生了。 Gossi...</description>
       <category>分布式</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>背景</h2>
 <p>在分布式系统中，不同的节点进行数据/信息共享是一个基本的需求。</p>
 <p>一种比较简单粗暴的方法就是 <strong>集中式发散消息</strong>，简单来说就是一个主节点同时共享最新信息给其他所有节点，比较适合中心化系统。这种方法的缺陷也很明显，节点多的时候不光同步消息的效率低，还太依赖与中心节点，存在单点风险问题。</p>
@@ -6530,7 +6530,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">Paxos 算法详解</source>
       <description>背景 Paxos 算法是 Leslie Lamport（莱斯利·兰伯特）在 1990 年提出了一种分布式系统 共识 算法。这也是第一个被证明完备的共识算法（前提是不存在拜占庭将军问题，也就是没有恶意节点）。 为了介绍 Paxos 算法，兰伯特专门写了一篇幽默风趣的论文。在这篇论文中，他虚拟了一个叫做 Paxos 的希腊城邦来更形象化地介绍 Paxos ...</description>
       <category>分布式</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>背景</h2>
 <p>Paxos 算法是 Leslie Lamport（<a href="https://zh.wikipedia.org/wiki/%E8%8E%B1%E6%96%AF%E5%88%A9%C2%B7%E5%85%B0%E4%BC%AF%E7%89%B9" target="_blank" rel="noopener noreferrer">莱斯利·兰伯特</a>）在 <strong>1990</strong> 年提出了一种分布式系统 <strong>共识</strong> 算法。这也是第一个被证明完备的共识算法（前提是不存在拜占庭将军问题，也就是没有恶意节点）。</p>
 <p>为了介绍 Paxos 算法，兰伯特专门写了一篇幽默风趣的论文。在这篇论文中，他虚拟了一个叫做 Paxos 的希腊城邦来更形象化地介绍 Paxos 算法。</p>
@@ -6590,7 +6590,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">Raft 算法详解</source>
       <description>本文由 SnailClimb 和 Xieqijun 共同完成。 1 背景 当今的数据中心和应用程序在高度动态的环境中运行，为了应对高度动态的环境，它们通过额外的服务器进行横向扩展，并且根据需求进行扩展和收缩。同时，服务器和网络故障也很常见。 因此，系统必须在正常操作期间处理服务器的上下线。它们必须对变故做出反应并在几秒钟内自动适应；对客户来说的话，明显...</description>
       <category>分布式</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>本文由 <a href="https://github.com/Snailclimb" target="_blank" rel="noopener noreferrer">SnailClimb</a> 和 <a href="https://github.com/jun0315" target="_blank" rel="noopener noreferrer">Xieqijun</a> 共同完成。</p>
 </blockquote>
@@ -6717,7 +6717,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">Dubbo常见问题总结</source>
       <description>提示 Dubbo3 已经发布，这篇文章是基于 Dubbo2 写的。Dubbo3 基于 Dubbo2 演进而来，在保持原有核心功能特性的同时， Dubbo3 在易用性、超大规模微服务实践、云原生基础设施适配、安全设计等几大方向上进行了全面升级。 本文中的很多链接已经失效，主要原因是因为 Dubbo 官方文档进行了修改导致 URL 失效。 这篇文章是我根据...</description>
       <category>分布式</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <ul>
@@ -7052,7 +7052,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">有了 HTTP 协议，为什么还要有 RPC ？</source>
       <description>本文来自小白 debug投稿，原文：https://juejin.cn/post/7121882245605883934 。 我想起了我刚工作的时候，第一次接触 RPC 协议，当时就很懵，我 HTTP 协议用的好好的，为什么还要用 RPC 协议？ 于是就到网上去搜。 不少解释显得非常官方，我相信大家在各种平台上也都看到过，解释了又好像没解释，都在用一个...</description>
       <category>分布式</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>本文来自<a href="https://juejin.cn/user/4001878057422087" target="_blank" rel="noopener noreferrer">小白 debug</a>投稿，原文：https://juejin.cn/post/7121882245605883934 。</p>
 </blockquote>
@@ -7160,7 +7160,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">RPC基础知识总结</source>
       <description>这篇文章会简单介绍一下 RPC 相关的基础概念。 RPC 是什么? RPC（Remote Procedure Call） 即远程过程调用，通过名字我们就能看出 RPC 关注的是远程调用而非本地调用。 为什么要 RPC ？ 因为，两个不同的服务器上的服务提供的方法不在一个内存空间，所以，需要通过网络编程才能传递方法调用所需要的参数。并且，方法调用的结果也...</description>
       <category>分布式</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>这篇文章会简单介绍一下 RPC 相关的基础概念。</p>
 <h2>RPC 是什么?</h2>
 <p><strong>RPC（Remote Procedure Call）</strong> 即远程过程调用，通过名字我们就能看出 RPC 关注的是远程调用而非本地调用。</p>
@@ -7257,7 +7257,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">Disruptor常见问题总结</source>
       <description>Disruptor 是一个相对冷门一些的知识点，不过，如果你的项目经历中用到了 Disruptor 的话，那面试中就很可能会被问到。 一位球友之前投稿的面经（社招）中就涉及一些 Disruptor 的问题，文章传送门：圆梦！顺利拿到字节、淘宝、拼多多等大厂 offer！ 。 这篇文章可以看作是对 Disruptor 做的一个简单总结，每个问题都不会扯太...</description>
       <category>高性能</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>Disruptor 是一个相对冷门一些的知识点，不过，如果你的项目经历中用到了 Disruptor 的话，那面试中就很可能会被问到。</p>
 <p>一位球友之前投稿的面经（社招）中就涉及一些 Disruptor 的问题，文章传送门：<a href="https://mp.weixin.qq.com/s/C5QMjwEb6pzXACqZsyqC4A" target="_blank" rel="noopener noreferrer">圆梦！顺利拿到字节、淘宝、拼多多等大厂 offer！</a> 。</p>
 <figure><img src="https://oss.javaguide.cn/github/javaguide/high-performance/message-queue/disruptor-interview-questions.png" alt="" tabindex="0"><figcaption></figcaption></figure>
@@ -7293,7 +7293,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">Kafka常见问题总结</source>
       <description>Kafka 是什么？主要应用场景有哪些？ Kafka 是一个分布式流式处理平台。这到底是什么意思呢？ 流平台具有三个关键功能： 消息队列：发布和订阅消息流，这个功能类似于消息队列，这也是 Kafka 也被归类为消息队列的原因。 容错的持久方式存储记录消息流：Kafka 会把消息持久化到磁盘，有效避免了消息丢失的风险。 流式处理平台： 在消息发布的时候进...</description>
       <category>高性能</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h3>Kafka 是什么？主要应用场景有哪些？</h3>
 <p>Kafka 是一个分布式流式处理平台。这到底是什么意思呢？</p>
 <p>流平台具有三个关键功能：</p>
@@ -7466,7 +7466,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">消息队列基础知识总结</source>
       <description>提示 这篇文章中的消息队列主要指的是分布式消息队列。 “RabbitMQ？”“Kafka？”“RocketMQ？”...在日常学习与开发过程中，我们常常听到消息队列这个关键词。我也在我的多篇文章中提到了这个概念。可能你是熟练使用消息队列的老手，又或者你是不懂消息队列的新手，不论你了不了解消息队列，本文都将带你搞懂消息队列的一些基本理论。 如果你是老手，...</description>
       <category>高性能</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>这篇文章中的消息队列主要指的是分布式消息队列。</p>
@@ -7557,7 +7557,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">RabbitMQ常见问题总结</source>
       <description>本篇文章由 JavaGuide 收集自网络，原出处不明。 RabbitMQ 是什么？ RabbitMQ 是一个在 AMQP（Advanced Message Queuing Protocol ）基础上实现的，可复用的企业消息系统。它可以用于大型软件系统各个模块之间的高效通信，支持高并发，支持可扩展。它支持多种客户端如：Python、Ruby、.NET、...</description>
       <category>高性能</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p>本篇文章由 JavaGuide 收集自网络，原出处不明。</p>
 </blockquote>
@@ -7730,7 +7730,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">RocketMQ常见问题总结</source>
       <description>本文由 FrancisQ 投稿！ 消息队列扫盲 消息队列顾名思义就是存放消息的队列，队列我就不解释了，别告诉我你连队列都不知道是啥吧？ 所以问题并不是消息队列是什么，而是 消息队列为什么会出现？消息队列能用来干什么？用它来干这些事会带来什么好处？消息队列会带来副作用吗？ 消息队列为什么会出现？ 消息队列算是作为后端程序员的一个必备技能吧，因为分布式应用...</description>
       <category>高性能</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><a href="https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&amp;mid=2247485969&amp;idx=1&amp;sn=6bd53abde30d42a778d5a35ec104428c&amp;chksm=cea245daf9d5cccce631f93115f0c2c4a7634e55f5bef9009fd03f5a0ffa55b745b5ef4f0530&amp;token=294077121&amp;lang=zh_CN#rd" target="_blank" rel="noopener noreferrer">本文由 FrancisQ 投稿！</a></p>
 </blockquote>
@@ -8012,7 +8012,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">糟糕程序员的 20 个坏习惯</source>
       <description>推荐语：Kaito 大佬的一篇文章，很实用的建议！ 原文地址： https://mp.weixin.qq.com/s/6hUU6SZsxGPWAIIByq93Rw 我想你肯定遇到过这样一类程序员：他们无论是写代码，还是写文档，又或是和别人沟通，都显得特别专业。每次遇到这类人，我都在想，他们到底是怎么做到的？ 随着工作时间的增长，渐渐地我也总结出一些经验...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：Kaito 大佬的一篇文章，很实用的建议！</p>
 <br>
@@ -8097,7 +8097,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">给想成长为高级别开发同学的七条建议</source>
       <description>推荐语：普通程序员要想成长为高级程序员甚至是专家等更高级别，应该注意在哪些方面注意加强？开发内功修炼号主飞哥在这篇文章中就给出了七条实用的建议。 内容概览： 刻意加强需求评审能力 主动思考效率 加强内功能力 思考性能 重视线上 关注全局 归纳总结能力 原文地址：https://mp.weixin.qq.com/s/8lMGzBzXine-NAsqEaIE4g</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：普通程序员要想成长为高级程序员甚至是专家等更高级别，应该注意在哪些方面注意加强？开发内功修炼号主飞哥在这篇文章中就给出了七条实用的建议。</p>
 <br>
@@ -8164,7 +8164,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">十年大厂成长之路</source>
       <description>推荐语：这篇文章的作者有着丰富的工作经验，曾在大厂工作了 12 年。结合自己走过的弯路和接触过的优秀技术人，他总结出了一些对于个人成长具有普遍指导意义的经验和特质。 原文地址： https://mp.weixin.qq.com/s/vIIRxznpRr5yd6IVyNUW2w 最近这段时间，有好几个年轻的同学和我聊到自己的迷茫。其中有关于技术成长的、有...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：这篇文章的作者有着丰富的工作经验，曾在大厂工作了 12 年。结合自己走过的弯路和接触过的优秀技术人，他总结出了一些对于个人成长具有普遍指导意义的经验和特质。</p>
 <br>
@@ -8243,7 +8243,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">程序员的技术成长战略</source>
       <description>推荐语：波波老师的一篇文章，写的非常好，不光是对技术成长有帮助，其他领域也是同样适用的！建议反复阅读，形成一套自己的技术成长策略。 原文地址： https://mp.weixin.qq.com/s/YrN8T67s801-MRo01lCHXA 1. 前言 在波波的微信技术交流群里头，经常有学员问关于技术人该如何学习成长的问题，虽然是微信交流，但我依然可...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：波波老师的一篇文章，写的非常好，不光是对技术成长有帮助，其他领域也是同样适用的！建议反复阅读，形成一套自己的技术成长策略。</p>
 <br>
@@ -8374,7 +8374,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">工作五年之后，对技术和业务的思考</source>
       <description>推荐语：这是我在两年前看到的一篇对我触动比较深的文章。确实要学会适应变化，并积累能力。积累解决问题的能力，优化思考方式，拓宽自己的认知。 原文地址： https://mp.weixin.qq.com/s/CTbEdi0F4-qFoJT05kNlXA 苦海无边，回头无岸。 01 前言 晃晃悠悠的，在互联网行业工作了五年，默然回首，你看哪里像灯火阑珊处？ ...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：这是我在两年前看到的一篇对我触动比较深的文章。确实要学会适应变化，并积累能力。积累解决问题的能力，优化思考方式，拓宽自己的认知。</p>
 <br>
@@ -8437,7 +8437,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">如何在技术初试中考察程序员的技术能力</source>
       <description>推荐语：从面试官和面试者两个角度探讨了技术面试！非常不错！ 内容概览： 实战与理论结合。比如，候选人叙述 JVM 内存模型布局之后，可以接着问：有哪些原因可能会导致 OOM , 有哪些预防措施? 你是否遇到过内存泄露的问题? 如何排查和解决这类问题? 项目经历考察不宜超过两个。因为要深入考察一个项目的详情，所占用的时间还是比较大的。一般来说，会让候选人...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：从面试官和面试者两个角度探讨了技术面试！非常不错！</p>
 <br>
@@ -8681,7 +8681,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">校招进入飞书的个人经验</source>
       <description>推荐语：这篇文章的作者校招最终去了飞书做开发。在这篇文章中，他分享了自己的校招经历以及个人经验。 原文地址：https://www.ihewro.com/archives/1217/ 基本情况 我是 C++主要是后台开发的方向。 2021 春招入职字节飞书客户端，入职字节之前拿到了百度 offer（音视频直播部分） 以及腾讯 PCG （微视、后台开发）...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：这篇文章的作者校招最终去了飞书做开发。在这篇文章中，他分享了自己的校招经历以及个人经验。</p>
 <br>
@@ -8772,7 +8772,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">如何甄别应聘者的包装程度</source>
       <description>推荐语：经常听到培训班待过的朋友给我说他们的老师是怎么教他们“包装”自己的，不光是培训班，我认识的很多朋友也都会在面试之前“包装”一下自己，所以这个现象是普遍存在的。但是面试官也不都是傻子，通过下面这篇文章来看看面试官是如何甄别应聘者的包装程度。 原文地址：https://my.oschina.net/hooker/blog/3014656 前言 上到...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：经常听到培训班待过的朋友给我说他们的老师是怎么教他们“包装”自己的，不光是培训班，我认识的很多朋友也都会在面试之前“包装”一下自己，所以这个现象是普遍存在的。但是面试官也不都是傻子，通过下面这篇文章来看看面试官是如何甄别应聘者的包装程度。</p>
 <br>
@@ -8858,7 +8858,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">阿里技术面试的一些秘密</source>
       <description>推荐语：详细介绍了求职者在面试中应该具备哪些能力才会有更大概率脱颖而出。 原文地址： https://mp.weixin.qq.com/s/M2M808PwQ2JcMqfLQfXQMw 最近我的工作稍微轻松些，就被安排去校招面试了 当时还是有些激动的，以前都是被面试的，现在我自己也成为一个面试别人的面试官 接下来就谈谈我的面试心得(谈谈阿里面试的秘籍)...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：详细介绍了求职者在面试中应该具备哪些能力才会有更大概率脱颖而出。</p>
 <br>
@@ -8937,7 +8937,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">普通人的春招总结（阿里、腾讯offer）</source>
       <description>推荐语：牛客网热帖，写的很全面！暑期实习，投了阿里、腾讯、字节，拿到了阿里和腾讯的 offer。 原文地址： https://www.nowcoder.com/discuss/640519 下篇：十年饮冰，难凉热血——秋招总结 背景 写这篇文章的时候，腾讯 offer 已经下来了，春招也算结束了，这次找暑期实习没有像去年找日常实习一样海投，只投了 BA...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：牛客网热帖，写的很全面！暑期实习，投了阿里、腾讯、字节，拿到了阿里和腾讯的 offer。</p>
 <br>
@@ -9062,7 +9062,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">从面试官和候选者的角度谈如何准备技术初试</source>
       <description>推荐语：从面试官和面试者两个角度探讨了技术面试！非常不错！ 内容概览： 通过技术基础考察候选者，才能考察到候选者的真实技术实力：技术深度和广度。 实战与理论结合。比如，候选人叙述 JVM 内存模型布局之后，可以接着问：有哪些原因可能会导致 OOM , 有哪些预防措施? 你是否遇到过内存泄露的问题? 如何排查和解决这类问题? 项目经历考察不宜超过两个。因...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：从面试官和面试者两个角度探讨了技术面试！非常不错！</p>
 <p><strong>内容概览：</strong></p>
@@ -9196,7 +9196,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">一位大龄程序员所经历的面试的历炼和思考</source>
       <description>推荐语：本文的作者，今年 36 岁，已有 8 年 JAVA 开发经验。在阿里云三年半，有赞四年半，已是标准的大龄程序员了。在这篇文章中，作者给出了一些关于面试和个人能力提升的一些小建议，非常实用！ 内容概览： 个人介绍，是对自己的一个更为清晰、深入和全面的认识契机。 简历是充分展示自己的浓缩精华，也是重新审视自己和过往经历的契机。不仅仅是简要介绍技能和...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：本文的作者，今年 36 岁，已有 8 年 JAVA 开发经验。在阿里云三年半，有赞四年半，已是标准的大龄程序员了。在这篇文章中，作者给出了一些关于面试和个人能力提升的一些小建议，非常实用！</p>
 <p><strong>内容概览</strong>：</p>
@@ -9442,7 +9442,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">斩获 20+ 大厂 offer 的面试经验分享</source>
       <description>推荐语：很实用的面试经验分享！ 原文地址：https://mp.weixin.qq.com/s/HXKg6-H0kGUU2OA1DS43Bw 突然回想起当年，我也在秋招时也斩获了 20+的互联网各大厂 offer。现在想起来也是有点唏嘘，毕竟拿得再多也只能选择一家。不过许多朋友想让我分享下互联网面试方法，今天就来给大家仔细讲讲打法！ 如今金九银十已经过...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：很实用的面试经验分享！</p>
 <br>
@@ -9561,7 +9561,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">一个中科大差生的 8 年程序员工作总结</source>
       <description>推荐语：这篇文章讲述了一位中科大的朋友 8 年的经历：从 2013 年毕业之后加入上海航天 x 院某卫星研究所，再到入职华为，从华为离职。除了丰富的经历之外，作者在文章还给出了很多自己对于工作/生活的思考。我觉得非常受用！我在这里，向这位作者表达一下衷心的感谢。 原文地址：https://www.cnblogs.com/scada/p/14259332...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：这篇文章讲述了一位中科大的朋友 8 年的经历：从 2013 年毕业之后加入上海航天 x 院某卫星研究所，再到入职华为，从华为离职。除了丰富的经历之外，作者在文章还给出了很多自己对于工作/生活的思考。我觉得非常受用！我在这里，向这位作者表达一下衷心的感谢。</p>
 <br>
@@ -9576,7 +9576,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">从校招入职腾讯的四年工作总结</source>
       <description>程序员是一个流动性很大的职业，经常会有新面孔的到来，也经常会有老面孔的离开，有主动离开的，也有被动离职的。 再加上这几年卷得厉害，做的事更多了，拿到的却更少了，互联网好像也没有那么香了。 人来人往，变动无常的状态，其实也早已习惯。 打工人的唯一出路，无外乎精进自己的专业技能，提升自己的核心竞争力，这样无论有什么变动，走到哪里，都能有口饭吃。 今天分享一...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>程序员是一个流动性很大的职业，经常会有新面孔的到来，也经常会有老面孔的离开，有主动离开的，也有被动离职的。</p>
 <p>再加上这几年卷得厉害，做的事更多了，拿到的却更少了，互联网好像也没有那么香了。</p>
 <p>人来人往，变动无常的状态，其实也早已习惯。</p>
@@ -9644,7 +9644,7 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">华为 OD 275 天后，我进了腾讯！</source>
       <description>推荐语：一位朋友的华为 OD 工作经历以及腾讯面试经历分享，内容很不错。 原文地址：https://www.cnblogs.com/shoufeng/p/14322931.html 时间线 18 年 7 月，毕业于某不知名 985 计科专业； 毕业前，在某马的 JavaEE（后台开发）培训了 6 个月； 第一份工作（18-07 ~ 19-12）接触了大...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：一位朋友的华为 OD 工作经历以及腾讯面试经历分享，内容很不错。</p>
 <br>
@@ -9876,7 +9876,7 @@ vmstat、mpstat、iostat、netstat
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">滴滴和头条两年后端工作经验分享</source>
       <description>推荐语：很实用的工作经验分享，看完之后十分受用！ 内容概览： 要学会深入思考，总结沉淀，这是我觉得最重要也是最有意义的一件事。 积极学习，保持技术热情。如果我们积极学习，保持技术能力、知识储备与工作年限成正比，这到了 35 岁哪还有什么焦虑呢，这样的大牛我觉得应该也是各大公司抢着要吧？ 在能为公司办成事，创造价值这一点上，我觉得最重要的两个字就是主动，...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：很实用的工作经验分享，看完之后十分受用！</p>
 <p><strong>内容概览</strong>：</p>
@@ -9974,7 +9974,7 @@ vmstat、mpstat、iostat、netstat
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">程序员高效出书避坑和实践指南</source>
       <description>推荐语：详细介绍了程序员出书的一些常见问题，强烈建议有出书想法的朋友看看这篇文章。 原文地址：https://www.cnblogs.com/JavaArchitect/p/14128202.html 古有三不朽， 所谓立德、立功、立言。程序员出一本属于自己的书，如果说是立言，可能过于高大上，但终究也算一件雅事。 出书其实不挣钱，而且从写作到最终拿钱的...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：详细介绍了程序员出书的一些常见问题，强烈建议有出书想法的朋友看看这篇文章。</p>
 <br>
@@ -10075,7 +10075,7 @@ vmstat、mpstat、iostat、netstat
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">程序员怎样出版一本技术书</source>
       <description>推荐语：详细介绍了程序员应该如何从头开始出一本自己的书籍。 原文地址：https://www.cnblogs.com/JavaArchitect/p/12195219.html 在面试或联系副业的时候，如果能令人信服地证明自己的实力，那么很有可能事半功倍。如何证明自己的实力？最有信服力的是大公司职位背景背书，没有之一，比如在 BAT 担任资深架构，那么...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：详细介绍了程序员应该如何从头开始出一本自己的书籍。</p>
 <br>
@@ -10133,7 +10133,7 @@ vmstat、mpstat、iostat、netstat
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">32条总结教你提升职场经验</source>
       <description>推荐语：阿里开发者的一篇职场经验的分享。 原文地址： https://mp.weixin.qq.com/s/6BkbGekSRTadm9j7XUL13g 成长的捷径 入职伊始谦逊的态度是好的，但不要把“我是新人”作为心理安全线； 写一篇技术博客大概需要两周左右，但可能是最快的成长方式； 一定要读两本书：金字塔原理、高效能人士的七个习惯（这本书名字像成功...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：阿里开发者的一篇职场经验的分享。</p>
 <p><strong>原文地址：</strong> <a href="https://mp.weixin.qq.com/s/6BkbGekSRTadm9j7XUL13g" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/6BkbGekSRTadm9j7XUL13g</a></p>
@@ -10221,7 +10221,7 @@ vmstat、mpstat、iostat、netstat
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">聊聊大厂的绩效考核</source>
       <description>内容概览： 在大部分公司，绩效跟你的年终奖、职级晋升、薪水涨幅等等福利是直接相关的。 你的上级、上上级对你的绩效拥有绝对的话语权，这是潜规则，放到任何公司都是。成年人的世界，没有绝对的公平，绩效考核尤为明显。 提升绩效的打法： 短期打法：找出 1-2 件事，体现出你的独特价值（抓关键事件）。 长期打法：通过一步步信任的建立，成为团队的核心人员或者是老板...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>内容概览</strong>：</p>
 <ul>
@@ -10309,7 +10309,7 @@ vmstat、mpstat、iostat、netstat
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">新入职一家公司如何快速进入工作状态</source>
       <description>推荐语：强烈建议每一位即将入职/在职的小伙伴看看这篇文章，看完之后可以帮助你少踩很多坑。整篇文章逻辑清晰，内容全面！ 原文地址：https://www.cnblogs.com/hunternet/p/14675348.html 新入职一家公司如何快速进入状态新入职一家公司如何快速进入状态 一年一度的金三银四跳槽大戏即将落幕，相信很多跳槽的小伙伴们已经找...</description>
       <category>技术文章精选集</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：强烈建议每一位即将入职/在职的小伙伴看看这篇文章，看完之后可以帮助你少踩很多坑。整篇文章逻辑清晰，内容全面！</p>
 <br>
@@ -10366,7 +10366,7 @@ vmstat、mpstat、iostat、netstat
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">为什么使用单线程？</source>
       <description>Redis是单线程？ 实际上，Redis中只有网络请求模块和数据操作模块是单线程的。而其他的如持久化存储模块、集群支撑模块等是多线程的。 在6.0后，Redis的网络请求模块也使用了多线程，其实在4.0时对部分命令做了多线程化，如新增命令了unlink，实际上是del的异步版本 为什么数据的操作模块设计成单线程的？ 多线程的目的，就是通过并发的方式来提...</description>
       <category>Redis</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>Redis是单线程？</h2>
 <p>实际上，Redis中只有网络请求模块和数据操作模块是单线程的。而其他的如持久化存储模块、集群支撑模块等是多线程的。
 在6.0后，Redis的网络请求模块也使用了多线程，其实在4.0时对部分命令做了多线程化，如新增命令了unlink，实际上是del的异步版本</p>
@@ -10405,7 +10405,7 @@ QPS。为了提升QPS，很多公司的做法是部署Redis集群，并且尽可
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">BigDecimal 详解</source>
       <description>《阿里巴巴 Java 开发手册》中提到：“为了避免精度丢失，可以使用 BigDecimal 来进行浮点数的运算”。 浮点数的运算竟然还会有精度丢失的风险吗？确实会！ 示例代码： 为什么浮点数 float 或 double 运算的时候会有精度丢失的风险呢？ 这个和计算机保存浮点数的机制有很大关系。我们知道计算机是二进制的，而且计算机在表示一个数字时，宽度...</description>
       <category>Java</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<p>《阿里巴巴 Java 开发手册》中提到：“为了避免精度丢失，可以使用 <code>BigDecimal</code> 来进行浮点数的运算”。</p>
 <p>浮点数的运算竟然还会有精度丢失的风险吗？确实会！</p>
 <p>示例代码：</p>
@@ -10694,7 +10694,7 @@ QPS。为了提升QPS，很多公司的做法是部署Redis集群，并且尽可
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">Java基础常见面试题总结(上)</source>
       <description>基础概念与常识 Java 语言有哪些特点? 简单易学； 面向对象（封装，继承，多态）； 平台无关性（ Java 虚拟机实现平台无关性）； 支持多线程（ C++ 语言没有内置的多线程机制，因此必须调用操作系统的多线程功能来进行多线程程序设计，而 Java 语言却提供了多线程支持）； 可靠性（具备异常处理和自动内存管理机制）； 安全性（Java 语言本身的...</description>
       <category>Java</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>基础概念与常识</h2>
 <h3>Java 语言有哪些特点?</h3>
 <ol>
@@ -10854,7 +10854,7 @@ QPS。为了提升QPS，很多公司的做法是部署Redis集群，并且尽可
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">Java基础常见面试题总结(中)</source>
       <description>面向对象基础 面向对象和面向过程的区别 两者的主要区别在于解决问题的方式不同： 面向过程把解决问题的过程拆成一个个方法，通过一个个方法的执行解决问题。 面向对象会先抽象出对象，然后用对象执行方法的方式解决问题。 另外，面向对象开发的程序一般更易维护、易复用、易扩展。 相关 issue : 面向过程：面向过程性能比面向对象高？？ 。 下面是一个求圆的面积...</description>
       <category>Java</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>面向对象基础</h2>
 <h3>面向对象和面向过程的区别</h3>
 <p>两者的主要区别在于解决问题的方式不同：</p>
@@ -11420,7 +11420,7 @@ true
       <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">Java基础常见面试题总结(下)</source>
       <description>异常 Java 异常类层次结构图概览： Java 异常类层次结构图Java 异常类层次结构图 Exception 和 Error 有什么区别？ 在 Java 中，所有的异常都有一个共同的祖先 java.lang 包中的 Throwable 类。Throwable 类有两个重要的子类: Exception :程序本身可以处理的异常，可以通过 catch ...</description>
       <category>Java</category>
-      <pubDate>Thu, 21 Mar 2024 19:31:22 GMT</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:11:51 GMT</pubDate>
       <content:encoded><![CDATA[<h2>异常</h2>
 <p><strong>Java 异常类层次结构图概览</strong>：</p>
 <figure><img src="https://oss.javaguide.cn/github/javaguide/java/basis/types-of-exceptions-in-java.png" alt="Java 异常类层次结构图" tabindex="0"><figcaption>Java 异常类层次结构图</figcaption></figure>
