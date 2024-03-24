@@ -317,16 +317,6 @@ export const practiceManual = arraySidebar([
     ],
   },
   {
-    text: "线上问题排查",
-    icon: "github",
-    prefix: "troubleshoot/",
-    collapsible: true,
-    children: [
-      "hutool-stackoverflow",
-      "jpa-stackoverflow"
-    ],
-  },
-  {
     text: "Windows",
     icon: "windows",
     prefix: "windows/",

@@ -43,6 +43,24 @@ export const notebook = arraySidebar([
     ]
   },
   {
+    text: "框架",
+    icon: "network",
+    prefix: "framework/",
+    collapsible: true,
+    children: [
+      {
+        text: "Spring&SpringBoot",
+        icon: "network",
+        prefix: "spring-springboot/",
+        collapsible: true,
+        children: [
+          "bean-lifecycle",
+          "aop-implement",
+        ]
+      },
+    ]
+  },
+  {
     text: "MySQL",
     icon: "mysql",
     prefix: "mysql/",
