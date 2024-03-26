@@ -57,6 +57,7 @@ export const notebook = arraySidebar([
           "bean-lifecycle",
           "aop-implement",
           "spring-factorybean",
+          "spring-beanfactory",
         ]
       },
     ]

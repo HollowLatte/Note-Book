@@ -16,10 +16,10 @@ FactoryBean通常用于创建和管理那些通过普通的bean定义很难或�
 
 以下是几个在源码中的使用案例：
 
-* AOP的ProxyFactoryBean：用于创建基于CGLIB或JDK动态代理的AOP代理对象。这个FactoryBean隐藏了创建代理对象的复杂性，使得开发者可以轻松地通过Spring容器获取到代理后的对象。
-* MyBatis的SqlSessionFactoryBean：用于创建SqlSessionFactory实例。这个实例通常用于创建数据库连接和管理SQL映射。
-* Dubbo的ReferenceBean：ReferenceBean会给要调用的服务创建一个动态代理对象。这个代理对象负责与远程服务进行通信，封装了网络调用的细节
-* Spring的JndiObjectFactoryBean：用于从JNDI上下文中检索和创建对象。
+* **AOP的ProxyFactoryBean：** 用于创建基于CGLIB或JDK动态代理的AOP代理对象。这个FactoryBean隐藏了创建代理对象的复杂性，使得开发者可以轻松地通过Spring容器获取到代理后的对象。
+* **MyBatis的SqlSessionFactoryBean：** 用于创建SqlSessionFactory实例。这个实例通常用于创建数据库连接和管理SQL映射。
+* **Dubbo的ReferenceBean：** ReferenceBean会给要调用的服务创建一个动态代理对象。这个代理对象负责与远程服务进行通信，封装了网络调用的细节
+* **Spring的JndiObjectFactoryBean：** 用于从JNDI上下文中检索和创建对象。
 
 通过实现 FactoryBean，能够很好地与Spring框架集成。这意味着它可以利用Spring的依赖注入，生命周期管理等特性，并且能够被Spring容器所管理。
 
