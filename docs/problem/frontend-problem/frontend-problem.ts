@@ -14,7 +14,8 @@ export const frontendProblem = arraySidebar([
     prefix: "vuepress/",
     collapsible: true,
     children: [
-      "icon-color"
+      "icon-color",
+      "vuepress-deploy-miss-style",
     ],
   },
 ]);
