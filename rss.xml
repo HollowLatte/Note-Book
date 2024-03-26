@@ -6,12 +6,12 @@
     <link>https://hollowlatte.github.io/Note-Book/Note-Book/</link>
     <description>「Java学习指北 + Java面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，复习 Java 知识点，首选 JavaGuide！  </description>
     <language>zh-CN</language>
-    <pubDate>Tue, 26 Mar 2024 15:42:24 GMT</pubDate>
-    <lastBuildDate>Tue, 26 Mar 2024 15:42:24 GMT</lastBuildDate>
+    <pubDate>Tue, 26 Mar 2024 17:32:09 GMT</pubDate>
+    <lastBuildDate>Tue, 26 Mar 2024 17:32:09 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>Business</category>
     <category>数据库</category>
+    <category>Business</category>
     <category>分布式</category>
     <category>高可用</category>
     <category>高性能</category>
@@ -338,27 +338,6 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>微信开发概要</title>
-      <link>https://hollowlatte.github.io/Note-Book/Note-Book/business/</link>
-      <guid>https://hollowlatte.github.io/Note-Book/Note-Book/business/</guid>
-      <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">微信开发概要</source>
-      <description>微信公众平台 微信公众平台，简称MP(Media Press)。 3年前，小龙说：“终于可以订阅网上的杂志了，信息就应该这样PUSH过来”。你是否还记得公众平台首页上写的“在这里，阅读更简单”？你是否知道MP代表的是Media Press？其实，最初，微信公众号就是为优质内容发布打造的。 公众平台注册的账号分为四类：服务号、订阅号、小程序/小游戏账号、...</description>
-      <category>Business</category>
-      <pubDate>Wed, 17 Jan 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h2>微信公众平台</h2>
-<p>微信公众平台，简称MP(<a href="https://mp.weixin.qq.com/s/Rg8NnCXGosouAm3NjkXu5Q" target="_blank" rel="noopener noreferrer">Media Press</a>)。</p>
-<blockquote>
-<p>3年前，小龙说：“终于可以订阅网上的杂志了，信息就应该这样PUSH过来”。你是否还记得公众平台首页上写的“在这里，阅读更简单”？你是否知道MP代表的是Media
-Press？其实，最初，微信公众号就是为优质内容发布打造的。</p>
-</blockquote>
-<p>公众平台注册的账号分为四类：服务号、订阅号、小程序/小游戏账号、企业微信。</p>
-<p>所以开发以上几种应用时，可使用统一命名mp</p>
-<h2>开发</h2>
-<p>第三方微信开发SDK：<a href="https://github.com/Wechat-Group/WxJava" target="_blank" rel="noopener noreferrer">WxJava</a>
-，微信Java开发工具包，支持包括微信支付、开放平台、公众号、企业微信、视频号、小程序等微信功能模块的后端开发。</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>数据库基础知识总结</title>
       <link>https://hollowlatte.github.io/Note-Book/Note-Book/database/basis.html</link>
       <guid>https://hollowlatte.github.io/Note-Book/Note-Book/database/basis.html</guid>
@@ -604,6 +583,27 @@ Press？其实，最初，微信公众号就是为优质内容发布打造的。
 | :</p>
 ]]></content:encoded>
       <enclosure url="https://oss.javaguide.cn/github/javaguide/database/mongodb/sql-nosql-tushi.png" type="image/png"/>
+    </item>
+    <item>
+      <title>微信开发概要</title>
+      <link>https://hollowlatte.github.io/Note-Book/Note-Book/business/</link>
+      <guid>https://hollowlatte.github.io/Note-Book/Note-Book/business/</guid>
+      <source url="https://hollowlatte.github.io/Note-Book/Note-Book/rss.xml">微信开发概要</source>
+      <description>微信公众平台 微信公众平台，简称MP(Media Press)。 3年前，小龙说：“终于可以订阅网上的杂志了，信息就应该这样PUSH过来”。你是否还记得公众平台首页上写的“在这里，阅读更简单”？你是否知道MP代表的是Media Press？其实，最初，微信公众号就是为优质内容发布打造的。 公众平台注册的账号分为四类：服务号、订阅号、小程序/小游戏账号、...</description>
+      <category>Business</category>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>微信公众平台</h2>
+<p>微信公众平台，简称MP(<a href="https://mp.weixin.qq.com/s/Rg8NnCXGosouAm3NjkXu5Q" target="_blank" rel="noopener noreferrer">Media Press</a>)。</p>
+<blockquote>
+<p>3年前，小龙说：“终于可以订阅网上的杂志了，信息就应该这样PUSH过来”。你是否还记得公众平台首页上写的“在这里，阅读更简单”？你是否知道MP代表的是Media
+Press？其实，最初，微信公众号就是为优质内容发布打造的。</p>
+</blockquote>
+<p>公众平台注册的账号分为四类：服务号、订阅号、小程序/小游戏账号、企业微信。</p>
+<p>所以开发以上几种应用时，可使用统一命名mp</p>
+<h2>开发</h2>
+<p>第三方微信开发SDK：<a href="https://github.com/Wechat-Group/WxJava" target="_blank" rel="noopener noreferrer">WxJava</a>
+，微信Java开发工具包，支持包括微信支付、开放平台、公众号、企业微信、视频号、小程序等微信功能模块的后端开发。</p>
+]]></content:encoded>
     </item>
     <item>
       <title>API网关基础知识总结</title>
