@@ -3,7 +3,8 @@ import theme from "./theme.js";
 import viteBundler from "@vuepress/bundler-vite";
 
 export default defineUserConfig({
-  base: "/Note-Book/",
+  // base: "/Note-Book/",
+  base: '/',
   dest: "./dist",
   port: 9099,
   title: "Note-Book",
