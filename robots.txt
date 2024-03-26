@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://hollowlatte.github.io/Note-Book/Note-Book/sitemap.xml
+Sitemap: https://hollowlatte.github.io/Note-Book/sitemap.xml
