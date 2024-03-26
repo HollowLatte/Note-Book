@@ -24,7 +24,7 @@ public interface BeanFactory {
 
 实际应用中，其实很少直接用到BeanFactory，而是使用BeanFactory的实现类
 
-如：`ApplicationContext`等等
+如：`ApplicationContext`、`AnnotationConfigApplicationContext`等等
 
 ## 使用案例
 
