@@ -54,7 +54,9 @@ export const practiceManual = arraySidebar([
         children: [
           "read-nest-config",
           "aop-custom-annotation",
-          "programmatic-transaction"
+          "programmatic-transaction",
+          "spring-application-context",
+          "spring-aop",
         ],
       },
       {
