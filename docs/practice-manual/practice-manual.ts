@@ -113,6 +113,25 @@ export const practiceManual = arraySidebar([
     ],
   },
   {
+    text: "MySQL",
+    icon: "redis",
+    prefix: "mysql/",
+    collapsible: true,
+    children: [
+      "find-big",
+      {
+        text: "命令",
+        icon: "work",
+        prefix: "command/",
+        collapsible: true,
+        children: [
+          "mysql-transaction-command",
+          "find-big",
+        ],
+      },
+    ],
+  },
+  {
     text: "Linux",
     icon: "linux",
     prefix: "linux/",
