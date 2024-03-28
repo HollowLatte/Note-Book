@@ -4,7 +4,7 @@
   <title>Note-Book</title>
   <subtitle>「Java学习指北 + Java面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，复习 Java 知识点，首选 JavaGuide！  </subtitle>
   <icon>https://hollowlatte.github.io/Note-Book/Note-Book/favicon.ico</icon>
-  <updated>2024-03-27T18:38:23.031Z</updated>
+  <updated>2024-03-28T19:30:06.403Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://hollowlatte.github.io/Note-Book/Note-Book/atom.xml"/>
   <link rel="alternate" href="https://hollowlatte.github.io/Note-Book/Note-Book/"/>
@@ -62,7 +62,7 @@
     <title type="text">JavaGuide（Java学习&amp;面试指南）</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/home.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/home.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<div class="hint-container tip">
 <p class="hint-container-title">友情提示</p>
 </div>
@@ -368,13 +368,13 @@
 <p>如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号“<strong>JavaGuide</strong>”。</p>
 <figure><img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" alt="JavaGuide 官方公众号" tabindex="0"><figcaption>JavaGuide 官方公众号</figcaption></figure>
 ]]></content>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">算法</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/algorithm/</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/algorithm/"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>记录算法题</p>
 <h2>数据结构可视化</h2>
 <p>需自行添加数据：<a href="https://www.cs.usfca.edu/~galles/visualization/Algorithms.html" target="_blank" rel="noopener noreferrer">Data Structure Visualizations</a></p>
@@ -391,7 +391,7 @@
     <title type="text">微信开发概要</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/business/</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/business/"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>微信公众平台</h2>
 <p>微信公众平台，简称MP(<a href="https://mp.weixin.qq.com/s/Rg8NnCXGosouAm3NjkXu5Q" target="_blank" rel="noopener noreferrer">Media Press</a>)。</p>
 <blockquote>
@@ -417,7 +417,7 @@ Press？其实，最初，微信公众号就是为优质内容发布打造的。
     <title type="text">数据库基础知识总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/basis.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/basis.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>数据库知识基础，这部分内容一定要理解记忆。虽然这部分内容只是理论知识，但是非常重要，这是后面学习 MySQL 数据库的基础。PS: 这部分内容由于涉及太多概念性内容，所以参考了维基百科和百度百科相应的介绍。</p>
 <h2>什么是数据库, 数据库管理系统, 数据库系统, 数据库管理员?</h2>
 <ul>
@@ -547,13 +547,13 @@ Press？其实，最初，微信公众号就是为优质内容发布打造的。
 </ul>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">字符集详解</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/character-set.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/character-set.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>MySQL 字符编码集中有两套 UTF-8 编码实现：<strong><code>utf8</code></strong> 和 <strong><code>utf8mb4</code></strong>。</p>
 <p>如果使用 <strong><code>utf8</code></strong> 的话，存储 emoji 符号和一些比较复杂的汉字、繁体字就会出错。</p>
 <p>为什么会这样呢？这篇文章可以从源头给你解答。</p>
@@ -648,13 +648,13 @@ Press？其实，最初，微信公众号就是为优质内容发布打造的。
 </ul>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">NoSQL基础知识总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/nosql.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/nosql.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>NoSQL 是什么？</h2>
 <p>NoSQL（Not Only SQL 的缩写）泛指非关系型的数据库，主要针对的是键值、文档以及图形类型数据存储。并且，NoSQL 数据库天生支持分布式，数据冗余和数据分片等特性，旨在提供可扩展的高可用高性能数据存储解决方案。</p>
 <p>一个常见的误解是 NoSQL 数据库或非关系型数据库不能很好地存储关系型数据。NoSQL 数据库可以存储关系型数据—它们与关系型数据库的存储方式不同。</p>
@@ -670,13 +670,13 @@ Press？其实，最初，微信公众号就是为优质内容发布打造的。
 | :</p>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">API网关基础知识总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/api-gateway.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/api-gateway.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>什么是网关？</h2>
 <p>微服务背景下，一个系统被拆分为多个服务，但是像安全认证，流量控制，日志，监控等功能是每个服务都需要的，没有网关的话，我们就需要在每个服务中单独实现，这使得我们做了很多重复的事情并且没有一个全局的视图来统一管理这些功能。</p>
 <figure><img src="https://oss.javaguide.cn/github/javaguide/system-design/distributed-system/api-gateway-overview.png" alt="网关示意图" tabindex="0"><figcaption>网关示意图</figcaption></figure>]]></summary>
@@ -810,26 +810,26 @@ Press？其实，最初，微信公众号就是为优质内容发布打造的。
 </ul>
 ]]></content>
     <category term="分布式"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">分布式配置中心常见问题总结(付费)</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/distributed-configuration-center.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/distributed-configuration-center.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p><strong>分布式配置中心</strong> 相关的面试题为我的<a href="https://javaguide.cn/about-the-author/zhishixingqiu-two-years.html" target="_blank" rel="noopener noreferrer">知识星球</a>（点击链接即可查看详细介绍以及加入方法）专属内容，已经整理到了《Java 面试指北》中。</p>
 <figure><img src="https://oss.javaguide.cn/javamianshizhibei/distributed-system.png" alt="" tabindex="0"><figcaption></figcaption></figure>]]></summary>
     <content type="html"><![CDATA[<p><strong>分布式配置中心</strong> 相关的面试题为我的<a href="https://javaguide.cn/about-the-author/zhishixingqiu-two-years.html" target="_blank" rel="noopener noreferrer">知识星球</a>（点击链接即可查看详细介绍以及加入方法）专属内容，已经整理到了《Java 面试指北》中。</p>
 <figure><img src="https://oss.javaguide.cn/javamianshizhibei/distributed-system.png" alt="" tabindex="0"><figcaption></figcaption></figure>
 ]]></content>
     <category term="分布式"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">分布式ID设计指南</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/distributed-id-design.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/distributed-id-design.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>看到百度 Geek 说的一篇结合具体场景聊分布式 ID 设计的文章，感觉挺不错的。于是，我将这篇文章的部分内容整理到了这里。原文传送门：<a href="https://mp.weixin.qq.com/s/bFDLb6U6EgI-DvCdLTq_QA" target="_blank" rel="noopener noreferrer">分布式 ID 生成服务的技术原理和项目实战</a> 。</p>
@@ -940,13 +940,13 @@ Press？其实，最初，微信公众号就是为优质内容发布打造的。
 </ul>
 ]]></content>
     <category term="分布式"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">分布式ID介绍&amp;实现方案总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/distributed-id.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/distributed-id.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>分布式 ID 介绍</h2>
 <h3>什么是 ID？</h3>
 <p>日常开发中，我们需要对系统中的各种数据使用 ID 唯一表示，比如用户 ID 对应且仅对应一个人，商品 ID 对应且仅对应一件商品，订单 ID 对应且仅对应一个订单。</p>
@@ -1181,13 +1181,13 @@ OK
 <p>不过，本文主要介绍的是分布式 ID 的理论知识。在实际的面试中，面试官可能会结合具体的业务场景来考察你对分布式 ID 的设计，你可以参考这篇文章：<a href="https://chat.yqcloud.top/distributed-id-design.md" target="_blank" rel="noopener noreferrer">分布式 ID 设计指南</a>（对于实际工作中分布式 ID 的设计也非常有帮助）。</p>
 ]]></content>
     <category term="分布式"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">分布式锁常见实现方案总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/distributed-lock-implementations.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/distributed-lock-implementations.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>通常情况下，我们一般会选择基于 Redis 或者 ZooKeeper 实现分布式锁，Redis 用的要更多一点，我这里也先以 Redis 为例介绍分布式锁的实现。</p>
 <h2>基于 Redis 实现分布式锁</h2>
 <h3>如何基于 Redis 实现一个最简易的分布式锁？</h3>
@@ -1449,13 +1449,13 @@ client<span class="token punctuation">.</span><span class="token function">close
 <p>这篇文章我们介绍了实现分布式锁的两种常见方式。至于具体选择 Redis 还是 ZooKeeper 来实现分布式锁，还是要看业务的具体需求。如果对性能要求比较高的话，建议使用 Redis 实现分布式锁。如果对可靠性要求比较高的话，建议使用 ZooKeeper 实现分布式锁。</p>
 ]]></content>
     <category term="分布式"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">分布式锁介绍</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/distributed-lock.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/distributed-lock.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>网上有很多分布式锁相关的文章，写了一个相对简洁易懂的版本，针对面试和工作应该够用了。</p>
 <p>这篇文章我们先介绍一下分布式锁的基本概念。</p>
 <h2>为什么需要分布式锁？</h2>
@@ -1525,26 +1525,26 @@ client<span class="token punctuation">.</span><span class="token function">close
 </ul>
 ]]></content>
     <category term="分布式"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">分布式事务常见问题总结(付费)</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/distributed-transaction.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/distributed-transaction.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p><strong>分布式事务</strong> 相关的面试题为我的<a href="https://javaguide.cn/about-the-author/zhishixingqiu-two-years.html" target="_blank" rel="noopener noreferrer">知识星球</a>（点击链接即可查看详细介绍以及加入方法）专属内容，已经整理到了《Java 面试指北》中。</p>
 <figure><img src="https://oss.javaguide.cn/javamianshizhibei/distributed-system.png" alt="" tabindex="0"><figcaption></figcaption></figure>]]></summary>
     <content type="html"><![CDATA[<p><strong>分布式事务</strong> 相关的面试题为我的<a href="https://javaguide.cn/about-the-author/zhishixingqiu-two-years.html" target="_blank" rel="noopener noreferrer">知识星球</a>（点击链接即可查看详细介绍以及加入方法）专属内容，已经整理到了《Java 面试指北》中。</p>
 <figure><img src="https://oss.javaguide.cn/javamianshizhibei/distributed-system.png" alt="" tabindex="0"><figcaption></figcaption></figure>
 ]]></content>
     <category term="分布式"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">Spring Cloud Gateway常见问题总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/spring-cloud-gateway-questions.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/spring-cloud-gateway-questions.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p>本文重构完善自<a href="https://mp.weixin.qq.com/s/XjFYsP1IUqNzWqXZdJn-Aw" target="_blank" rel="noopener noreferrer">6000 字 | 16 图 | 深入理解 Spring Cloud Gateway 的原理 - 悟空聊架构</a>这篇文章。</p>
 </blockquote>
@@ -1654,13 +1654,13 @@ client<span class="token punctuation">.</span><span class="token function">close
 </ul>
 ]]></content>
     <category term="分布式"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">高可用系统设计指南</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-availability/high-availability-system-design.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-availability/high-availability-system-design.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>什么是高可用？可用性的判断标准是啥？</h2>
 <p>高可用描述的是一个系统在大部分时间都是可用的，可以为我们提供服务的。高可用代表系统即使在发生硬件故障或者系统升级的时候，服务仍然是可用的。</p>
 <p>一般情况下，我们使用多少个 9 来评判一个系统的可用性，比如 99.9999% 就是代表该系统在所有的运行时间中只有 0.0001% 的时间是不可用的，这样的系统就是非常非常高可用的了！当然，也会有系统如果可用性不太好的话，可能连 9 都上不了。</p>
@@ -1712,13 +1712,13 @@ client<span class="token punctuation">.</span><span class="token function">close
 </ul>
 ]]></content>
     <category term="高可用"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">服务限流详解</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-availability/limit-request.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-availability/limit-request.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>针对软件系统来说，限流就是对请求的速率进行限制，避免瞬时的大量请求击垮软件系统。毕竟，软件系统的处理能力是有限的。如果说超过了其处理能力的范围，软件系统可能直接就挂掉了。</p>
 <p>限流可能会导致用户的请求无法被正确处理，不过，这往往也是权衡了软件系统的稳定性之后得到的最优解。</p>
 <p>现实生活中，处处都有限流的实际应用，就比如排队买票是为了避免大量用户涌入购票而导致售票员无法处理。</p>
@@ -1879,13 +1879,13 @@ get <span class="token number">1</span> tokens: <span class="token number">0</sp
 </ul>
 ]]></content>
     <category term="高可用"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">性能测试入门</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-availability/performance-test.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-availability/performance-test.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>性能测试一般情况下都是由测试这个职位去做的，那还需要我们开发学这个干嘛呢？了解性能测试的指标、分类以及工具等知识有助于我们更好地去写出性能更好的程序，另外作为开发这个角色，如果你会性能测试的话，相信也会为你的履历加分不少。</p>
 <p>这篇文章是我会结合自己的实际经历以及在测试这里取的经所得，除此之外，我还借鉴了一些优秀书籍，希望对你有帮助。</p>
 <h2>一 不同角色看网站性能</h2>
@@ -1993,13 +1993,13 @@ get <span class="token number">1</span> tokens: <span class="token number">0</sp
 </ol>
 ]]></content>
     <category term="高可用"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">冗余设计详解</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-availability/redundancy.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-availability/redundancy.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>冗余设计是保证系统和数据高可用的最常的手段。</p>
 <p>对于服务来说，冗余的思想就是相同的服务部署多份，如果正在使用的服务突然挂掉的话，系统可以很快切换到备份服务上，大大减少系统的不可用时间，提高系统的可用性。</p>
 <p>对于数据来说，冗余的思想就是相同的数据备份多份，这样就可以很简单地提高数据的安全性。</p>
@@ -2034,13 +2034,13 @@ get <span class="token number">1</span> tokens: <span class="token number">0</sp
 <p>不过，这些文章大多也都是在介绍概念知识。目前，网上还缺少真正介绍具体要如何去实践落地异地多活架构的资料。</p>
 ]]></content>
     <category term="高可用"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">超时&amp;重试详解</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-availability/timeout-and-retry.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-availability/timeout-and-retry.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>由于网络问题、系统或者服务内部的 Bug、服务器宕机、操作系统崩溃等问题的不确定性，我们的系统或者服务永远不可能保证时刻都是可用的状态。</p>
 <p>为了最大限度的减小系统或者服务出现故障之后带来的影响，我们需要用到的 <strong>超时（Timeout）</strong> 和 <strong>重试（Retry）</strong> 机制。</p>
 <p>想要把超时和重试机制讲清楚其实很简单，因为它俩本身就不是什么高深的概念。</p>
@@ -2085,13 +2085,13 @@ get <span class="token number">1</span> tokens: <span class="token number">0</sp
 </ul>
 ]]></content>
     <category term="高可用"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">CDN常见问题总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-performance/cdn.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-performance/cdn.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>什么是 CDN ？</h2>
 <p><strong>CDN</strong> 全称是 Content Delivery Network/Content Distribution Network，翻译过的意思是 <strong>内容分发网络</strong> 。</p>
 <p>我们可以将内容分发网络拆开来看：</p>
@@ -2186,13 +2186,13 @@ get <span class="token number">1</span> tokens: <span class="token number">0</sp
 </ul>
 ]]></content>
     <category term="高性能"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">负载均衡常见问题总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-performance/load-balancing.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-performance/load-balancing.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>什么是负载均衡？</h2>
 <p><strong>负载均衡</strong> 指的是将用户请求分摊到不同的服务器上处理，以提高系统整体的并发处理能力以及可靠性。负载均衡服务可以有由专门的软件或者硬件来完成，一般情况下，硬件的性能更好，软件的价格更便宜（后文会详细介绍到）。</p>
 <p>下图是<a href="https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&amp;mid=2247519384&amp;idx=1&amp;sn=bc7e71af75350b755f04ca4178395b1a&amp;chksm=cea1c353f9d64a458f797696d4144b4d6e58639371a4612b8e4d106d83a66d2289e7b2cd7431&amp;token=660789642&amp;lang=zh_CN&amp;scene=21#wechat_redirect" target="_blank" rel="noopener noreferrer">《Java 面试指北》</a> 「高并发篇」中的一篇文章的配图，从图中可以看出，系统的商品服务部署了多份在不同的服务器上，为了实现访问商品服务请求的分流，我们用到了负载均衡。</p>]]></summary>
@@ -2343,13 +2343,13 @@ get <span class="token number">1</span> tokens: <span class="token number">0</sp
 </ul>
 ]]></content>
     <category term="高性能"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">读写分离和分库分表常见问题总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-performance/read-and-write-separation-and-library-subtable.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-performance/read-and-write-separation-and-library-subtable.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>读写分离</h2>
 <h3>什么是读写分离？</h3>
 <p>见名思意，根据读写分离的名字，我们就可以知道：<strong>读写分离主要是为了将对数据库的读写操作分散到不同的数据库节点上。</strong> 这样的话，就能够小幅提升写性能，大幅提升读性能。</p>
@@ -2482,13 +2482,13 @@ hintManager<span class="token punctuation">.</span><span class="token function">
 </ul>
 ]]></content>
     <category term="高性能"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">程序人生</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[
 <p>这里主要会收录一些我看到的和程序员密切相关的非技术类的优质文章，每一篇都值得你阅读 3 遍以上！常看常新！</p>
 <h2>练级攻略</h2>
@@ -2532,26 +2532,26 @@ hintManager<span class="token punctuation">.</span><span class="token function">
 <li><a href="/Note-Book/high-quality-technical-articles/work/employee-performance.html" target="_blank">聊聊大厂的绩效考核</a></li>
 </ul>
 ]]></content>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">面试速记</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/interview-shorthand/</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/interview-shorthand/"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[
 <p>只求面试速记，不求深入原理</p>
 ]]></summary>
     <content type="html"><![CDATA[
 <p>只求面试速记，不求深入原理</p>
 ]]></content>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">贡献指南</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/javaguide/contribution-guideline.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/javaguide/contribution-guideline.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>欢迎参与 JavaGuide 的维护工作，这是一件非常有意义的事情。详细信息请看：<a href="https://zhuanlan.zhihu.com/p/464832264" target="_blank" rel="noopener noreferrer">JavaGuide 贡献指南</a> 。</p>
 <p>你可以从下面几个方向来做贡献：</p>
 <ul>
@@ -2582,13 +2582,13 @@ hintManager<span class="token punctuation">.</span><span class="token function">
 </ul>
 ]]></content>
     <category term="走近项目"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">常见问题</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/javaguide/faq.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/javaguide/faq.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>JavaGuide 是否支持 RSS？</h2>
 <p>必须支持！推荐 RSS 订阅本网站获取最新更新。</p>
 <h2>JavaGuide 有没有 PDF 版本？</h2>
@@ -2625,13 +2625,13 @@ hintManager<span class="token punctuation">.</span><span class="token function">
 <p><strong>用心做内容，真心希望能帮助到其他人。</strong></p>
 ]]></content>
     <category term="走近项目"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">网站历史</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/javaguide/history.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/javaguide/history.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>由于项目内容一直持续在更新迭代，所以，这里就不记录项目内容的具体更新情况了。</p>
 <p>你可以通过 <a href="https://javaguide.cn/feed.json" target="_blank" rel="noopener noreferrer">RSS 订阅</a>获取网站的最新更新，你还可以通过 <a href="https://javaguide.cn/article/" target="_blank" rel="noopener noreferrer">https://javaguide.cn/article/</a>获取到网站最新更新的文章。</p>
 <figure><img src="https://oss.javaguide.cn/github/javaguideimage-20220614172338606.png" alt="" tabindex="0"><figcaption></figcaption></figure>]]></summary>
@@ -2649,13 +2649,13 @@ hintManager<span class="token punctuation">.</span><span class="token function">
 </ul>
 ]]></content>
     <category term="走近项目"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">项目介绍</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/javaguide/intro.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/javaguide/intro.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>我是 19 年大学毕业的，在大三准备面试的时候，我开源了 JavaGuide 。我把自己准备面试过程中的一些总结都毫不保留地通过 JavaGuide 分享了出来。</p>
 <p>开源 JavaGuide 初始想法源于自己的个人那一段比较迷茫的学习经历，主要目的是为了通过这个开源平台来帮助一些在学习 Java 或者面试过程中遇到问题的小伙伴。</p>
 <ul>
@@ -2683,13 +2683,13 @@ hintManager<span class="token punctuation">.</span><span class="token function">
 <p><a href="https://github.com/Snailclimb/JavaGuide/graphs/contributors" target="_blank" rel="noopener noreferrer">你可以点此链接查看 JavaGuide 的所有贡献者。</a> 感谢你们让 JavaGuide 变得更好！如果你们来到武汉一定要找我，我请你们吃饭玩耍。</p>
 ]]></content>
     <category term="走近项目"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">使用建议</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/javaguide/use-suggestion.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/javaguide/use-suggestion.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p><strong>对于不准备面试的同学来说</strong> ，本文档倾向于给你提供一个比较详细的学习路径，目录清晰，让你对于 Java 整体的知识体系有一个清晰认识。你可以跟着视频、书籍或者官方文档学习完某个知识点之后，然后来这里找对应的总结，帮助你更好地掌握对应的知识点。甚至说，你在有编程基础的情况下，想要学习某个知识点的话，可以直接看我的总结，这样学习效率会非常高。</p>
 <p><strong>对于准备面试的同学来说</strong> ，本文档涵盖 Java 程序员所需要掌握的核心知识的常见面试问题总结。</p>
 <p>大部分人看 JavaGuide 应该都是为了准备技术八股文。<strong>那如何才能更高效地准备技术八股文？</strong></p>]]></summary>
@@ -2706,24 +2706,24 @@ hintManager<span class="token punctuation">.</span><span class="token function">
 <p>最后，准备技术面试的同学一定要定期复习（自测的方式非常好），不然确实会遗忘的。</p>
 ]]></content>
     <category term="走近项目"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">笔记本</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/notebook/</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/notebook/"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[
 ]]></summary>
     <content type="html"><![CDATA[
 ]]></content>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">实战手册</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/practice-manual/</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/practice-manual/"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[
 <div class="hint-container tip">
 <p class="hint-container-title">实战手册</p>
@@ -2744,13 +2744,13 @@ hintManager<span class="token punctuation">.</span><span class="token function">
 <h2>Redis命令在线学习</h2>
 <p><a href="https://try.redis.io" target="_blank" rel="noopener noreferrer">Redis命令学习</a></p>
 ]]></content>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text"></title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/system-design/J2EE%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/system-design/J2EE%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>Servlet 总结</h2>
 <p>在 Java Web 程序中，<strong>Servlet</strong>主要负责接收用户请求 <code>HttpServletRequest</code>,在<code>doGet()</code>,<code>doPost()</code>中做相应的处理，并将回应<code>HttpServletResponse</code>反馈给用户。<strong>Servlet</strong> 可以设置初始化参数，供 Servlet 内部使用。一个 Servlet 类只会有一个实例，在它初始化时调用<code>init()</code>方法，销毁时调用<code>destroy()</code>方法**。**Servlet 需要在 web.xml 中配置（MyEclipse 中创建 Servlet 会自动配置），<strong>一个 Servlet 可以设置多个 URL 访问</strong>。<strong>Servlet 不是线程安全</strong>，因此要谨慎使用类变量。</p>]]></summary>
     <content type="html"><![CDATA[<h2>Servlet 总结</h2>
@@ -2955,13 +2955,13 @@ response<span class="token punctuation">.</span><span class="token function">add
 <p>Cookie 数据保存在客户端(浏览器端)，Session 数据保存在服务器端。</p>
 <p>Cookie 存储在客户端中，而 Session 存储在服务器上，相对来说 Session 安全性更高。如果使用 Cookie 的一些敏感信息不要写入 Cookie 中，最好能将 Cookie 信息加密然后使用到的时候再去服务器端解密。</p>
 ]]></content>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">设计模式常见面试题总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/system-design/design-pattern.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/system-design/design-pattern.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p><strong>设计模式</strong> 相关的面试题已经整理到了 PDF 手册中，你可以在我的公众号“<strong>JavaGuide</strong>”后台回复“<strong>PDF</strong>” 获取。</p>
 <figure><img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" alt="JavaGuide 官方公众号" tabindex="0"><figcaption>JavaGuide 官方公众号</figcaption></figure>
 <p><strong>《设计模式》PDF 电子书内容概览</strong>：</p>]]></summary>
@@ -2971,13 +2971,13 @@ response<span class="token punctuation">.</span><span class="token function">add
 <figure><img src="https://oss.javaguide.cn/github/javaguide/system-design/design-pattern-pdf.png" alt="《设计模式》PDF文档概览" tabindex="0"><figcaption>《设计模式》PDF文档概览</figcaption></figure>
 ]]></content>
     <category term="系统设计"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">Java 定时任务详解</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/system-design/schedule-task.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/system-design/schedule-task.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>为什么需要定时任务？</h2>
 <p>我们来看一下几个非常常见的业务场景：</p>
 <ol>
@@ -3205,13 +3205,13 @@ executor<span class="token punctuation">.</span><span class="token function">shu
 <p>最后，这篇文章要感谢艿艿的帮助，写这篇文章的时候向艿艿询问过一些问题。推荐一篇艿艿写的偏实战类型的硬核文章：<a href="https://mp.weixin.qq.com/s?__biz=MzUzMTA2NTU2Ng==&amp;mid=2247490679&amp;idx=1&amp;sn=25374dbdcca95311d41be5d7b7db454d&amp;chksm=fa4963c6cd3eead055bb9cd10cca13224bb35d0f7373a27aa22a55495f71e24b8273a7603314&amp;scene=27#wechat_redirect" target="_blank" rel="noopener noreferrer">《Spring Job？Quartz？XXL-Job？年轻人才做选择，艿艿全莽~》</a> 。</p>
 ]]></content>
     <category term="系统设计"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">Web 实时消息推送详解</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/system-design/web-real-time-message-push.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/system-design/web-real-time-message-push.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p>原文地址：<a href="https://juejin.cn/post/7122014462181113887%EF%BC%8CJavaGuide" target="_blank" rel="noopener noreferrer">https://juejin.cn/post/7122014462181113887，JavaGuide</a> 对本文进行了完善总结。</p>
 </blockquote>
@@ -3547,13 +3547,13 @@ executor<span class="token punctuation">.</span><span class="token function">shu
 |</p>
 ]]></content>
     <category term="系统设计"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">[E] 移动零</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/algorithm/two-pointers/move-zeros.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/algorithm/two-pointers/move-zeros.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>LeetCode地址：<a href="https://leetcode.cn/problems/move-zeroes" target="_blank" rel="noopener noreferrer">移动零</a></p>
 <h2>题目</h2>
 <p>给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。</p>
@@ -3621,7 +3621,7 @@ executor<span class="token punctuation">.</span><span class="token function">shu
     <title type="text">MongoDB常见面试题总结（上）</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/mongodb/mongodb-questions-01.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/mongodb/mongodb-questions-01.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p>少部分内容参考了 MongoDB 官方文档的描述，在此说明一下。</p>
 </blockquote>
@@ -3648,13 +3648,13 @@ executor<span class="token punctuation">.</span><span class="token function">shu
 |</p>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">MongoDB常见面试题总结（下）</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/mongodb/mongodb-questions-02.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/mongodb/mongodb-questions-02.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>MongoDB 索引</h2>
 <h3>MongoDB 索引有什么用?</h3>
 <p>和关系型数据库类似，MongoDB 中也有索引。索引的目的主要是用来提高查询效率，如果没有索引的话，MongoDB 必须执行 <strong>集合扫描</strong> ，即扫描集合中的每个文档，以选择与查询语句匹配的文档。如果查询存在合适的索引，MongoDB 可以使用该索引来限制它必须检查的文档数量。并且，MongoDB 可以使用索引中的排序返回排序后的结果。</p>
@@ -3846,13 +3846,13 @@ db<span class="token punctuation">.</span>s2<span class="token punctuation">.</s
 </ul>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">一千行 MySQL 学习笔记</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/a-thousand-lines-of-mysql-study-notes.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/a-thousand-lines-of-mysql-study-notes.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p>原文地址：https://shockerli.net/post/1000-line-mysql-note/ ，JavaGuide 对本文进行了简答排版，新增了目录。</p>
 </blockquote>
@@ -3989,13 +3989,13 @@ db<span class="token punctuation">.</span>s2<span class="token punctuation">.</s
 </code></pre></div><h3>数据操作</h3>
 <div class="language-sql" data-ext="sql" data-title="sql"><pre class="language-sql"><code><span class="token comment">/* 数据操作 */</span> </code></pre></div>]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">SQL语句在MySQL中的执行过程</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/how-sql-executed-in-mysql.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/how-sql-executed-in-mysql.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p>本文来自<a href="https://github.com/kinglaw1204" target="_blank" rel="noopener noreferrer">木木匠</a>投稿。</p>
 </blockquote>
@@ -4099,13 +4099,13 @@ db<span class="token punctuation">.</span>s2<span class="token punctuation">.</s
 </ul>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">MySQL隐式转换造成索引失效</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/index-invalidation-caused-by-implicit-conversion.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/index-invalidation-caused-by-implicit-conversion.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p>本次测试使用的 MySQL 版本是 <code>5.7.26</code>，随着 MySQL 版本的更新某些特性可能会发生改变，本文不代表所述观点和结论于 MySQL 所有版本均准确无误，版本差异请自行甄别。</p>
 <p>原文：https://www.guitu18.com/post/2019/11/24/61.html</p>
@@ -4229,13 +4229,13 @@ db<span class="token punctuation">.</span>s2<span class="token punctuation">.</s
 <p>所以，我们在写 SQL 时一定要养成良好的习惯，查询的字段是什么类型，等号右边的条件就写成对应的类型。特别当查询的字段是字符串时，等号右边的条件一定要用引号引起来标明这是一个字符串，否则会造成索引失效触发全表扫描。</p>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">InnoDB存储引擎对MVCC的实现</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/innodb-implementation-of-mvcc.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/innodb-implementation-of-mvcc.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>一致性非锁定读和锁定读</h2>
 <h3>一致性非锁定读</h3>
 <p>对于 <a href="https://dev.mysql.com/doc/refman/5.7/en/innodb-consistent-read.html" target="_blank" rel="noopener noreferrer"><strong>一致性非锁定读（Consistent Nonlocking Reads）</strong></a>的实现，通常做法是加一个版本号或者时间戳字段，在更新数据的同时版本号 + 1 或者更新时间戳。查询时，将当前可见的版本号与对应记录的版本号进行比对，如果记录的版本小于可见版本，则表示该记录可见</p>]]></summary>
@@ -4427,13 +4427,13 @@ private<span class="token operator">:</span>
 </ul>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">MySQL自增主键一定是连续的吗</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/mysql-auto-increment-primary-key-continuous.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/mysql-auto-increment-primary-key-continuous.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p>作者：飞天小牛肉</p>
 <p>原文：https://mp.weixin.qq.com/s/qci10h9rJx_COZbHV3aygQ</p>
@@ -4579,13 +4579,13 @@ private<span class="token operator">:</span>
 </ol>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">MySQL高性能优化规范建议总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/mysql-high-performance-optimization-specification-recommendations.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/mysql-high-performance-optimization-specification-recommendations.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p>作者: 听风 原文地址: <a href="https://www.cnblogs.com/huchong/p/10219318.html" target="_blank" rel="noopener noreferrer">https://www.cnblogs.com/huchong/p/10219318.html</a>。</p>
 <p>JavaGuide 已获得作者授权，并对原文内容进行了完善。</p>
@@ -4747,13 +4747,13 @@ private<span class="token operator">:</span>
 </ul>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">MySQL索引详解</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/mysql-index.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/mysql-index.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p>感谢<a href="https://github.com/WT-AHA" target="_blank" rel="noopener noreferrer">WT-AHA</a>对本文的完善，相关 PR：https://github.com/Snailclimb/JavaGuide/pull/1648 。</p>
 </blockquote>
@@ -5021,13 +5021,13 @@ index <span class="token operator">=</span> hash <span class="token operator">%<
 <div class="language-sql" data-ext="sql" data-title="sql"><pre class="language-sql"><code>mysql<span class="token operator">&gt;</span> <span class="token keyword">EXPLAIN</span> <span class="token keyword">SELECT</span> <span class="token identifier"><span class="token punctuation">`</span>score<span class="token punctuation">`</span></span><span class="token punctuation">,</span><span class="token identifier"><span class="token punctuation">`</span>name<span class="token punctuation">`</span></span> <span class="token keyword">FROM</span> <span class="token identifier"><span class="token punctuation">`</span>cus_order<span class="token punctuation">`</span></span> <span class="token keyword">ORDER</span> <span class="token keyword">BY</span> <span class="token identifier"><span class="token punctuation">`</span>score<span class="token punctuation">`</span></span> <span class="token keyword">DESC</span><span class="token punctuation">;</span>
 <span class="token operator">+</span></code></pre></div>]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">MySQL三大日志(binlog、redo log和undo log)详解</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/mysql-logs.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/mysql-logs.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p>本文来自公号程序猿阿星投稿，JavaGuide 对其做了补充完善。</p>
 </blockquote>
@@ -5208,13 +5208,13 @@ index <span class="token operator">=</span> hash <span class="token operator">%<
 </ul>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">MySQL查询缓存详解</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/mysql-query-cache.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/mysql-query-cache.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>缓存是一个有效且实用的系统性能优化的手段，不论是操作系统还是各种软件和网站或多或少都用到了缓存。</p>
 <p>然而，有经验的 DBA 都建议生产环境中把 MySQL 自带的 Query Cache（查询缓存）给关掉。而且，从 MySQL 5.7.20 开始，就已经默认弃用查询缓存了。在 MySQL 8.0 及之后，更是直接删除了查询缓存的功能。</p>
 <p>这又是为什么呢？查询缓存真就这么鸡肋么?</p>
@@ -5251,13 +5251,13 @@ index <span class="token operator">=</span> hash <span class="token operator">%<
 <div class="language-bash" data-ext="sh" data-title="sh"><pre class="language-bash"><code>mysql<span class="token operator">&gt;</span> show variables like <span class="token string">'%query_cache%'</span><span class="token punctuation">;</span>
 +</code></pre></div>]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">MySQL执行计划分析</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/mysql-query-execution-plan.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/mysql-query-execution-plan.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p>本文来自公号 MySQL 技术，JavaGuide 对其做了补充完善。原文地址：https://mp.weixin.qq.com/s/d5OowNLtXBGEAbT31sSH4g</p>
 </blockquote>
@@ -5280,13 +5280,13 @@ index <span class="token operator">=</span> hash <span class="token operator">%<
 <div class="language-sql" data-ext="sql" data-title="sql"><pre class="language-sql"><code>mysql<span class="token operator">&gt;</span> <span class="token keyword">explain</span> <span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> dept_emp <span class="token keyword">WHERE</span> emp_no <span class="token operator">IN</span> <span class="token punctuation">(</span><span class="token keyword">SELECT</span> emp_no <span class="token keyword">FROM</span> dept_emp <span class="token keyword">GROUP</span> <span class="token keyword">BY</span> emp_no <span class="token keyword">HAVING</span> <span class="token function">COUNT</span><span class="token punctuation">(</span>emp_no<span class="token punctuation">)</span><span class="token operator">&gt;</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token operator">+</span></code></pre></div>]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">MySQL常见面试题总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/mysql-questions-01.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/mysql-questions-01.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>MySQL 基础</h2>
 <h3>什么是关系型数据库？</h3>
 <p>顾名思义，关系型数据库（RDBMS，Relational Database Management System）就是一种建立在关系模型的基础上的数据库。关系模型表明了数据库中所存储的数据之间的联系（一对一、一对多、多对多）。</p>
@@ -5357,13 +5357,13 @@ index <span class="token operator">=</span> hash <span class="token operator">%<
 <div class="language-bash" data-ext="sh" data-title="sh"><pre class="language-bash"><code>mysql<span class="token operator">&gt;</span> SELECT VERSION<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 +</code></pre></div>]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">MySQL时间类型数据存储建议</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/some-thoughts-on-database-storage-time.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/some-thoughts-on-database-storage-time.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>我们平时开发中不可避免的就是要存储时间，比如我们要记录操作表中这条记录的时间、记录转账的交易时间、记录出发时间等等。你会发现时间这个东西与我们开发的联系还是非常紧密的，用的好与不好会给我们的业务甚至功能带来很大的影响。所以，我们有必要重新出发，好好认识一下这个东西。</p>
 <p>这是一篇短小精悍的文章，仔细阅读一定能学到不少东西！</p>
 <h2>不要用字符串存储日期</h2>
@@ -5399,13 +5399,13 @@ index <span class="token operator">=</span> hash <span class="token operator">%<
 </code></pre></div><p>结果：</p>
 <div class="language-text" data-ext="text" data-title="text"><pre class="language-text"><code>+</code></pre></div>]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">MySQL事务隔离级别详解</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/transaction-isolation-level.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/mysql/transaction-isolation-level.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p>本文由 <a href="https://github.com/Snailclimb" target="_blank" rel="noopener noreferrer">SnailClimb</a> 和 <a href="https://github.com/guang19" target="_blank" rel="noopener noreferrer">guang19</a> 共同完成。</p>
 </blockquote>
@@ -5424,13 +5424,13 @@ index <span class="token operator">=</span> hash <span class="token operator">%<
 </ul>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">3种常用的缓存读写策略详解</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/redis/3-commonly-used-cache-read-and-write-strategies.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/redis/3-commonly-used-cache-read-and-write-strategies.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>看到很多小伙伴简历上写了“<strong>熟练使用缓存</strong>”，但是被我问到“<strong>缓存常用的 3 种读写策略</strong>”的时候却一脸懵逼。</p>
 <p>在我看来，造成这个问题的原因是我们在学习 Redis 的时候，可能只是简单了写一些 Demo，并没有去关注缓存的读写策略，或者说压根不知道这回事。</p>
 <p>但是，搞懂 3 种常见的缓存读写策略对于实际工作中使用缓存以及面试中被问到缓存都是非常有帮助的！</p>
@@ -5509,13 +5509,13 @@ index <span class="token operator">=</span> hash <span class="token operator">%<
 <p>Write Behind Pattern 下 db 的写性能非常高，非常适合一些数据经常变化又对数据一致性要求没那么高的场景，比如浏览量、点赞量。</p>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">Redis常见阻塞原因总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/redis/redis-common-blocking-problems-summary.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/redis/redis-common-blocking-problems-summary.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p>本文整理完善自：https://mp.weixin.qq.com/s/0Nqfq_eQrUb12QH6eBbHXA ，作者：阿 Q 说代码</p>
 </blockquote>
@@ -5659,13 +5659,13 @@ Swap: 0kB
 </ul>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">Redis 5 种基本数据结构详解</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/redis/redis-data-structures-01.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/redis/redis-data-structures-01.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>Redis 共有 5 种基本数据结构：String（字符串）、List（列表）、Set（集合）、Hash（散列）、Zset（有序集合）。</p>
 <p>这 5 种数据结构是直接提供给用户使用的，是数据的保存形式，其底层实现主要依赖这 8 种数据结构：简单动态字符串（SDS）、LinkedList（双向链表）、Hash Table（哈希表）、SkipList（跳跃表）、Intset（整数集合）、ZipList（压缩列表）、QuickList（快速列表）。</p>
 <p>Redis 基本数据结构的底层数据结构实现如下：</p>
@@ -5696,13 +5696,13 @@ Swap: 0kB
 | :</p>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">Redis 3 种特殊数据结构详解</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/redis/redis-data-structures-02.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/redis/redis-data-structures-02.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>除了 5 种基本的数据结构之外，Redis 还支持 3 种特殊的数据结构：Bitmap、HyperLogLog、GEO。</p>
 <h2>Bitmap</h2>
 <h3>介绍</h3>
@@ -5720,13 +5720,13 @@ Swap: 0kB
 |</p>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">Redis内存碎片详解</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/redis/redis-memory-fragmentation.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/redis/redis-memory-fragmentation.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>什么是内存碎片?</h2>
 <p>你可以将内存碎片简单地理解为那些不可用的空闲内存。</p>
 <p>举个例子：操作系统为你分配了 32 字节的连续内存空间，而你存储数据实际只需要使用 24 字节内存空间，那这多余出来的 8 字节内存空间如果后续没办法再被分配存储其他数据的话，就可以被称为内存碎片。</p>
@@ -5800,13 +5800,13 @@ config <span class="token builtin class-name">set</span> active-defrag-cycle-max
 </ul>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">Redis持久化机制详解</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/redis/redis-persistence.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/redis/redis-persistence.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>使用缓存的时候，我们经常需要对内存中的数据进行持久化也就是将内存中的数据写入到硬盘中。大部分原因是为了之后重用数据（比如重启机器、机器故障之后恢复数据），或者是为了做数据同步（比如 Redis 集群的主从节点通过 RDB 文件同步数据）。</p>
 <p>Redis 不同于 Memcached 的很重要一点就是，Redis 支持持久化，而且支持 3 种持久化方式:</p>
 <ul>
@@ -5954,13 +5954,13 @@ save <span class="token number">60</span> <span class="token number">10000</span
 </ul>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">Redis常见面试题总结(上)</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/redis/redis-questions-01.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/redis/redis-questions-01.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>Redis 基础</h2>
 <h3>什么是 Redis？</h3>
 <p><a href="https://redis.io/" target="_blank" rel="noopener noreferrer">Redis</a> 是一个基于 C 语言开发的开源数据库（BSD 许可），与传统数据库不同的是 Redis 的数据是存在内存中的（内存数据库），读写速度非常快，被广泛应用于缓存方向。并且，Redis 存储的是 KV 键值对数据。</p>
@@ -6144,13 +6144,13 @@ null
 |</p>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">Redis常见面试题总结(下)</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/redis/redis-questions-02.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/redis/redis-questions-02.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>Redis 事务</h2>
 <h3>什么是 Redis 事务？</h3>
 <p>你可以将 Redis 中的事务理解为：<strong>Redis 事务提供了一种将多个命令请求打包的功能。然后，再按顺序执行打包的所有命令，并且不会被中途打断。</strong></p>
@@ -6372,13 +6372,13 @@ appendfsync no        <span class="token comment">#让操作系统决定何时�
 
 </code></pre></div>]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">SQL常见面试题总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/sql/sql-questions-01.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/sql/sql-questions-01.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p>题目来源于：<a href="https://www.nowcoder.com/exam/oj?page=1&amp;tab=SQL%E7%AF%87&amp;topicId=298" target="_blank" rel="noopener noreferrer">牛客题霸 - SQL 必知必会</a></p>
 </blockquote>
@@ -6397,13 +6397,13 @@ appendfsync no        <span class="token comment">#让操作系统决定何时�
 |</p>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">SQL语法基础知识总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/database/sql/sql-syntax-summary.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/database/sql/sql-syntax-summary.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p>本文整理完善自下面这两份资料：</p>
 <ul>
@@ -6624,13 +6624,13 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
 |</p>
 ]]></content>
     <category term="数据库"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">CAP &amp; BASE理论详解</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/protocol/cap-and-base-theorem.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/protocol/cap-and-base-theorem.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>经历过技术面试的小伙伴想必对 CAP &amp; BASE 这个两个理论已经再熟悉不过了！</p>
 <p>我当年参加面试的时候，不夸张地说，只要问到分布式相关的内容，面试官几乎是必定会问这两个分布式相关的理论。一是因为这两个分布式基础理论是学习分布式知识的必备前置基础，二是因为很多面试官自己比较熟悉这两个理论（方便提问）。</p>
 <p>我们非常有必要将这两个理论搞懂，并且能够用自己的理解给别人讲出来。</p>
@@ -6748,13 +6748,13 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
 <p><strong>ACID 是数据库事务完整性的理论，CAP 是分布式系统设计理论，BASE 是 CAP 理论中 AP 方案的延伸。</strong></p>
 ]]></content>
     <category term="分布式"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">Gossip 协议详解</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/protocol/gossip-protocl.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/protocol/gossip-protocl.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>背景</h2>
 <p>在分布式系统中，不同的节点进行数据/信息共享是一个基本的需求。</p>
 <p>一种比较简单粗暴的方法就是 <strong>集中式发散消息</strong>，简单来说就是一个主节点同时共享最新信息给其他所有节点，比较适合中心化系统。这种方法的缺陷也很明显，节点多的时候不光同步消息的效率低，还太依赖与中心节点，存在单点风险问题。</p>
@@ -6852,13 +6852,13 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
 </ul>
 ]]></content>
     <category term="分布式"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">Paxos 算法详解</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/protocol/paxos-algorithm.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/protocol/paxos-algorithm.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>背景</h2>
 <p>Paxos 算法是 Leslie Lamport（<a href="https://zh.wikipedia.org/wiki/%E8%8E%B1%E6%96%AF%E5%88%A9%C2%B7%E5%85%B0%E4%BC%AF%E7%89%B9" target="_blank" rel="noopener noreferrer">莱斯利·兰伯特</a>）在 <strong>1990</strong> 年提出了一种分布式系统 <strong>共识</strong> 算法。这也是第一个被证明完备的共识算法（前提是不存在拜占庭将军问题，也就是没有恶意节点）。</p>]]></summary>
     <content type="html"><![CDATA[<h2>背景</h2>
@@ -6913,13 +6913,13 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
 </ul>
 ]]></content>
     <category term="分布式"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">Raft 算法详解</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/protocol/raft-algorithm.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/protocol/raft-algorithm.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p>本文由 <a href="https://github.com/Snailclimb" target="_blank" rel="noopener noreferrer">SnailClimb</a> 和 <a href="https://github.com/jun0315" target="_blank" rel="noopener noreferrer">Xieqijun</a> 共同完成。</p>
 </blockquote>
@@ -7043,13 +7043,13 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
 </ul>
 ]]></content>
     <category term="分布式"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">Dubbo常见问题总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/rpc/dubbo.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/rpc/dubbo.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <ul>
@@ -7384,13 +7384,13 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
 <figure><img src="https://oscimg.oschina.net/oscnet/up-00c3ce1e5d222e477ed84310239daa2f6b0.png" alt="序列化协议的性能对比" tabindex="0"><figcaption>序列化协议的性能对比</figcaption></figure>
 ]]></content>
     <category term="分布式"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">有了 HTTP 协议，为什么还要有 RPC ？</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/rpc/http_rpc.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/rpc/http_rpc.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p>本文来自<a href="https://juejin.cn/user/4001878057422087" target="_blank" rel="noopener noreferrer">小白 debug</a>投稿，原文：https://juejin.cn/post/7121882245605883934 。</p>
 </blockquote>
@@ -7496,13 +7496,13 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
 </ul>
 ]]></content>
     <category term="分布式"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">RPC基础知识总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/rpc/rpc-intro.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/distributed-system/rpc/rpc-intro.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>这篇文章会简单介绍一下 RPC 相关的基础概念。</p>
 <h2>RPC 是什么?</h2>
 <p><strong>RPC（Remote Procedure Call）</strong> 即远程过程调用，通过名字我们就能看出 RPC 关注的是远程调用而非本地调用。</p>
@@ -7595,13 +7595,13 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
 <p>关于这个问题的详细答案，请看这篇文章：<a href="/Note-Book/distributed-system/rpc/http&amp;rpc.html" target="_blank">有了 HTTP 协议，为什么还要有 RPC ？</a> 。</p>
 ]]></content>
     <category term="分布式"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">Disruptor常见问题总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-performance/message-queue/disruptor-questions.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-performance/message-queue/disruptor-questions.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>Disruptor 是一个相对冷门一些的知识点，不过，如果你的项目经历中用到了 Disruptor 的话，那面试中就很可能会被问到。</p>
 <p>一位球友之前投稿的面经（社招）中就涉及一些 Disruptor 的问题，文章传送门：<a href="https://mp.weixin.qq.com/s/C5QMjwEb6pzXACqZsyqC4A" target="_blank" rel="noopener noreferrer">圆梦！顺利拿到字节、淘宝、拼多多等大厂 offer！</a> 。</p>
 <figure><img src="https://oss.javaguide.cn/github/javaguide/high-performance/message-queue/disruptor-interview-questions.png" alt="" tabindex="0"><figcaption></figcaption></figure>]]></summary>
@@ -7632,13 +7632,13 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
 |</p>
 ]]></content>
     <category term="高性能"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">Kafka常见问题总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-performance/message-queue/kafka-questions-01.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-performance/message-queue/kafka-questions-01.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h3>Kafka 是什么？主要应用场景有哪些？</h3>
 <p>Kafka 是一个分布式流式处理平台。这到底是什么意思呢？</p>
 <p>流平台具有三个关键功能：</p>
@@ -7811,13 +7811,13 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
 </ul>
 ]]></content>
     <category term="高性能"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">消息队列基础知识总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-performance/message-queue/message-queue.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-performance/message-queue/message-queue.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>这篇文章中的消息队列主要指的是分布式消息队列。</p>
@@ -7906,13 +7906,13 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
 | :</p>
 ]]></content>
     <category term="高性能"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">RabbitMQ常见问题总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-performance/message-queue/rabbitmq-questions.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-performance/message-queue/rabbitmq-questions.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p>本篇文章由 JavaGuide 收集自网络，原出处不明。</p>
 </blockquote>
@@ -8082,13 +8082,13 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
 <p>RabbtiMQ 是可以设置过期时间的，也就是 TTL。如果消息在 queue 中积压超过一定的时间就会被 RabbitMQ 给清理掉，这个数据就没了。那这就是第二个坑了。这就不是说数据会大量积压在 mq 里，而是大量的数据会直接搞丢。我们可以采取一个方案，就是批量重导，这个我们之前线上也有类似的场景干过。就是大量积压的时候，我们当时就直接丢弃数据了，然后等过了高峰期以后，比如大家一起喝咖啡熬夜到晚上 12 点以后，用户都睡觉了。这个时候我们就开始写程序，将丢失的那批数据，写个临时程序，一点一点的查出来，然后重新灌入 mq 里面去，把白天丢的数据给他补回来。也只能是这样了。假设 1 万个订单积压在 mq 里面，没有处理，其中 1000 个订单都丢了，你只能手动写程序把那 1000 个订单给查出来，手动发到 mq 里去再补一次。</p>
 ]]></content>
     <category term="高性能"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">RocketMQ常见问题总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-performance/message-queue/rocketmq-questions.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-performance/message-queue/rocketmq-questions.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><a href="https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&amp;mid=2247485969&amp;idx=1&amp;sn=6bd53abde30d42a778d5a35ec104428c&amp;chksm=cea245daf9d5cccce631f93115f0c2c4a7634e55f5bef9009fd03f5a0ffa55b745b5ef4f0530&amp;token=294077121&amp;lang=zh_CN#rd" target="_blank" rel="noopener noreferrer">本文由 FrancisQ 投稿！</a></p>
 </blockquote>]]></summary>
@@ -8365,13 +8365,13 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
 <p>等等。。。</p>
 ]]></content>
     <category term="高性能"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">糟糕程序员的 20 个坏习惯</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/advanced-programmer/20-bad-habits-of-bad-programmers.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/advanced-programmer/20-bad-habits-of-bad-programmers.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：Kaito 大佬的一篇文章，很实用的建议！</p>
 <br>
@@ -8461,14 +8461,14 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
     <contributor>
       <name>Kaito</name>
     </contributor>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
     <rights>Copyright by Kaito</rights>
   </entry>
   <entry>
     <title type="text">给想成长为高级别开发同学的七条建议</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/advanced-programmer/seven-tips-for-becoming-an-advanced-programmer.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/advanced-programmer/seven-tips-for-becoming-an-advanced-programmer.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：普通程序员要想成长为高级程序员甚至是专家等更高级别，应该注意在哪些方面注意加强？开发内功修炼号主飞哥在这篇文章中就给出了七条实用的建议。</p>
 <br>
@@ -8549,14 +8549,14 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
     <contributor>
       <name>Kaito</name>
     </contributor>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
     <rights>Copyright by Kaito</rights>
   </entry>
   <entry>
     <title type="text">十年大厂成长之路</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/advanced-programmer/ten-years-of-dachang-growth-road.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/advanced-programmer/ten-years-of-dachang-growth-road.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：这篇文章的作者有着丰富的工作经验，曾在大厂工作了 12 年。结合自己走过的弯路和接触过的优秀技术人，他总结出了一些对于个人成长具有普遍指导意义的经验和特质。</p>
 <br>
@@ -8639,14 +8639,14 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
     <contributor>
       <name>CodingBetterLife</name>
     </contributor>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
     <rights>Copyright by CodingBetterLife</rights>
   </entry>
   <entry>
     <title type="text">程序员的技术成长战略</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/advanced-programmer/the-growth-strategy-of-the-technological-giant.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/advanced-programmer/the-growth-strategy-of-the-technological-giant.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：波波老师的一篇文章，写的非常好，不光是对技术成长有帮助，其他领域也是同样适用的！建议反复阅读，形成一套自己的技术成长策略。</p>
 <br>
@@ -8780,14 +8780,14 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
     <contributor>
       <name>波波微课</name>
     </contributor>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
     <rights>Copyright by 波波微课</rights>
   </entry>
   <entry>
     <title type="text">工作五年之后，对技术和业务的思考</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/advanced-programmer/thinking-about-technology-and-business-after-five-years-of-work.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/advanced-programmer/thinking-about-technology-and-business-after-five-years-of-work.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：这是我在两年前看到的一篇对我触动比较深的文章。确实要学会适应变化，并积累能力。积累解决问题的能力，优化思考方式，拓宽自己的认知。</p>
 <br>
@@ -8854,14 +8854,14 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
     <contributor>
       <name>知了一笑</name>
     </contributor>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
     <rights>Copyright by 知了一笑</rights>
   </entry>
   <entry>
     <title type="text">如何在技术初试中考察程序员的技术能力</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/interview/how-to-examine-the-technical-ability-of-programmers-in-the-first-test-of-technology.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/interview/how-to-examine-the-technical-ability-of-programmers-in-the-first-test-of-technology.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：从面试官和面试者两个角度探讨了技术面试！非常不错！</p>
 <br>
@@ -9115,14 +9115,14 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
     <contributor>
       <name>琴水玉</name>
     </contributor>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
     <rights>Copyright by 琴水玉</rights>
   </entry>
   <entry>
     <title type="text">校招进入飞书的个人经验</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/interview/my-personal-experience-in-2021.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/interview/my-personal-experience-in-2021.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：这篇文章的作者校招最终去了飞书做开发。在这篇文章中，他分享了自己的校招经历以及个人经验。</p>
 <br>
@@ -9220,14 +9220,14 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
     <contributor>
       <name>月色真美</name>
     </contributor>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
     <rights>Copyright by 月色真美</rights>
   </entry>
   <entry>
     <title type="text">如何甄别应聘者的包装程度</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/interview/screen-candidates-for-packaging.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/interview/screen-candidates-for-packaging.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：经常听到培训班待过的朋友给我说他们的老师是怎么教他们“包装”自己的，不光是培训班，我认识的很多朋友也都会在面试之前“包装”一下自己，所以这个现象是普遍存在的。但是面试官也不都是傻子，通过下面这篇文章来看看面试官是如何甄别应聘者的包装程度。</p>
 <br>
@@ -9319,14 +9319,14 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
     <contributor>
       <name>Coody</name>
     </contributor>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
     <rights>Copyright by Coody</rights>
   </entry>
   <entry>
     <title type="text">阿里技术面试的一些秘密</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/interview/some-secrets-about-alibaba-interview.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/interview/some-secrets-about-alibaba-interview.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：详细介绍了求职者在面试中应该具备哪些能力才会有更大概率脱颖而出。</p>
 <br>
@@ -9413,14 +9413,14 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
     <contributor>
       <name>龙叔</name>
     </contributor>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
     <rights>Copyright by 龙叔</rights>
   </entry>
   <entry>
     <title type="text">普通人的春招总结（阿里、腾讯offer）</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/interview/summary-of-spring-recruitment.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/interview/summary-of-spring-recruitment.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：牛客网热帖，写的很全面！暑期实习，投了阿里、腾讯、字节，拿到了阿里和腾讯的 offer。</p>
 <br>
@@ -9550,14 +9550,14 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
     <contributor>
       <name>钟期既遇</name>
     </contributor>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
     <rights>Copyright by 钟期既遇</rights>
   </entry>
   <entry>
     <title type="text">从面试官和候选者的角度谈如何准备技术初试</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/interview/technical-preliminary-preparation.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/interview/technical-preliminary-preparation.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：从面试官和面试者两个角度探讨了技术面试！非常不错！</p>
 <p><strong>内容概览：</strong></p>
@@ -9701,14 +9701,14 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
     <contributor>
       <name>琴水玉</name>
     </contributor>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
     <rights>Copyright by 琴水玉</rights>
   </entry>
   <entry>
     <title type="text">一位大龄程序员所经历的面试的历炼和思考</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/interview/the-experience-and-thinking-of-an-interview-experienced-by-an-older-programmer.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/interview/the-experience-and-thinking-of-an-interview-experienced-by-an-older-programmer.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：本文的作者，今年 36 岁，已有 8 年 JAVA 开发经验。在阿里云三年半，有赞四年半，已是标准的大龄程序员了。在这篇文章中，作者给出了一些关于面试和个人能力提升的一些小建议，非常实用！</p>
 <p><strong>内容概览</strong>：</p>
@@ -9966,14 +9966,14 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
     <contributor>
       <name>琴水玉</name>
     </contributor>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
     <rights>Copyright by 琴水玉</rights>
   </entry>
   <entry>
     <title type="text">斩获 20+ 大厂 offer 的面试经验分享</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/interview/the-experience-of-get-offer-from-over-20-big-companies.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/interview/the-experience-of-get-offer-from-over-20-big-companies.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：很实用的面试经验分享！</p>
 <br>
@@ -10098,14 +10098,14 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
     <contributor>
       <name>业余码农</name>
     </contributor>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
     <rights>Copyright by 业余码农</rights>
   </entry>
   <entry>
     <title type="text">一个中科大差生的 8 年程序员工作总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/personal-experience/8-years-programmer-work-summary.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/personal-experience/8-years-programmer-work-summary.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：这篇文章讲述了一位中科大的朋友 8 年的经历：从 2013 年毕业之后加入上海航天 x 院某卫星研究所，再到入职华为，从华为离职。除了丰富的经历之外，作者在文章还给出了很多自己对于工作/生活的思考。我觉得非常受用！我在这里，向这位作者表达一下衷心的感谢。</p>
 <br>
@@ -10127,14 +10127,14 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
     <contributor>
       <name>陈小房</name>
     </contributor>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
     <rights>Copyright by 陈小房</rights>
   </entry>
   <entry>
     <title type="text">从校招入职腾讯的四年工作总结</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/personal-experience/four-year-work-in-tencent-summary.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/personal-experience/four-year-work-in-tencent-summary.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>程序员是一个流动性很大的职业，经常会有新面孔的到来，也经常会有老面孔的离开，有主动离开的，也有被动离职的。</p>
 <p>再加上这几年卷得厉害，做的事更多了，拿到的却更少了，互联网好像也没有那么香了。</p>
 <p>人来人往，变动无常的状态，其实也早已习惯。</p>
@@ -10207,14 +10207,14 @@ vend_id <span class="token keyword">FROM</span> products<span class="token punct
     <contributor>
       <name>pioneeryi</name>
     </contributor>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
     <rights>Copyright by pioneeryi</rights>
   </entry>
   <entry>
     <title type="text">华为 OD 275 天后，我进了腾讯！</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/personal-experience/huawei-od-275-days.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/personal-experience/huawei-od-275-days.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：一位朋友的华为 OD 工作经历以及腾讯面试经历分享，内容很不错。</p>
 <br>
@@ -10452,13 +10452,13 @@ vmstat、mpstat、iostat、netstat
 <p>呼。。。总算是追问完了这道题 😂</p>
 ]]></content>
     <category term="技术文章精选集"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">滴滴和头条两年后端工作经验分享</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/personal-experience/two-years-of-back-end-develop--experience-in-didi-and-toutiao.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/personal-experience/two-years-of-back-end-develop--experience-in-didi-and-toutiao.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：很实用的工作经验分享，看完之后十分受用！</p>
 <p><strong>内容概览</strong>：</p>
@@ -10564,13 +10564,13 @@ vmstat、mpstat、iostat、netstat
 <p>最后祝大家都能找到心仪的工作，快乐工作，幸福生活，广阔天地，大有作为。</p>
 ]]></content>
     <category term="技术文章精选集"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">程序员高效出书避坑和实践指南</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/programmer/efficient-book-publishing-and-practice-guide.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/programmer/efficient-book-publishing-and-practice-guide.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：详细介绍了程序员出书的一些常见问题，强烈建议有出书想法的朋友看看这篇文章。</p>
 <br>
@@ -10677,14 +10677,14 @@ vmstat、mpstat、iostat、netstat
     <contributor>
       <name>hsm_computer</name>
     </contributor>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
     <rights>Copyright by hsm_computer</rights>
   </entry>
   <entry>
     <title type="text">程序员怎样出版一本技术书</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/programmer/how-do-programmers-publish-a-technical-book.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/programmer/how-do-programmers-publish-a-technical-book.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：详细介绍了程序员应该如何从头开始出一本自己的书籍。</p>
 <br>
@@ -10748,14 +10748,14 @@ vmstat、mpstat、iostat、netstat
     <contributor>
       <name>hsm_computer</name>
     </contributor>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
     <rights>Copyright by hsm_computer</rights>
   </entry>
   <entry>
     <title type="text">32条总结教你提升职场经验</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/work/32-tips-improving-career.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/work/32-tips-improving-career.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：阿里开发者的一篇职场经验的分享。</p>
 <p><strong>原文地址：</strong> <a href="https://mp.weixin.qq.com/s/6BkbGekSRTadm9j7XUL13g" target="_blank" rel="noopener noreferrer">https://mp.weixin.qq.com/s/6BkbGekSRTadm9j7XUL13g</a></p>
@@ -10851,13 +10851,13 @@ vmstat、mpstat、iostat、netstat
 </ul>
 ]]></content>
     <category term="技术文章精选集"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">聊聊大厂的绩效考核</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/work/employee-performance.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/work/employee-performance.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>内容概览</strong>：</p>
 <ul>
@@ -10953,13 +10953,13 @@ vmstat、mpstat、iostat、netstat
 <p>如果这篇文章让你有一点启发，来个点赞和在看呀！我是武哥，我们下期见！</p>
 ]]></content>
     <category term="技术文章精选集"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">新入职一家公司如何快速进入工作状态</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/work/get-into-work-mode-quickly-when-you-join-a-company.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/high-quality-technical-articles/work/get-into-work-mode-quickly-when-you-join-a-company.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<blockquote>
 <p><strong>推荐语</strong>：强烈建议每一位即将入职/在职的小伙伴看看这篇文章，看完之后可以帮助你少踩很多坑。整篇文章逻辑清晰，内容全面！</p>
 <br>
@@ -11014,13 +11014,13 @@ vmstat、mpstat、iostat、netstat
 <p>最后我们用一张思维导图来回顾一下这篇文章的内容。如果你觉得这篇文章对你有所帮助，可以关注文末公众号，我会经常分享一些自己成长过程中的经验与心得，与大家一起学习与进步。</p>
 ]]></content>
     <category term="技术文章精选集"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">为什么使用单线程？</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/interview-shorthand/redis/why-use-single-thread.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/interview-shorthand/redis/why-use-single-thread.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>Redis是单线程？</h2>
 <p>实际上，Redis中只有网络请求模块和数据操作模块是单线程的。而其他的如持久化存储模块、集群支撑模块等是多线程的。
 在6.0后，Redis的网络请求模块也使用了多线程，其实在4.0时对部分命令做了多线程化，如新增命令了unlink，实际上是del的异步版本</p>
@@ -11060,13 +11060,13 @@ QPS。为了提升QPS，很多公司的做法是部署Redis集群，并且尽可
 <p>不会，因为数据读写的操作还是单线程来完成的</p>
 ]]></content>
     <category term="Redis"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">BigDecimal 详解</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/java/basis/bigdecimal.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/java/basis/bigdecimal.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<p>《阿里巴巴 Java 开发手册》中提到：“为了避免精度丢失，可以使用 <code>BigDecimal</code> 来进行浮点数的运算”。</p>
 <p>浮点数的运算竟然还会有精度丢失的风险吗？确实会！</p>
 <p>示例代码：</p>
@@ -11356,13 +11356,13 @@ QPS。为了提升QPS，很多公司的做法是部署Redis集群，并且尽可
 <p>不过，Java 提供了<code>BigDecimal</code> 来操作浮点数。<code>BigDecimal</code> 的实现利用到了 <code>BigInteger</code> （用来操作大整数）, 所不同的是 <code>BigDecimal</code> 加入了小数位的概念。</p>
 ]]></content>
     <category term="Java"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">Java基础常见面试题总结(上)</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/java/basis/java-basic-questions-01.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/java/basis/java-basic-questions-01.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>基础概念与常识</h2>
 <h3>Java 语言有哪些特点?</h3>
 <ol>
@@ -11528,13 +11528,13 @@ QPS。为了提升QPS，很多公司的做法是部署Redis集群，并且尽可
 | :</p>
 ]]></content>
     <category term="Java"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">Java基础常见面试题总结(中)</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/java/basis/java-basic-questions-02.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/java/basis/java-basic-questions-02.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>面向对象基础</h2>
 <h3>面向对象和面向过程的区别</h3>
 <p>两者的主要区别在于解决问题的方式不同：</p>
@@ -12101,13 +12101,13 @@ true
 </ul>
 ]]></content>
     <category term="Java"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
   <entry>
     <title type="text">Java基础常见面试题总结(下)</title>
     <id>https://hollowlatte.github.io/Note-Book/Note-Book/java/basis/java-basic-questions-03.html</id>
     <link href="https://hollowlatte.github.io/Note-Book/Note-Book/java/basis/java-basic-questions-03.html"/>
-    <updated>2024-03-27T18:36:54.000Z</updated>
+    <updated>2024-03-28T19:26:07.000Z</updated>
     <summary type="html"><![CDATA[<h2>异常</h2>
 <p><strong>Java 异常类层次结构图概览</strong>：</p>
 <figure><img src="https://oss.javaguide.cn/github/javaguide/java/basis/types-of-exceptions-in-java.png" alt="Java 异常类层次结构图" tabindex="0"><figcaption>Java 异常类层次结构图</figcaption></figure>
@@ -12502,6 +12502,6 @@ Catch Exception -&gt; RuntimeException
 <p>关于这些语法糖的详细解读，请看这篇文章 <a href="/Note-Book/java/basis/syntactic-sugar.html" target="_blank">Java 语法糖详解</a> 。</p>
 ]]></content>
     <category term="Java"/>
-    <published>2024-03-27T18:36:54.000Z</published>
+    <published>2024-03-28T19:26:07.000Z</published>
   </entry>
 </feed>
