@@ -298,6 +298,7 @@ export const practiceManual = arraySidebar([
         collapsible: true,
         children: [
           "rocketmq-deploy",
+          "mysql-deploy",
         ],
       },
     ],
